@@ -1,0 +1,5 @@
+import{j as d}from"./jsx-runtime-CR8kToUD.js";import{P as i}from"./index-BHSVxysL.js";import"./index-D_eiCwOZ.js";try{let e=typeof window<"u"?window:typeof global<"u"?global:typeof globalThis<"u"?globalThis:typeof self<"u"?self:{},t=new e.Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="e2586981-b338-4d25-aac8-8aafe9d4e786",e._sentryDebugIdIdentifier="sentry-dbid-e2586981-b338-4d25-aac8-8aafe9d4e786")}catch{}const n=({onClick:e})=>d.jsx("button",{className:"logo",onClick:e,"aria-label":"Home"});n.propTypes={onClick:i.func.isRequired};const f={title:"Components/Logo",component:n,tags:["autodocs"]},o={args:{onClick:()=>alert("Navigate to home")}};var a,s,r;o.parameters={...o.parameters,docs:{...(a=o.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    onClick: () => alert('Navigate to home')
+  }
+}`,...(r=(s=o.parameters)==null?void 0:s.docs)==null?void 0:r.source}}};const u=["Default"];export{o as Default,u as __namedExportsOrder,f as default};
