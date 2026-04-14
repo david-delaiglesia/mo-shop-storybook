@@ -1,0 +1,162 @@
+/* Z-INDEX 1 */
+
+.actions-product-cell-button,
+.delete-product-cell-button {
+  z-index: 1;
+}
+
+.banner-arrow {
+  z-index: 1;
+}
+
+.dropdown__content {
+  z-index: 1;
+}
+
+.arrow {
+  z-index: 1;
+}
+
+.slots-calendar__left-arrow,
+.slots-calendar-today {
+  z-index: 1;
+}
+
+.image-zoomer__image-overlay {
+  z-index: 1;
+}
+
+/* Do not join with hover, IE11 not working */
+.product-cell:focus-within {
+  z-index: 1;
+}
+
+.product-cell:hover {
+  z-index: 1;
+}
+
+/* Z-INDEX 2 */
+
+.my-regulars-header__menu {
+  z-index: 2;
+}
+
+.product-carousel .arrow {
+  z-index: 2;
+}
+
+.nav-bar {
+  z-index: 2;
+}
+
+.image-zoomer__bubble {
+  z-index: 2;
+}
+
+.cart-button__overlay {
+  z-index: 2;
+}
+
+.modal-content__close {
+  z-index: 2;
+}
+
+.language_list {
+  z-index: 2;
+}
+
+.account {
+  z-index: 2;
+}
+
+.product-gallery-thumbnails__content {
+  z-index: 2;
+}
+
+.cart__sorting-method .dropdown__content {
+  z-index: 2;
+}
+
+.edit-order-products__results-container .category-menu,
+.edit-order-products__results-container .shopping-list-aside__wrapper {
+  z-index: 2;
+}
+
+/* Z-INDEX 3 */
+.header {
+  z-index: 3;
+}
+
+.order-header {
+  z-index: 3;
+}
+
+.account-menu {
+  z-index: 3;
+}
+
+.product-gallery-thumbnails__arrows-left,
+.product-gallery-thumbnails__arrows-right {
+  z-index: 3;
+}
+
+/* Z-INDEX 4 */
+
+.overlay {
+  z-index: 4;
+}
+
+/* Z-INDEX 5 */
+
+.modal {
+  z-index: 5;
+}
+
+.geosuggest__suggests {
+  z-index: 5;
+}
+
+.notifications-list {
+  z-index: 5;
+}
+
+.cart--hightlight {
+  z-index: 5;
+}
+
+/* Z-INDEX 6 */
+
+.offline-notify {
+  z-index: 6;
+}
+
+.alert .modal {
+  z-index: 6;
+}
+
+/* Z-INDEX 7 */
+
+.alert--error .modal {
+  z-index: 7;
+}
+
+/* Z-INDEX 8 */
+.snack-bars {
+  z-index: 8;
+}
+
+/* Z-INDEX 9 */
+.cookie-banner {
+  z-index: 999999;
+}
+
+/* Z-INDEX 10 */
+.cookie-banner + .ui-big-modal {
+  z-index: 1000000;
+}
+
+/* Z-INDEX 10 */
+.page-loader,
+.chat {
+  z-index: 1000001;
+}

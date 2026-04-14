@@ -1,0 +1,38 @@
+.payment-bizum-form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .input-text {
+    margin-bottom: 0;
+  }
+
+  .payment-bizum-form__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+
+    .payment-bizum-form__description {
+      margin-bottom: 8px;
+      color: var(--smoked-70);
+    }
+  }
+
+  .payment-bizum-form__notifier {
+    margin-bottom: 16px;
+  }
+
+  .payment-bizum-form__actions {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+  }
+
+  .payment-bizum-form__note {
+    display: flex;
+    justify-content: end;
+    color: var(--smoked-70);
+  }
+}

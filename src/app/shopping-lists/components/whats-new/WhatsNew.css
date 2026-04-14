@@ -1,0 +1,26 @@
+.whats-new__content {
+  padding: 24px 0px;
+}
+
+.whats-new-advantages__wrapper {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.whats-new-advantages__image {
+  margin-right: 24px;
+}
+
+.whats-new-advantages__info-wrapper {
+  width: 280px;
+  text-align: left;
+}
+
+.whats-new-advantages__info-title {
+  color: var(--black);
+  margin-bottom: 2px;
+}
+
+.whats-new-advantages__info-subtitle {
+  color: var(--smoked-70);
+}

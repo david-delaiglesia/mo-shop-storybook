@@ -1,0 +1,32 @@
+.product-carousel {
+  width: 100%;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.product-carousel .arrow {
+  bottom: calc(50% - 28px);
+}
+
+.product-carousel .arrow--left {
+  left: -24px;
+}
+
+.product-carousel .arrow--right {
+  right: -24px;
+}
+
+.product-carousel__products {
+  display: flex;
+  overflow: hidden;
+  padding: 4px 0;
+}
+
+.product-carousel__products .product-cell {
+  min-width: 208px;
+  transition: 0.7s ease;
+}
+
+.product-carousel h2{
+  margin-bottom: 0px;
+}

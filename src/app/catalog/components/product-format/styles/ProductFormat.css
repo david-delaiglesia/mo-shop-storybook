@@ -1,0 +1,17 @@
+.product-format {
+  display: block;
+  width: 100%;
+}
+
+.product-format__size--cell {
+  color: var(--smoked-70);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+}
+
+.product-format__size {
+  color: var(--smoked-70);
+}

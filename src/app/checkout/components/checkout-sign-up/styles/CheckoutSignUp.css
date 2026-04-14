@@ -1,0 +1,66 @@
+:root {
+  --input-width: 316px;
+}
+
+.checkout-sign-up .terms-conditions__policy {
+  margin: 0 0 0 0.3rem;
+}
+
+.checkout-sign-up p {
+  margin: 0;
+}
+
+.checkout-sign-up .input-text {
+  width: var(--input-width);
+  margin-bottom: 26px;
+}
+
+.checkout-sign-up .input-password {
+  width: var(--input-width);
+}
+
+.checkout-sign-up .input-password .input-text {
+  margin-bottom: 0;
+}
+
+.checkout-sign-up
+  .input-password
+  .input-text
+  .input-text__message.input-text__message--error {
+  display: none;
+}
+
+.checkout-sign-up .strength-bar {
+  width: var(--input-width);
+}
+
+.checkout-sign-up .checkout-sign-up__title {
+  margin: 0;
+}
+
+.checkout-sign-up .checkout-sign-up__message {
+  max-width: 506px;
+  margin: 18px 0 24px;
+}
+
+.checkout-sign-up .checkout-sign-up__name,
+.checkout-sign-up .checkout-sign-up__surname,
+.checkout-sign-up .checkout-sign-up__password {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.checkout-sign-up .checkout-sign-up__warning {
+  max-width: var(--input-width);
+  color: var(--smoked-70);
+  margin: 16px 0 24px;
+  display: flex;
+}
+
+.checkout-sign-up .checkout-sign-up__warning .checkout-sign-up__terms {
+  text-decoration: underline;
+}
+
+.checkout-sign-up > .button {
+  width: 158px;
+}

@@ -1,0 +1,35 @@
+.create-shopping-list-dialog__wrapper {
+  width: 408px;
+}
+
+.create-shopping-list-dialog__fields-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.create-shopping-list-dialog__title {
+  margin-bottom: 32px;
+}
+
+.create-shopping-list-dialog__description {
+  color: var(--smoked-70);
+  margin-bottom: 16px;
+}
+
+.create-shopping-list-dialog__input {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.create-shopping-list-dialog__buttons-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-shopping-list-dialog__button {
+  width: 156px;
+}

@@ -1,0 +1,227 @@
+.cart {
+  background-color: var(--white);
+  width: var(--cart-width);
+  left: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  transition: 0.4s ease;
+}
+
+.cart .tooltip:focus .icon {
+  outline: none;
+  color: var(--cucumber);
+}
+
+.cart .cart__start-checkout {
+  margin-top: 12px;
+}
+
+.cart.cart--open {
+  transition: left 0.4s ease;
+  left: calc(100% - var(--cart-width));
+  visibility: visible;
+}
+
+.cart:active,
+.cart:focus {
+  outline: none;
+}
+
+.cart-detail__actions-button {
+  position: absolute;
+  right: 17px;
+  margin-top: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--smoked-70);
+}
+
+.cart-detail__actions-button:disabled {
+  color: var(--smoked-20);
+}
+
+.cart__clear-button {
+  position: absolute;
+  right: 17px;
+  margin-top: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--smoked-70);
+}
+
+.cart__clear-button i {
+  padding-left: 4px;
+  font-size: 1rem;
+  color: var(--smoked-40);
+}
+
+.cart__clear-button:hover,
+.cart__clear-button:focus {
+  outline: none;
+  color: var(--cucumber);
+}
+
+.cart__clear-button:hover i,
+.cart__clear-button:focus i {
+  color: var(--cucumber);
+}
+
+.cart__checkout {
+  background-color: var(--white);
+  border-top: solid 1px var(--white-cream);
+  padding: 16px;
+}
+
+.cart__checkout__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart__checkout__info .ui-icon {
+  color: var(--smoked-70);
+}
+
+.cart__checkout__info .ui-icon:hover {
+  color: var(--cucumber);
+  cursor: pointer;
+}
+
+.cart__checkout__info .tooltip {
+  display: flex;
+  align-items: center;
+}
+
+.cart__checkout__info > p {
+  color: var(--smoked-70);
+}
+
+.cart__checkout__info p {
+  margin: 0 9px;
+}
+
+.cart__checkout__info span {
+  margin-left: auto;
+}
+
+.cart__checkout__info .tooltip-text.left:last-of-type {
+  top: -49px;
+}
+
+.cart__header {
+  display: flex;
+  min-height: var(--navbar-height);
+  background-color: var(--white);
+  border-bottom: solid 1px var(--white-cream);
+}
+
+.cart__close-icon {
+  color: var(--smoked-40);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 28px 16px;
+  font-size: 16px;
+}
+
+.cart__close-icon:focus {
+  outline: none;
+  color: var(--smoked-70);
+}
+
+.cart__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__title-label {
+  left: 48px;
+  margin-top: 16px;
+  letter-spacing: -0.1px;
+}
+
+.cart__sorting-method {
+  padding: 16px;
+  border-bottom: solid 1px var(--white-cream);
+  display: flex;
+  align-items: baseline;
+}
+
+.ongoing-order-modal .modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.ongoing-order-modal__title {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.ongoing-order-modal__confirm-button {
+  width: 220px;
+  margin-top: 1.5rem;
+}
+
+.ongoing-order-modal__cancel-button {
+  width: 220px;
+  margin-top: 0.5rem;
+}
+
+.cart-detail__more-actions-items {
+  position: absolute;
+  right: 6px;
+  top: 47px;
+  width: 212px;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 8px;
+  box-shadow: var(--shadow-hard);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cart-detail__more-actions-item {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-detail__more-actions-item:disabled {
+  color: var(--smoked-20);
+}
+
+.cart-detail__more-actions-item:disabled:hover {
+  background-color: unset;
+}
+
+.cart-detail__more-actions-item:hover {
+  background-color: var(--smoked-8);
+}
+
+.cart-detail__more-actions-item--destructive {
+  color: var(--tomato);
+}
+
+.cart-detail__popover {
+  position: absolute;
+  top: 55px;
+  right: 1px;
+  z-index: 1;
+  margin-right: 16px;
+  animation-name: fade-popover;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}

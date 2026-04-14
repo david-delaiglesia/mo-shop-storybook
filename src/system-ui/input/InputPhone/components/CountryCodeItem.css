@@ -1,0 +1,17 @@
+.country-code-item {
+  padding: 11px 7px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  outline: none;
+
+  &:first-of-type {
+    margin-top: 8px;
+  }
+  &:last-of-type {
+    margin-bottom: 8px;
+  }
+
+  &[data-active='true'] {
+    background-color: var(--white-cream);
+  }
+}

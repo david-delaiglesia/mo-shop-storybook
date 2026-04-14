@@ -1,0 +1,35 @@
+.btn--primary {
+  background-color: var(--cucumber);
+  color: var(--white);
+}
+
+.btn--primary:hover {
+  background-color: var(--cucumber-white-15);
+  text-decoration: none;
+}
+
+.btn--primary:active,
+.btn--primary:focus {
+  background-color: var(--cucumber-black-20);
+}
+
+.btn--primary.btn--destructive {
+  background-color: var(--tomato);
+  color: var(--white);
+}
+
+.btn--primary.btn--destructive:hover {
+  background-color: var(--tomato-white-15);
+  text-decoration: none;
+}
+
+.btn--primary.btn--destructive:active,
+.btn--primary.btn--destructive:focus {
+  background-color: var(--tomato-black-20);
+}
+
+.btn--primary[disabled] {
+  background-color: var(--smoked-20);
+  color: var(--white);
+  cursor: not-allowed;
+}

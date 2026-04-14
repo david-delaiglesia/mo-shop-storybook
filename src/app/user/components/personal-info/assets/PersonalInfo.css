@@ -1,0 +1,45 @@
+:root {
+  --personal-info-width-large: 674px;
+  --personal-info-width-extra-hd: 722px;
+}
+
+.personal-info {
+  margin-bottom: 2rem;
+}
+
+.personal-info__header {
+  padding: 0 0 16px;
+  margin: 0;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.personal-info__warning-modal__checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.personal-info__warning-modal__checkbox-text {
+  margin-left: 16px;
+  text-align: start;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+@media(min-width: 992px) {
+  .personal-info {
+    width: var(--personal-info-width-large);
+  }
+}
+
+@media(min-width: 1440px) {
+  .personal-info {
+    width: var(--personal-info-width-extra-hd);
+  }
+}
+
+@media (max-width: 992px) {
+  .personal-info {
+    padding: 0 10px;
+  }
+}

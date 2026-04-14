@@ -1,0 +1,41 @@
+.btn--rounded {
+  background-color: var(--egg);
+  color: var(--chocolat);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 1rem;
+}
+
+.btn--rounded:hover {
+  background-color: var(--egg-white-15);
+}
+
+.btn--rounded:active,
+.btn--rounded:focus {
+  background-color: var(--egg-red-10);
+}
+
+.btn--rounded.btn--small {
+  background-color: transparent;
+  color: var(--chocolat);
+  border-radius: 100px;
+  line-height: 32px;
+  height: 32px;
+  border: solid 1px var(--egg);
+  font-size: inherit;
+}
+
+.btn--rounded.btn--small:hover,
+.btn--rounded.btn--small:focus {
+  background-color: var(--egg-40);
+}
+
+.btn--rounded.btn--big {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  height: 40px;
+}

@@ -1,0 +1,56 @@
+.shopping-list-aside-item-my-regulars__wrapper {
+  display: flex;
+  width: 268px;
+  height: 80px;
+  justify-content: start;
+  border: 1px solid var(--white-cream);
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.2s box-shadow ease-in;
+  box-shadow: var(--shadow-card-1);
+  background-color: var(--white);
+}
+
+.shopping-list-aside-item-my-regulars__wrapper--selected {
+  box-shadow: var(--shadow-card-1-active);
+}
+
+.shopping-list-aside-item-my-regulars__wrapper:hover {
+  box-shadow: var(--shadow-card-1-active);
+}
+
+.shopping-list-aside-item-my-regulars__title {
+  color: var(--black);
+  overflow-wrap: break-word;
+  width: 140px;
+}
+
+.shopping-list-aside-item-my-regulars__title::first-letter {
+  text-transform: capitalize;
+}
+
+.shopping-list-aside-item-my-regulars__quantity {
+  color: var(--smoked-70);
+}
+
+.shopping-list-aside-item-my-regulars__image {
+  height: 64px;
+  padding: 8px;
+}
+
+.shopping-list-aside-item-my-regulars__list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.shopping-list-aside-item-my-regulars__image-wrapper {
+  position: relative;
+  margin-right: 24px;
+}
+
+.shopping-list-aside-item-my-regulars__image-wrapper
+  .product-cell__image-overlay {
+  border-radius: 4px;
+}

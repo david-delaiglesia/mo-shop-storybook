@@ -1,0 +1,44 @@
+.slots-calendar-day {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 56px;
+  height: 56px;
+
+  .slots-calendar-day__button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid 1px var(--blueberry-40);
+    color: var(--black);
+
+    &:hover,
+    &:focus {
+      outline: none;
+      border: solid 1px var(--blueberry);
+      box-shadow: 0px 0px 2px 2px var(--blueberry-40);
+    }
+
+    &.slots-calendar-day__button--selected {
+      color: var(--white);
+      background-color: var(--blueberry);
+    }
+
+    &:disabled {
+      color: var(--smoked-40);
+      border: none;
+      cursor: not-allowed;
+    }
+  }
+
+  .slots-calendar-day__name {
+    text-transform: uppercase;
+    margin-top: -4px;
+  }
+}

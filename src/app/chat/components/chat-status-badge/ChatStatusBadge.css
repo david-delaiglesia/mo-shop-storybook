@@ -1,0 +1,38 @@
+.chat-status-badge {
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 23px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.chat-status-badge__text {
+  font-size: 10px;
+}
+
+.chat-status-badge--online {
+  background-color: var(--cucumber-10);
+  color: var(--cucumber);
+}
+
+.chat-status-badge--offline {
+  background-color: var(--tomato-10);
+  color: var(--tomato-100);
+}
+
+.chat-status-badge__indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.chat-status-badge__indicator--online {
+  background-color: var(--cucumber);
+}
+
+.chat-status-badge__indicator--offline {
+  background-color: var(--tomato-100);
+}

@@ -1,0 +1,23 @@
+.terms-conditions__policy {
+  color: var(--smoked-70);
+  text-align: left;
+  max-width: 100%;
+}
+
+.terms-conditions__policy.caption1-sb {
+  font-weight: 500;
+  line-height: 1.36;
+}
+
+.terms-conditions__policy .terms-conditions__terms,
+.terms-conditions__policy .terms-conditions__privacy {
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 5px;
+  color: var(--smoked-70);
+  line-height: 1.36;
+}
+
+.terms-conditions__policy .checkout-summary__terms-and-conditions {
+  margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+.payment-method-cta {
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  max-width: 383px;
+
+  .payment-method-cta__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+    .payment-method-cta__title {
+      margin: unset;
+    }
+    .payment-method-cta__message {
+      color: var(--smoked-70);
+    }
+  }
+}

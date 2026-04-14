@@ -1,0 +1,28 @@
+.order-service-rating {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.order-service-rating .order-service-rating__info {
+  display: flex;
+  align-items: center;
+}
+
+.order-service-rating .order-service-rating__info .ui-icon {
+  color: var(--orange);
+  margin-right: 8px;
+}
+
+.order-service-rating .order-service-rating__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.order-service-rating .order-service-rating__buttons .button {
+  width: 80px;
+  height: 32px;
+  line-height: 0;
+  background-color: var(--orange);
+}

@@ -1,0 +1,34 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--smoked-40);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__click-outside {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.modal--big .modal-content {
+  width: 736px;
+  padding: 48px 48px 32px;
+}
+
+.modal--big .modal-content__header {
+  text-align: left;
+}
+
+.modal--big .modal-content__close {
+  top: 32px;
+  right: 32px;
+}

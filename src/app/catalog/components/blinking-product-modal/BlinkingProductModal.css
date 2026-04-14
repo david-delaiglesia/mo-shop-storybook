@@ -1,0 +1,4 @@
+.blinking_products_modal__list{
+    max-height: 304px;
+    overflow-y: scroll;
+}

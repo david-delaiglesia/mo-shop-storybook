@@ -1,0 +1,37 @@
+.chat-finish-confirmation-overlay {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 24px;
+}
+
+.chat-finish-confirmation-overlay__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.chat-finish-confirmation-overlay__content h3 {
+  margin: 18px 0 0;
+}
+
+.chat-finish-confirmation-overlay__content p {
+  margin: 8px 0 0;
+}
+
+.chat-finish-confirmation-overlay__exit-door-image {
+  width: 120px;
+  height: 120px;
+}
+
+.chat-finish-confirmation-overlay .ui-focus-trap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

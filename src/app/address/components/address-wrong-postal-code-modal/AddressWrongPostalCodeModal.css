@@ -1,0 +1,11 @@
+.address-wrong-postal-code-modal__address {
+  background-color: var(--white-cream-light);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+.address-wrong-postal-code-modal__postal-code {
+  color: var(--orange);
+  font-weight: 700;
+}

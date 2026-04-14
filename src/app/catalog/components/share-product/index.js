@@ -1,0 +1,1 @@
+export { ShareProduct } from './ShareProduct'

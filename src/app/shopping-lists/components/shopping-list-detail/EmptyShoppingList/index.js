@@ -1,0 +1,1 @@
+export { EmptyShoppingList } from './EmptyShoppingList'

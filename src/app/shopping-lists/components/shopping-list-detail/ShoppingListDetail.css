@@ -1,0 +1,14 @@
+.shopping-list-detail__products-section {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 374px;
+  margin-bottom: 24px;
+}
+
+.shopping-list-detail__loader {
+  height: calc(var(--shopping-list-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cucumber);
+}

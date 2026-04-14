@@ -1,0 +1,14 @@
+.shopping-lists-error-dialog__wrapper {
+  width: 447px;
+  height: 218;
+  padding: 32px 40px;
+}
+
+.shopping-lists-error-dialog__title {
+  margin-bottom: 24px;
+}
+
+.shopping-list-error-dialog__message {
+  color: var(--smoked-70);
+  margin-bottom: 24px;
+}

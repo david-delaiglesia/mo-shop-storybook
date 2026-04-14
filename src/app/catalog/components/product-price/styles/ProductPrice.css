@@ -1,0 +1,36 @@
+.product-price {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.product-price__unit-price {
+  display: inline-block;
+  font-weight: bold;
+  color: var(--black);
+  margin: 0;
+}
+
+.product-price__unit-price--discount {
+  color: var(--tomato-100);
+}
+
+.product-price__extra-price {
+  display: inline-block;
+  vertical-align: baseline;
+  color: var(--smoked-40);
+  margin: 0 0 0 4px;
+}
+
+.product-price__previous-unit-price{
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration-line: line-through;
+  color: var(--back);
+  margin: 0 4px;
+}

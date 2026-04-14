@@ -1,0 +1,63 @@
+.postal-code-form .modal-content {
+  padding: 40px;
+  text-align: left;
+  width: 414px;
+  box-shadow: var(--shadow-hard);
+  border-radius: 6px;
+}
+
+.postal-code-form .modal-content .modal-content__header {
+  padding: 0;
+  min-height: 0;
+}
+
+.postal-code-form .modal-content .modal-content__close {
+  margin: 0;
+  right: 23px;
+  top: 23px;
+}
+
+.postal-code-form .modal-content .modal-content__close:focus {
+  outline: none;
+  color: var(--black);
+}
+.postal-code-form h3 {
+  text-align: left;
+  margin: 0 0 16px;
+}
+.postal-code-form > p {
+  margin: 0 0 16px;
+  text-align: left;
+  color: var(--smoked-40);
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
+}
+.postal-code-form .posta-code-form__input {
+  min-height: 70px;
+}
+.postal-code-form .posta-code-form__input .input-text {
+  margin-bottom: 5px;
+}
+.postal-code-form.postal-code-form .postal-code-form__error {
+  margin: 0;
+  line-height: 1rem;
+  font-size: 12px;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: var(--smoked-40);
+}
+.postal-code-form.postal-code-form .postal-code-form__error a {
+  color: var(--cucumber);
+}
+.postal-code-form .button {
+  margin-top: 16px;
+}
+
+.postal-code-form .postal-code-form__buttons {
+  display: flex;
+  margin: 16px 0 0;
+}
+
+.postal-code-form .postal-code-form__buttons button:first-child {
+  margin-right: 16px;
+}

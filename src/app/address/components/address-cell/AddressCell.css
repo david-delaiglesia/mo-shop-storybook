@@ -1,0 +1,32 @@
+.card.element-cell:has(.address-cell__info) {
+  padding-left: 24px;
+}
+
+.address-cell__info {
+  display: flex;
+  gap: 16px;
+
+  .address-cell__data {
+    margin-top: 8px;
+    word-break: break-all;
+  }
+
+  .address-cell__pin-icon {
+    padding: 8px;
+    color: var(--cucumber);
+  }
+
+  .address-cell__street {
+    margin: 0;
+  }
+
+  .address-cell__comments {
+    color: var(--smoked-70);
+  }
+
+  .address-cell__comments {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em;
+  }
+}

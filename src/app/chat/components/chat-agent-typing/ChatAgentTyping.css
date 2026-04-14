@@ -1,0 +1,33 @@
+.chat-agent-typing {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 2px;
+}
+
+.chat-agent-typing__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--smoked-40);
+  animation: chat-agent-typing-pulse 1.2s ease-in-out infinite both;
+}
+
+.chat-agent-typing__dot:nth-child(2) {
+  animation-delay: 0.12s;
+}
+
+.chat-agent-typing__dot:nth-child(3) {
+  animation-delay: 0.24s;
+}
+
+@keyframes chat-agent-typing-pulse {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,22 @@
+.payment-method-type-button {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px 16px;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: var(--white-cream-light);
+  }
+
+  .payment-method-type-button__content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--black);
+  }
+
+  .payment-method-type-button__chevron {
+    color: var(--smoked-70);
+  }
+}

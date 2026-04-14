@@ -1,0 +1,35 @@
+.token-authn-payment-modal {
+  display: block;
+  text-align: start;
+  overflow: auto;
+}
+
+.token-authn-payment-modal .ui-modal-content {
+  display: block;
+  box-sizing: border-box;
+  padding: 32px 40px;
+  margin: 0 auto;
+  top: 50px;
+}
+
+.token-authn-payment-modal__title {
+  margin: 0;
+}
+
+.token-authn-payment-modal__close-button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+@media (min-width: 992px) {
+  .token-authn-payment-modal .ui-modal-content {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .token-authn-payment-modal .ui-modal-content {
+    max-width: 1052px;
+  }
+}

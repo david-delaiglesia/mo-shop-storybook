@@ -1,0 +1,31 @@
+.btn--quaternary {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: middle;
+  background-color: var(--white-cream-light);
+  color: var(--smoked-70);
+}
+
+.btn--quaternary:hover,
+.btn--quaternary:active {
+  background-color: var(--white-cream);
+  color: var(--cucumber);
+}
+
+.btn--quaternary .icon {
+  line-height: 32px;
+  font-size: 22px;
+  margin-right: 5px;
+  color: var(--cucumber);
+}
+
+.btn--quaternary[disabled] {
+  cursor: default;
+  pointer-events: none;
+  background-color: var(--white-cream-light);
+  color: var(--smoked-40);
+}
+
+.btn--quaternary[disabled] .icon {
+  color: var(--smoked-20) !important;
+}

@@ -1,0 +1,14 @@
+.banner-index {
+  display: inline-block;
+  height: 6px;
+  width: 38px;
+  background-color: var(--smoked-20);
+  border: 2px solid var(--white);
+  transition: 0.4s background-color ease;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.banner-index.banner-index--selected {
+  background-color: var(--smoked-70);
+}

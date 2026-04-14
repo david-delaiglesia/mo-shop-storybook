@@ -1,0 +1,31 @@
+.personal-id-still-not-registered-modal__container {
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  padding: 52px 80px 32px;
+}
+
+.personal-id-still-not-registered-modal__image {
+  align-self: center;
+  width: 120px;
+  height: 120px;
+}
+
+.personal-id-still-not-registered-modal__title {
+  margin: 0px;
+}
+
+.personal-id-still-not-registered-modal__description {
+  margin: 16px 0px 24px;
+  color: var(--smoked-70);
+}
+
+.personal-id-not-registered-modal__cancel-button {
+  margin-top: 26px;
+}
+
+.personal-id-still-not-registered-modal__retry-button {
+  width: 224px;
+  margin-bottom: 26px;
+  align-self: center;
+}

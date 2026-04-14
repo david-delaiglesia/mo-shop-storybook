@@ -1,0 +1,36 @@
+.change-full-name-modal .modal-content {
+  padding: 40px;
+  text-align: left;
+  width: 414px;
+  box-shadow: var(--shadow-hard);
+  border-radius: 6px;
+}
+
+.change-full-name-modal .modal-content .modal-content__header {
+  padding: 0;
+  min-height: 0;
+}
+
+.change-full-name-modal .modal-content .modal-content__close {
+  margin: 0;
+  right: 24px;
+  top: 26px;
+}
+.change-full-name-modal .change-full-name-modal__title {
+  margin: 0 0 30px;
+}
+.change-full-name-modal .input-text {
+  margin-bottom: 42px;
+}
+.change-full-name-modal .input-text:last-of-type {
+  margin-bottom: 34px;
+}
+.change-full-name-modal .input-password {
+  margin-bottom: 34px;
+}
+.change-full-name-modal .change-full-name-modal__buttons {
+  display: flex;
+}
+.change-full-name-modal .change-full-name-modal__cancel-button {
+  margin-right: 14px;
+}

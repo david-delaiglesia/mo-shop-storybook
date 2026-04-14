@@ -1,0 +1,23 @@
+.logo {
+  background-image: url('../../../system-ui/assets/img/logo-app.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.logo:focus {
+  outline: none;
+  opacity: 0.8;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 211px;
+    top: 5px;
+    background-image: url('../../../system-ui/assets/img/logo-horizontal.svg');
+  }
+}

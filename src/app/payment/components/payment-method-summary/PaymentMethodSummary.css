@@ -1,0 +1,15 @@
+.payment-method-summary {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  .payment-method-summary__icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .payment-method-summary__subtitle {
+    color: var(--smoked-70);
+  }
+}

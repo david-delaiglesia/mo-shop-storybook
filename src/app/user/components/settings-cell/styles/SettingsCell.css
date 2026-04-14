@@ -1,0 +1,31 @@
+.settings-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.settings-cell .settings-cell__details {
+  overflow: hidden;
+}
+
+.settings-cell .settings-cell__title {
+  margin: 0 0 4px;
+  font-weight: normal;
+}
+
+.settings-cell .settings-cell__description {
+  margin: 0 0 8px;
+  color: var(--smoked-70);
+}
+
+.settings-cell .settings-cell__alternative-description {
+  margin: 0 0 8px;
+  color: var(--orange);
+}
+
+.settings-cell .settings-cell__value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

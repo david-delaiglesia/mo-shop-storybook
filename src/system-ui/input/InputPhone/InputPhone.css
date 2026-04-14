@@ -1,0 +1,54 @@
+:root {
+  --selector-width: 84px;
+}
+
+.input-phone {
+  display: flex;
+}
+
+.input-phone .input-phone__selected-country {
+  justify-content: space-around;
+  display: flex;
+  padding: 14px 8px;
+  margin-right: 8px;
+  outline: none;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid var(--smoked-20);
+  position: relative;
+  caret-color: var(--cucumber);
+  height: 48px;
+  width: var(--selector-width);
+}
+
+.input-phone .input-phone__selected-country.active {
+  border-color: var(--cucumber);
+}
+
+.input-phone .input-phone__selected-country span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.input-phone .input-phone__selected-country i {
+  color: var(--smoked-70);
+}
+
+.input-phone .input-phone__country-list {
+  position: absolute;
+  border-radius: 4px;
+  text-align: left;
+  background-color: var(--white);
+  box-shadow: var(--shadow-default);
+  border: solid 1px var(--smoked-8);
+  z-index: 2;
+  width: var(--selector-width);
+  height: 183px;
+  overflow: auto;
+  margin-top: 4px;
+}
+
+.input-phone .input-text {
+  width: 251px;
+}

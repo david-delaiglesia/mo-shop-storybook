@@ -1,0 +1,61 @@
+.modal-info .modal .modal-content {
+  padding: 40px 44px;
+  width: 414px;
+  max-width: 100%;
+  box-shadow: var(--shadow-hard);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.modal-info .modal .modal-content .modal-content__close {
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--white-cream);
+  color: var(--smoked-70);
+  border-radius: 100%;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.modal-info .modal .modal-content .modal-content__close:focus {
+  outline: none;
+  color: var(--black);
+}
+
+.modal-info .modal .modal-content .icon-close-16 {
+  top: 6px;
+  left: 6px;
+  position: absolute;
+}
+
+.modal-info .modal .modal-content .modal-content__header {
+  padding: 0;
+  min-height: 0;
+}
+.modal-info .modal .modal-info__image {
+  margin-bottom: 24px;
+  width: 120px;
+  height: auto;
+}
+.modal-info .modal .modal-info__title {
+  margin: 0 0 12px;
+}
+.modal-info .modal .modal-info__description {
+  color: var(--smoked-70);
+  margin: 0 0 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.modal-info .modal .button {
+  width: 222px;
+}
+.modal-info .modal .modal-info__cancel-button {
+  margin-top: 15px;
+}
+.modal-info .modal .modal-info__cancel-button .button {
+  background: white;
+  color: var(--smoked-70);
+}
+.modal-info .modal .modal-info__cancel-button .button:focus {
+  color: var(--black);
+}

@@ -1,0 +1,91 @@
+:root {
+  --order-delivery-width-large: 674px;
+  --order-delivery-width-extra-hd: 722px;
+  --content-margin-left: 36px;
+}
+
+.order-delivery {
+  position: relative;
+
+  .order-delivery__modify-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
+
+.slots-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slots-container-empty {
+  height: 417px;
+}
+
+.slots-container-empty .waiting-response {
+  height: 100%;
+}
+
+.order-delivery__address {
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.order-delivery__edit-button {
+  padding: 16px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.order-delivery__edit-button:focus {
+  outline: none;
+}
+
+.order-delivery__edit-button .ui-icon {
+  font-size: 1.75rem;
+  color: var(--cucumber);
+}
+
+.order-delivery__edit-button {
+  cursor: pointer;
+}
+
+.order-delivery__edit-address {
+  color: var(--cucumber);
+  margin-left: auto;
+}
+
+.order-delivery__address-subtitle {
+  color: var(--blueberry);
+  margin: 16px 0 8px 0;
+  text-transform: uppercase;
+}
+
+.order-delivery__form-address img {
+  width: 48px;
+  height: 48px;
+}
+
+.order-delivery__form-address > p {
+  margin-left: 8.9px;
+  color: var(--smoked-40);
+}
+
+.order-delivery__hide-slots {
+  display: flex;
+  align-items: center;
+  height: 71px;
+  margin-top: 24px;
+  padding: 12px 12px 11px;
+  border-radius: 8px;
+  background-color: var(--white-cream-light);
+  color: var(--smoked-70);
+}
+
+.order-delivery__hide-slots-image {
+  margin-right: 10px;
+}

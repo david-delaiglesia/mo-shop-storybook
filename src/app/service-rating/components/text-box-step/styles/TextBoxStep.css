@@ -1,0 +1,21 @@
+.text-field-step {
+  margin-bottom: 40px;
+}
+
+.text-field-step .text-area {
+  margin: 40px 0;
+  text-align: left;
+}
+
+@media (min-width: 480px) {
+  .text-field-step {
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .text-field-step .button {
+    width: 224px;
+    position: absolute;
+    right: 0;
+  }
+}

@@ -1,0 +1,40 @@
+.ie-blocker .ui-modal-content {
+  text-align: left;
+  max-width: 552px;
+}
+
+.ie-blocker__title {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.ie-blocker__description {
+  margin-bottom: 24px;
+}
+
+.ie-blocker__links-container {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.ie-blocker__link {
+  width: calc((100% - 24px) / 4);
+  padding: 16px 0;
+  text-align: center;
+  color: var(--black);
+  background-color: var(--white-cream-light);
+  border-radius: 8px;
+}
+
+.ie-blocker__link img {
+  width: 60%;
+  margin-bottom: 8px;
+}
+
+.ie-blocker__link-text {
+  white-space: nowrap;
+}
+
+.ie-blocker__link:not(:last-child) {
+  margin-right: 8px;
+}

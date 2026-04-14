@@ -1,0 +1,1 @@
+export { PostalCodeChecker } from './PostalCodeChecker'

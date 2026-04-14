@@ -1,0 +1,1 @@
+export { AccessibilityHandler } from './AccessibilityHandler'

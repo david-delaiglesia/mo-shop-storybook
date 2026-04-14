@@ -1,0 +1,1 @@
+export { MyRegularsContainer } from './MyRegularsContainer'

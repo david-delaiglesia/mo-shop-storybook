@@ -1,0 +1,1 @@
+export { MyRegularsProducts } from './MyRegularsProducts'

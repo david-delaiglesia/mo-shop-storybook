@@ -1,0 +1,1 @@
+export { CheckoutPasswordRecovery } from './CheckoutPasswordRecovery'

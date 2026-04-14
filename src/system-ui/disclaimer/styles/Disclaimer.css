@@ -1,0 +1,7 @@
+.disclaimer {
+  width: 100%;
+  border-radius: 6px;
+  padding: 24px;
+  background-color: var(--egg-40);
+  color: var(--chocolat);
+}

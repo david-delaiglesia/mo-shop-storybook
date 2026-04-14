@@ -1,0 +1,1 @@
+export { SCAChallenge } from './SCAChallenge'

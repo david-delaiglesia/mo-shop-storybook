@@ -1,0 +1,35 @@
+.earlier-cutoff-disclaimer__wrapper {
+  width: 544px;
+  padding: 52px 80px 32px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.earlier-cutoff-disclaimer__wrapper h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.earlier-cutoff-disclaimer__description {
+  color: var(--smoked-70);
+}
+
+.earlier-cutoff-disclaimer__time {
+  color: var(--orange);
+  margin-bottom: 8px;
+}
+
+.earlier-cutoff-disclaimer__date-wrapper {
+  border-radius: 12px;
+  background-color: var(--white-cream-light);
+  padding: 16px 20px;
+}
+
+.earlier-cutoff-disclaimer__date {
+  color: var(--smoked-70);
+}
+
+.earlier-cutoff-disclaimer__date::first-letter {
+  text-transform: uppercase;
+}

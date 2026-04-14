@@ -1,0 +1,28 @@
+.brands-filter-item {
+  font-size: 1rem;
+  line-height: 1.2em;
+  margin: 8px 0;
+}
+
+.brands-filter-item .checkbox .checkbox__input + .checkbox__label {
+  padding: 0 25px 0 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.brands-filter-item .checkbox .checkbox__input + .checkbox__label:after,
+.brands-filter-item .checkbox .checkbox__input + .checkbox__label:before {
+  right: 0;
+  left: auto;
+}
+
+.brands-filter-item
+  .checkbox
+  .checkbox__input:not(:checked)
+  + .checkbox__label {
+  color: var(--smoked-70);
+}
+
+.brands-filter-item .checkbox .checkbox__input:checked + .checkbox__label {
+  color: var(--black);
+}

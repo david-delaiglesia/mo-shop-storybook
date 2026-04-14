@@ -1,0 +1,23 @@
+.sca-payment-form .modal-content {
+  text-align: left;
+  width: 688px;
+  padding: 24px;
+}
+
+.modal.sca-payment-form .order-payment-list,
+.modal.sca-payment-form .payment-form {
+  margin: 0;
+  box-shadow: none;
+}
+
+.ui-loader.sca-loader {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: var(--cucumber);
+}
+
+.mit-term-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

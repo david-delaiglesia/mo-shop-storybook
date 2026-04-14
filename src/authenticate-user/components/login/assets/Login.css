@@ -1,0 +1,59 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login .login__hidden-email {
+  display: none;
+}
+
+.login img {
+  height: 26px;
+}
+
+.login h4 {
+  margin: 40px 0 16px;
+}
+
+.login label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.login .input-text,
+.login .input-password {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.login .input-text .input-text__label,
+.login .input-password .input-text__label {
+  padding-top: 14px;
+}
+
+.login .login__remember-password {
+  text-decoration: underline;
+  margin: 32px 0 24px;
+  color: var(--smoked-70);
+  cursor: pointer;
+}
+
+.login .login__remember-password:focus {
+  outline: none;
+  color: var(--black);
+}
+
+.login .button {
+  margin-bottom: 16px;
+}
+
+.login .button:last-of-type {
+  color: var(--smoked-70);
+  background: transparent;
+}
+
+.login .button:last-of-type:focus {
+  color: var(--black);
+}

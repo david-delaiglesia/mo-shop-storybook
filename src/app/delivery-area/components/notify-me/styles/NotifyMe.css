@@ -1,0 +1,24 @@
+.notify-me {
+  padding: 40px;
+  width: 416px;
+}
+
+.notify-me .notify-me__title {
+  font-size: 1rem;
+  margin-bottom: 32px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.notify-me .input-text {
+  margin-bottom: 34px;
+}
+
+.notify-me .notify-me__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notify-me .notify-me__cancel {
+  margin-right: 8px;
+}

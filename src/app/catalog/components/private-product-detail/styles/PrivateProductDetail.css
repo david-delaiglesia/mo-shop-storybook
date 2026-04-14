@@ -1,0 +1,127 @@
+.private-product-detail {
+  padding: 1rem 0;
+}
+
+.modal-content .private-product-detail {
+  padding: 2rem 0;
+}
+
+.private-product-detail__header {
+  min-height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.private-product-detail__header span {
+  color: var(--cucumber);
+}
+
+.private-product-detail__content {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.private-product-detail__left {
+  min-width: calc(320px - 3rem);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.private-product-detail__right {
+  min-width: calc(320px - 3rem);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.private-product-detail__right .product-format {
+  margin-bottom: 1rem;
+  height: 1.31em;
+}
+
+.private-product-detail__button {
+  padding: 0.2rem 0 1.5rem 0;
+  border: solid 1px var(--white-cream);
+  border-right: none;
+  border-left: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.private-product-detail__button .product-quantity-button {
+  width: 226px;
+  height: 58px;
+}
+
+.private-product-detail__button .button-picker {
+  height: 48px;
+}
+
+.private-product-detail__description {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.private-product-detail__extra-info {
+  margin-top: 1.5rem;
+  line-height: normal;
+}
+
+.private-product-detail__age_check {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.private-product-detail__age_check img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.private-product-detail__counter-info {
+  margin-top: 1.5rem;
+  line-height: normal;
+}
+
+.private-product__disclaimer {
+  font-size: 0.75em;
+  color: var(--smoked-40);
+  margin-top: 2.5rem;
+  line-height: normal;
+  text-align: left;
+}
+
+.private-product-detail__unavailable-days {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--smoked-70);
+  margin-top: 24px;
+}
+
+@media (min-width: 992px) {
+  .private-product-detail__left {
+    width: 507px;
+    height: 413px;
+  }
+
+  .private-product-detail__right {
+    width: auto;
+    flex: 1;
+    padding-left: 24px;
+  }
+
+  .private-product-detail__description {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .private-product-detail__left {
+    width: 607px;
+    height: 500px;
+  }
+}

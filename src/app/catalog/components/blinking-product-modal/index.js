@@ -1,0 +1,1 @@
+export { BlinkingProductModal } from './BlinkingProductModal'

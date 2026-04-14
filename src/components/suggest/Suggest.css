@@ -1,0 +1,21 @@
+.suggest {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.suggest.suggest--active {
+  background-color: var(--white-cream);
+}
+
+.suggest .suggest__icon {
+  color: var(--cucumber);
+}
+
+.suggest .suggest__primary-text {
+  color: var(--black);
+}
+
+.suggest .suggest__secondary-text {
+  color: var(--smoked-70);
+}

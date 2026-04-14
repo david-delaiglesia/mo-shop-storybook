@@ -1,0 +1,32 @@
+.chat-file-uploading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.chat-file-uploading__progress {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--white-cream);
+}
+
+.chat-file-uploading__progress--fill {
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--cucumber);
+}
+
+.chat-file-uploading__detail {
+  display: flex;
+  justify-content: space-between;
+  color: var(--smoked-70);
+}
+
+.chat-file-uploading__file-name {
+  width: 208px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

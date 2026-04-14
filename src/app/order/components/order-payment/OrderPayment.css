@@ -1,0 +1,23 @@
+.order-payment {
+  position: relative;
+
+  .order-payment__modify-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
+
+.order-payment--hidden {
+  color: var(--smoked-20);
+}
+
+.order-payment__disclaimer {
+  margin: 15px 0;
+}
+
+.order-payment-resume {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

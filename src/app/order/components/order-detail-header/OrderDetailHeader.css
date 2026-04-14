@@ -1,0 +1,80 @@
+.order-detail-header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 76px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--white-cream);
+  background-color: var(--white);
+}
+
+.order-detail-breadcrumbs-info .ui-icon {
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.order-detail-header__price-info {
+  color: var(--smoked-70);
+  margin-top: .25rem;
+}
+
+.order-detail-header__edit-info {
+  display: flex;
+  align-items: center;
+}
+
+.order-detail-header__edit-info .ui-icon {
+  color: var(--cucumber);
+}
+
+.order-detail-header__link {
+  color: var(--black);
+}
+
+.order-detail-header__link:hover,
+.order-detail-header__link:focus {
+  outline: none;
+  color: var(--cucumber);
+}
+
+.order-detail-header__buttons {
+  display: flex;
+  padding-top: 5px;
+}
+
+.order-detail-header__buttons i {
+  font-size: 1.75rem;
+  margin-left: .5rem;
+}
+
+.order-detail-header__buttons .button {
+  padding: 0 1rem;
+  width: auto;
+}
+
+.order-detail-header__buttons .button-secondary {
+  border: 1px solid transparent;
+  margin-right: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-detail-header__buttons .button-secondary:hover,
+.order-detail-header__buttons .button-secondary:focus {
+  background-color: transparent;
+  border: 1px solid var(--cucumber);
+}
+
+.order-detail-header__buttons .button-secondary .button-loader {
+  background-color: transparent;
+}
+
+.order-detail-header__buttons .button-secondary .loader > div {
+  background-color: var(--cucumber);
+}
+
+.order-detail-header__disabled_download-ticket {
+  display: flex;
+  align-items: center;
+  color: var(--smoked-20);
+}

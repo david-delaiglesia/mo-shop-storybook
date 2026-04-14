@@ -1,0 +1,3 @@
+export const NAVBAR_HEIGHT = 76
+export const CHECKOUT_NAVBAR_HEIGHT = 78.5
+export const ACCOUNT_MENU_POSITION = 55

@@ -1,0 +1,17 @@
+.shopping-list-detail-save-suggestion-button__button {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-list-detail-save-suggestion-button__button--not-saved {
+  color: var(--smoked-40);
+}
+
+.shopping-list-detail-save-suggestion-button__button--not-saved:hover {
+  color: var(--smoked-70);
+  transition: all 0.1s linear;
+}
+
+.shopping-list-detail-save-suggestion-button__button--saved {
+  color: var(--cucumber);
+}

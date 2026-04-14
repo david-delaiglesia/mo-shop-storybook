@@ -1,0 +1,64 @@
+.order-confirmed-card {
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  margin: auto;
+  gap: 32px;
+
+  .order-confirmed-card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    .order-confirmed-card__title {
+      font-weight: 400;
+    }
+
+    .order-confirmed-card__subtitle {
+      color: var(--smoked-70);
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+    }
+
+    .divider {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+
+  .order-confirmed-card__summary {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .order-confirmed-card__summary-item {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      dt {
+        color: var(--smoked-70);
+        display: flex;
+        flex-direction: column;
+      }
+
+      dd {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .order-confirmed-card__delivery-time {
+          &::first-letter {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

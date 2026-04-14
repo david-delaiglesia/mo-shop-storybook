@@ -1,0 +1,1 @@
+export { VideoSectionProductCardSwitch } from './VideoSectionProductCardSwitch'

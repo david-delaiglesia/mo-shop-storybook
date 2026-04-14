@@ -1,0 +1,14 @@
+.postal-code-checker {
+  width: 416px;
+  padding: 32px 40px 40px 40px;
+}
+
+.postal-code-checker .postal-code-checker__logo {
+  width: 100%;
+}
+
+.postal-code-checker .postal-code-checker__subtitle {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  text-align: start;
+}

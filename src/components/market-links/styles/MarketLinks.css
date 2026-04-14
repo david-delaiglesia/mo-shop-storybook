@@ -1,0 +1,15 @@
+.market-links {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.market-links__ios {
+  height: 45px;
+  margin-left: 16.5px;
+}
+
+.market-links__android {
+  width: 142px;
+}

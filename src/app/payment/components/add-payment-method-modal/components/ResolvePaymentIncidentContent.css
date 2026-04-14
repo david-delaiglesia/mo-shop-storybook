@@ -1,0 +1,60 @@
+.resolve-payment-incident-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.resolve-payment-incident-content-section {
+  color: var(--black);
+  box-shadow: none;
+  gap: 8px;
+  display: flex;
+}
+
+.resolve-payment-incident-content-card {
+  color: var(--black);
+  position: relative;
+
+  .resolve-payment-incident-content-card__modify-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
+.resolve-payment-incident-content__incident {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.resolve-payment-incident-content__incident-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.resolve-payment-incident-content__incident-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+.resolve-payment-incident-content-subheader {
+  color: var(--smoked-70);
+}
+
+.resolve-payment-incident-content__incident-divider {
+  border-top: 1px solid var(--white-cream);
+}
+
+.resolve-payment-incident-payment-method {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.resolve-payment-incident-content__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}

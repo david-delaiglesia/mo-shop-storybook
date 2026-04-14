@@ -1,0 +1,10 @@
+.mood-step .mood-step__choices {
+  padding: 56px 0;
+  text-align: center;
+}
+.mood-step .mood-step__explanation {
+  color: var(--smoked-40);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.acknowledge-step {
+  text-align: center;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.acknowledge-step__illustration {
+  background-image: url('../assets/check-illustration.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.acknowledge-step__title {
+  margin: 42px 0;
+}
+
+.acknowledge-step__button {
+  margin-top: 32px;
+  width: 224px;
+  height: 42px;
+}
+
+.acknowledge-step__acmo-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 34px;
+  color: var(--cucumber);
+  outline: none;
+}

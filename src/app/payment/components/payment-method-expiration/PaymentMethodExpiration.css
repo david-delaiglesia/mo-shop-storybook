@@ -1,0 +1,9 @@
+.payment-method-expiration--valid {
+  color: var(--smoked-70);
+}
+
+.payment-method-expiration--expires_soon,
+.payment-method-expiration--expired {
+  color: var(--orange);
+  font-weight: 600;
+}

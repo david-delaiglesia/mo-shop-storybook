@@ -1,0 +1,22 @@
+
+.product-feedback {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+}
+
+.product-feedback .title2-c-b,
+.product-feedback .title2-b {
+  line-height: 0.9;
+}
+
+.product-feedback__cart-text {
+  color: var(--smoked-70);
+  width: 100%;
+  display: flex;
+}
+
+.product-feedback__add-counter {
+  color: var(--chocolat);
+  padding: 0 0 2px;
+}

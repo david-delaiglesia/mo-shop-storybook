@@ -1,0 +1,1 @@
+export { ShoppingListDetailHeader } from './ShoppingListDetailHeader'

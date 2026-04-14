@@ -1,0 +1,294 @@
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 20px;
+  margin: 0;
+  list-style: none;
+}
+
+.chat-messages__message {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  max-width: 286px;
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.chat-messages__message-contents {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  width: 258px;
+  border-radius: 16px;
+  background-color: var(--cucumber);
+}
+
+.chat-messages__message-retry-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: var(--cucumber);
+  background-color: var(--white-cream-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transform: translateY(6px);
+}
+
+.chat-messages__message-error-message {
+  color: var(--tomato-100);
+  font-size: 12px;
+}
+
+.chat-messages__system-status-update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-messages__system-status-update-text {
+  color: var(--smoked-40);
+  padding: 0 8px;
+}
+
+.chat-messages__system-status-update::before,
+.chat-messages__system-status-update::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgb(247, 247, 247);
+}
+
+.chat-messages__message--support {
+  background-color: var(--white-cream-light);
+}
+
+.chat-messages__message--user {
+  align-self: flex-end;
+  background-color: var(--cucumber);
+}
+
+.chat-messages__message--user-with-error {
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.chat-messages__message-with-error-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.chat-messages__message-with-error-message-container
+  .chat-messages__message-contents {
+  background-color: #4dc490;
+}
+
+.chat-messages__support-image,
+.chat-messages__support-file,
+.chat-messages__user-file {
+  background-color: var(--white-cream-light);
+  max-width: 280px;
+  border: solid 1px var(--smoked-8);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.chat-messages__support-file {
+  align-self: flex-start;
+}
+
+.chat-messages__support-image {
+  height: 190px;
+  align-self: flex-start;
+}
+
+.chat-messages__user-file {
+  align-self: flex-end;
+}
+
+.chat-messages__user-file--is-uploaded {
+  height: 190px;
+}
+
+.chat-messages__user-file--is-uploading {
+  width: 280px;
+}
+
+.chat-messages__user-file--is-document-uploaded {
+  width: 280px;
+}
+
+.chat-messages__support-file__container,
+.chat-messages__user-file__container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 6px 14px;
+}
+
+.chat-file-uploading__file-name {
+  width: 208px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-messages__support-file__detail,
+.chat-messages__user-file__detail {
+  flex: 1;
+}
+
+.chat-messages__support-file__detail-document,
+.chat-messages__user-file__detail-document {
+  display: flex;
+  justify-content: space-between;
+  color: var(--cucumber);
+}
+
+.chat-messages__support-file__detail-document a,
+.chat-messages__user-file__detail-document a {
+  color: var(--cucumber);
+}
+
+.chat-messages__file-icon--is-uploading,
+.chat-messages__file-icon--is-uploaded {
+  color: var(--cucumber);
+}
+
+.chat-messages__user-file-name {
+  width: 208px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-messages__file-icon--upload-error {
+  color: var(--smoked-20);
+}
+
+.chat-messages__error-message {
+  color: var(--tomato-100);
+}
+
+.chat-messages__support-image img,
+.chat-messages__user-file img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.chat-messages__support-author {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--chocolat);
+}
+
+.chat-messages__support-author img {
+  width: 16px;
+}
+
+.chat-messages__message-text--support {
+  color: var(--smoked-70);
+
+  p {
+    font-size: inherit;
+    margin: 0;
+  }
+
+  p + p {
+    margin-top: 4px;
+  }
+
+  ul {
+    margin: 4px 0 0;
+    padding-left: 16px;
+    list-style-type: disc;
+  }
+
+  ol {
+    margin: 4px 0 0;
+    padding-left: 16px;
+    list-style-type: decimal;
+  }
+
+  li + li {
+    margin-top: 4px;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  a {
+    font-size: inherit;
+    color: var(--cucumber);
+    text-decoration: underline;
+  }
+}
+
+.chat-messages__message-text--user {
+  color: var(--white);
+}
+
+.chat-messages__message--support:not(
+    :has(+ .chat-messages__message--support)
+  )::after,
+.chat-messages__message--user:not(:has(+ .chat-messages__message--user))::after,
+.chat-messages__message--user-with-error:not(
+    :has(+ .chat-messages__message--user-with-error)
+  )
+  .chat-messages__message-contents::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 12px;
+  height: 15px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.chat-messages__message--support:not(
+    :has(+ .chat-messages__message--support)
+  )::after {
+  left: -5px;
+  background: rgb(247, 247, 247);
+  /* stylelint-disable-next-line function-no-unknown */
+  /* noinspection CssInvalidPropertyValue */
+  clip-path: path(
+    'M0.843732 14.1355C4.65754 10.1251 6.49569 6.6689 6.90856 2.11573C6.9562 1.59028 7.71126 1.42252 7.94721 1.89443L12.8167 11.6334C12.9233 11.8466 12.8654 12.1065 12.6705 12.2437C9.46908 14.4966 4.3734 14.9179 1.2058 14.9874C0.760452 14.9972 0.53676 14.4583 0.843732 14.1355Z'
+  );
+}
+
+.chat-messages__message--user:not(:has(+ .chat-messages__message--user))::after,
+.chat-messages__message--user-with-error:not(
+    :has(+ .chat-messages__message--user-with-error)
+  )
+  .chat-messages__message-contents::after {
+  right: -5px;
+  background: var(--cucumber);
+  /* stylelint-disable-next-line function-no-unknown */
+  /* noinspection CssInvalidPropertyValue */
+  clip-path: path(
+    'M12.0259 14.1355C8.21209 10.1251 6.37394 6.6689 5.96107 2.11573C5.91343 1.59028 5.15837 1.42252 4.92242 1.89443L0.0529425 11.6334C-0.0536466 11.8466 0.00419986 12.1065 0.199116 12.2437C3.40055 14.4966 8.49623 14.9179 11.6638 14.9874C12.1092 14.9972 12.3329 14.4583 12.0259 14.1355Z'
+  );
+}
+
+.chat-messages__message--user-with-error:not(
+    :has(+ .chat-messages__message--user-with-error)
+  )
+  .chat-messages__message-contents::after {
+  background: #4dc490;
+}

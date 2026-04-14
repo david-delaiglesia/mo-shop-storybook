@@ -1,0 +1,1 @@
+export { PrivateProductDetail } from './PrivateProductDetail'

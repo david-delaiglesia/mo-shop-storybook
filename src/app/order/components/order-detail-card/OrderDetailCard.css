@@ -1,0 +1,14 @@
+.order-detail-card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.order-detail-card__title {
+  margin: 0;
+}
+
+.order-detail-card__content > *:first-child {
+  margin-top: 8px;
+}

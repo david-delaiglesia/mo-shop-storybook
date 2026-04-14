@@ -1,0 +1,16 @@
+.recaptcha-terms {
+  text-align: left;
+  color: var(--smoked-40);
+  flex-grow: 2;
+}
+
+.recaptcha-terms__more-info {
+  margin-top: 8px;
+}
+
+.recaptcha-terms a,
+.recaptcha-terms button {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

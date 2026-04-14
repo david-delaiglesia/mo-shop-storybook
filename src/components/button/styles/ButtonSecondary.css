@@ -1,0 +1,29 @@
+.btn--secondary {
+  background-color: transparent;
+  border: solid 1px var(--cucumber);
+  color: var(--cucumber);
+}
+
+.btn--secondary[disabled] {
+  background-color: transparent;
+  border: solid 1px var(--smoked-20);
+  color: var(--smoked-20);
+  cursor: not-allowed;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+  background-color: var(--cucumber-10);
+}
+
+.btn--secondary.btn--destructive {
+  background-color: transparent;
+  border: solid 1px var(--tomato);
+  color: var(--tomato);
+  line-height: 38px;
+}
+
+.btn--secondary.btn--destructive:hover,
+.btn--secondary.btn--destructive:focus {
+  background-color: var(--tomato-10);
+}

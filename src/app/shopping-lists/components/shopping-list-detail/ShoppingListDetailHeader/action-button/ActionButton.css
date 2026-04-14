@@ -1,0 +1,15 @@
+.shopping-list-detail-header__action-button-text {
+  color: var(--smoked-70);
+}
+
+.shopping-list-detail-header__action-button-text-non-div {
+  color: var(--smoked-70);
+  cursor: pointer;
+}
+
+.shopping-list-detail-header__action-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 64px;
+}

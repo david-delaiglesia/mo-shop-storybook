@@ -1,0 +1,1 @@
+export { PublicProductDetailContainer } from './PublicProductDetailContainer'

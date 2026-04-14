@@ -1,0 +1,26 @@
+.orders-placeholder {
+  padding-top: 30px;
+  width: 281px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.orders-placeholder__img {
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+.orders-placeholder__title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.orders-placeholder__subtitle {
+  margin-bottom: 24px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}

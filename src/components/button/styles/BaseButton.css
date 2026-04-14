@@ -1,0 +1,61 @@
+.btn {
+  appearance: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn i {
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+
+.btn.btn--fit {
+  width: auto;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 11px;
+}
+
+.btn.btn--small {
+  line-height: 32px;
+  max-height: 32px;
+}
+
+.btn.btn--small i {
+  line-height: 32px;
+}
+
+.btn.btn-big {
+  height: 56px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn.btn-big span,
+.btn.btn-big i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn.btn-big i {
+  font-size: 28px;
+  margin-left: 4px;
+}
+
+.btn.btn--loading .loader > div {
+  width: 9px;
+  height: 9px;
+  margin: 0 5px;
+  background-color: var(--white);
+}

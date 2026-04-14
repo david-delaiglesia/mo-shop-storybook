@@ -1,0 +1,32 @@
+.automatic-invoice-update-modal {
+  text-align: left;
+}
+
+.automatic-invoice-update-modal__form {
+  margin-top: 30px;
+  padding-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.automatic-invoice-update-modal__form > * + * {
+  border-width: 0;
+  border-top-width: 1px;
+  border-color: var(--white-cream);
+  border-style: solid;
+  padding-top: 24px;
+}
+
+.automatic-invoice-update-modal__input-label {
+  color: var(--smoked-70);
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.automatic-invoice-update-modal__disclaimer {
+  color: var(--orange);
+  display: flex;
+  gap: 6px;
+  height: 0;
+}

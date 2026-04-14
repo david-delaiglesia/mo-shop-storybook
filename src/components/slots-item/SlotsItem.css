@@ -1,0 +1,37 @@
+.slots-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slot-height);
+  padding: 0 16px;
+  border-radius: 8px;
+  border: solid 1px var(--blueberry-40);
+  cursor: pointer;
+  margin-bottom: var(--slots-gap);
+  margin-right: var(--slots-gap);
+}
+
+.slots-item:focus {
+  outline: none;
+}
+
+.slots-item:not(.slots-item--disabled):hover,
+.slots-item:not(.slots-item--disabled):focus {
+  border: solid 1px var(--blueberry);
+}
+
+.keyboard-user .slots-item:focus {
+  box-shadow: 0px 0px 2px 2px var(--blueberry-40);
+}
+
+.slots-item--disabled {
+  background-color: var(--white-cream-light);
+  border-color: transparent;
+  color: var(--smoked-40);
+  cursor: not-allowed;
+}
+
+.slots-item--selected {
+  background-color: var(--blueberry);
+  color: var(--white);
+}

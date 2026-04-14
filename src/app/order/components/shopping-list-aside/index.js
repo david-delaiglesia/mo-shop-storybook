@@ -1,0 +1,1 @@
+export { ShoppingListAside } from './ShoppingListAside'

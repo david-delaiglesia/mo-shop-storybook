@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Mercadona Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Mercadona Sans'),
+       url('../assets/fonts/MercadonaSans.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'),
+       url('../assets/fonts/pt-serif-v9-latin-regular.woff2') format('woff2'),
+       url('../assets/fonts/pt-serif-v9-latin-regular.woff') format('woff'),
+       url('../assets/fonts/pt-serif-v9-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Serif Bold'), local('PTSerif-Bold'),
+       url('../assets/fonts/pt-serif-v9-latin-700.woff2') format('woff2'),
+       url('../assets/fonts/pt-serif-v9-latin-700.woff') format('woff'),
+       url('../assets/fonts/pt-serif-v9-latin-700.ttf') format('truetype');
+}

@@ -1,0 +1,42 @@
+.sorting-method__title {
+  font-family: var(--primary-font);
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 4px;
+  line-height: 2.2;
+}
+
+.sorting-method__selector {
+  color: var(--smoked-70);
+  display: flex;
+}
+
+.sorting-method__selector .selector__text {
+  text-transform: uppercase;
+  margin-right: 4px;
+}
+
+.sorting-method__selector .ui-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.sorting-method__options {
+  min-width: 170px;
+  border-radius: 2px;
+  box-shadow: var(--shadow-hard);
+  background-color: var(--white);
+  position: absolute;
+  top: 6px;
+  left: -50px;
+}
+
+.sorting-method__option {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.sorting-method__option:hover {
+  background-color: var(--smoked-8);
+}

@@ -1,0 +1,94 @@
+.my-regulars-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 12px;
+}
+
+.my-regulars-header__products {
+  flex: 1;
+  margin: 0;
+  text-align: right;
+  color: var(--smoked-70);
+}
+
+.my-regulars-header__left {
+  flex: 1;
+  width: 100%;
+  margin: 40px 0 16px;
+}
+
+.my-regulars-header__separator {
+  margin: 10px 0 8px;
+  border: 0.5px solid var(--white-cream);
+  width: 100%;
+}
+
+.my-regulars-header__title {
+  margin: 0;
+}
+
+.my-regulars-header__subtitle {
+  width: 100%;
+  color: var(--smoked-70);
+  margin: 8px 0 0;
+}
+
+.my-regulars-header__menu-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.my-regulars-header .my-regulars-header__menu-button {
+  padding: 0 0.5rem;
+  line-height: 28px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.my-regulars-header__menu-button .ui-icon {
+  margin-left: 4px;
+  width: 12px;
+}
+
+.my-regulars-header__menu {
+  position: absolute;
+  right: -.5rem;
+  top: calc(100% + .5rem);
+  width: 170px;
+  padding: 0.5rem 0;
+  background: var(--white);
+  box-shadow: var(--shadow-hard);
+  border-radius: 8px;
+}
+
+.my-regulars-header__menu::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--white);
+  right: 1rem;
+  top: -.25rem;
+  transform: rotate(45deg);
+}
+
+.my-regulars-header__menu-item button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.my-regulars-header__menu-item button:hover {
+  background-color: var(--smoked-8);
+}
+
+.my-regulars-header__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

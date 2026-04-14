@@ -1,0 +1,44 @@
+.unavailable-area {
+  padding: 32px 40px;
+  width: 416px;
+}
+
+.unavailable-area .unavailable-area__logo {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.unavailable-area .unavailable-area__title {
+  margin-bottom: 24px;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 24px;
+}
+
+.unavailable-area .unavailable-area__go-to-classic {
+  margin-bottom: 16px;
+}
+
+.unavailable-area .unavailable-area__enter-another-postal-code {
+  margin-bottom: 22px;
+}
+
+.unavailable-area .unavailable-area__notify-me {
+  background-color: var(--white);
+  color: var(--smoked-70);
+  text-decoration: underline;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.unavailable-area .unavailable-area__notify-me .button__text {
+  font-size: 0.75rem;
+}
+
+.unavailable-area .unavailable-area__notify-me:focus,
+.unavailable-area .unavailable-area__notify-me:hover {
+  background-color: var(--white);
+  color: var(--black);
+}

@@ -1,0 +1,52 @@
+.blinking-product {
+  display: flex;
+  background-color: var(--smoked-8);
+  gap: 12px;
+  margin-bottom: 8px;
+  border: none;
+}
+
+.blinking-product:last-of-type {
+  margin-bottom: 0px;
+}
+
+.blinking-product__image {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+}
+
+.blinking-product__right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blinking-product__unavailability-text {
+  color: var(--smoked-70);
+}
+
+.blinking-product__weekdays {
+  display: flex;
+  gap: 4px;
+}
+
+.blinking-product__weekday {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-radius: 12.5px;
+  background-color: var(--white);
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.blinking-product__weekday--unavailable {
+  color: var(--tomato)
+}
+
+.blinking-product__weekday--available {
+  color: var(--cucumber)
+}

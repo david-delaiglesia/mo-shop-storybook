@@ -1,0 +1,33 @@
+.countdown__subtitle {
+  display: block;
+  color: var(--smoked-70);
+  margin-top: 0.5rem;
+}
+
+.countdown__subtitle::first-letter {
+  text-transform: uppercase;
+}
+
+.countdown__counter {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.countdown__indicator {
+  display: flex;
+  gap: 0.25rem;
+  align-items: baseline;
+}
+
+.countdown__indicator span {
+  padding-bottom: 0px !important;
+}
+
+.countdown__counter.countdown__counter--last-hour .countdown__indicator--title {
+  color: var(--orange);
+}
+
+.countdown__indicator--subtitle {
+  color: var(--smoked-70);
+}

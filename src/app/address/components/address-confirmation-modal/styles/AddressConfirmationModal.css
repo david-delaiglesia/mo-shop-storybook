@@ -1,0 +1,84 @@
+.address-confirmation-modal__map-container {
+  display: flex;
+  height: 460px;
+  margin: 16px 0px;
+}
+.address-confirmation-modal__container .modal-content {
+  padding: 26px 48px 32px 48px;
+  text-align: left;
+  width: 70vw;
+  height: 640px;
+  box-shadow: var(--shadow-hard);
+  border-radius: 8px;
+  max-width: 992px;
+}
+
+.address-confirmation-modal__buttons-container {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.address-confirmation-modal__button {
+  width: 157px;
+}
+
+.address-confirmation-modal__title {
+  margin-bottom: 8px;
+}
+
+.address-confirmation-modal__map-container .map {
+  border-radius: 4px;
+  border: solid;
+  border-width: 1px;
+  border-color: var(--smoked-20);
+}
+
+.address-confirmation-modal__pin {
+  position: absolute;
+  z-index: 5;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  pointer-events: none;
+}
+
+.address-confirmation-modal__pin-down {
+  position: absolute;
+  z-index: 5;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  pointer-events: none;
+}
+
+.address-confirmation-modal__locate-me-container {
+  position: absolute;
+  z-index: 1;
+  bottom: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.address-confirmation-modal__locate-me-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid 1px var(--cucumber);
+  color: var(--cucumber);
+  height: 32px;
+  width: 215px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.address-confirmation-modal__locate-me-button:hover {
+  background-color: var(--white-cucumber-10);
+}
+
+.address-confirmation-modal__locate-me-icon {
+  margin-right: 8px;
+}

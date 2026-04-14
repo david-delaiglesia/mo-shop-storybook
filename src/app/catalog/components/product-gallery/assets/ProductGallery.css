@@ -1,0 +1,19 @@
+.private-product-detail .product-gallery {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 500px;
+}
+
+@media (min-width: 992px) {
+  .private-product-detail .product-gallery {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .private-product-detail .product-gallery {
+    height: 413px;
+  }
+
+} 

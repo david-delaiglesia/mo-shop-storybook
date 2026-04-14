@@ -1,0 +1,106 @@
+.select-shopping-list-dialog__card-item {
+  width: 100%;
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.select-shopping-list-dialog__card-item:hover {
+  background-color: var(--white-cream-light);
+}
+
+.select-shopping-list-dialog__card-item--disabled {
+  cursor: not-allowed;
+}
+
+.select-shopping-list-dialog__card-item-info {
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.select-shopping-list-dialog__card-item-quantity {
+  color: var(--smoked-70);
+}
+
+.select-shopping-list-dialog__card-item-name::first-letter {
+  text-transform: capitalize;
+}
+
+.select-shopping-list-dialog__card-item-in-list-marker {
+  display: flex;
+  align-items: center;
+  height: 47px;
+  color: var(--cucumber);
+}
+
+.select-shopping-list-dialog__product-image-wrapper {
+  min-height: 56px;
+  min-width: 56px;
+  margin-right: 32px;
+  display: grid;
+  grid-template-columns: 28px 28px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  align-content: center;
+  justify-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+.select-shopping-list-dialog__product-image-wrapper .product-cell__image-overlay {
+  border-radius: 4px;
+}
+
+.select-shopping-list-dialog__product-image {
+  height: 24px;
+  mix-blend-mode: darken;
+}
+
+.select-shopping-list-dialog__empty-image-wrapper {
+  height: 24px;
+}
+
+.select-shopping-list-dialog__empty-image--position1 {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.select-shopping-list-dialog__empty-image--position2 {
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+.select-shopping-list-dialog__empty-image--position3 {
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+.select-shopping-list-dialog__empty-image--position4 {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.select-shopping-list-dialog__product-image--position1 {
+  margin-left: 4px;
+}
+
+.select-shopping-list-dialog__product-image--position2 {
+  margin-right: 8px;
+}
+
+.select-shopping-list-dialog__product-image--position3 {
+  margin-left: 4px;
+}
+
+.select-shopping-list-dialog__product-image--position4 {
+  margin-right: 8px;
+}
+
+.select-shopping-list-dialog__card-item-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

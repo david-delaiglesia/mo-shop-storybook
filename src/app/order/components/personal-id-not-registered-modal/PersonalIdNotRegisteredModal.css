@@ -1,0 +1,35 @@
+.personal-id-not-registered-modal__container {
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  padding: 52px 80px 32px;
+}
+
+.personal-id-not-registered-modal__title {
+  margin: 0px;
+}
+
+.personal-id-not-registered-modal__description {
+  margin: 16px 0px 24px;
+  color: var(--smoked-70);
+}
+
+.personal-id-not-registered-modal__link {
+  all: unset;
+  cursor: pointer;
+  width: 224px;
+  align-self: center;
+  padding: 12px 44px;
+  background-color: var(--cucumber);
+  color: white;
+  border-radius: 4px;
+}
+
+.personal-id-not-registered-modal__link:hover {
+  background-color: var(--cucumber-white-15);
+  text-decoration: none;
+}
+
+.personal-id-not-registered-modal__button {
+  margin-top: 26px;
+}

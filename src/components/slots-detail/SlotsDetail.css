@@ -1,0 +1,79 @@
+.slots-detail {
+  width: 100%;
+}
+
+.slots-detail__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 220px;
+  margin-right: -8px;
+}
+
+.slots-detail__section {
+  margin: 0;
+  margin-top: 24px;
+  padding: 0;
+  border: none;
+}
+
+.slots-detail__description {
+  margin-bottom: 32px;
+}
+
+.slots-detail__footer {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+
+.slots-detail__footer .ui-button {
+  min-width: 120px;
+}
+
+.slots-detail__footer .ui-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.slots-detail__days-alert-banner {
+  opacity: 0;
+  transition: 0.5s ease;
+  margin-top: -40px;
+}
+
+.slots-detail__days-alert-banner.visible {
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.days-alert-banner__title {
+  color: var(--chocolat);
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 16px;
+  opacity: 0;
+  background-color: var(--egg-40);
+  border-radius: 8px;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.slots-detail__days-alert-banner.visible .days-alert-banner__title {
+  opacity: 1;
+}
+
+.days-alert-banner__title .ui-icon {
+  color: var(--orange);
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+.slots-detail__separator {
+  margin-top: 0;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid var(--white-cream);
+}

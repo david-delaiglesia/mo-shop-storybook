@@ -1,0 +1,6 @@
+.commercial-image img {
+  width: 480px;
+  height: 618px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}

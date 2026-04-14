@@ -1,0 +1,7 @@
+.address-list__title {
+  margin: 24px 0 16px 0;
+}
+
+.address-list__loader {
+  flex-grow: 1;
+}

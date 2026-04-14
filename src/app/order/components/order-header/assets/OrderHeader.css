@@ -1,0 +1,36 @@
+.order-header {
+  background: var(--white);
+  padding: 18px;
+  border-bottom: 0.5px solid var(--white-cream);
+}
+
+.order-header .ui-icon {
+  color: var(--cucumber);
+}
+
+.order-header img {
+  width: 42px;
+  height: auto;
+  margin: 0 10px 0 12px;
+}
+
+.order-header p {
+  margin: 0;
+}
+
+.order-header .order-header__go-back {
+  width: auto;
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.order-header__go-back:active {
+  outline: none;
+}
+
+.order-header__title {
+  font-weight: 400;
+  letter-spacing: normal;
+}

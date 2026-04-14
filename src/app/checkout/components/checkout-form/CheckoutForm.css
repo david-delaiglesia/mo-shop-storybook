@@ -1,0 +1,19 @@
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.checkout-form > * {
+  margin-bottom: 12px;
+}
+
+.checkout-form__disclaimer {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.checkout-form__disclaimer-title {
+  margin-bottom: 8px;
+}

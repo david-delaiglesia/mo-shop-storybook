@@ -1,0 +1,110 @@
+.shopping-list-suggestion-skeleton__card {
+  width: 304px;
+  height: 112px;
+  border-radius: 8px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.shopping-list-suggestion-skeleton__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 176px;
+  height: 88px;
+}
+
+.shopping-list-suggestion-skeleton__product-name {
+  width: 160px;
+  height: 12px;
+  margin-bottom: 4px;
+}
+
+.shopping-list-suggestion-skeleton__product-name--second-line {
+  width: 104px;
+  height: 12px;
+  margin-bottom: 6px;
+}
+
+.shopping-list-suggestion-skeleton__image {
+  width: 88px;
+  height: 88px;
+}
+
+.shopping-list-suggestion-skeleton__price {
+  width: 42px;
+  height: 16px;
+  margin-bottom: 18px;
+}
+
+.shopping-list-suggestion-skeleton__save-button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-list-suggestion-skeleton__save-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.shopping-list-suggestion-skeleton__save-button-title {
+  width: 57px;
+  height: 17px;
+}
+
+@media (max-width: 1440px) {
+  .shopping-list-suggestion-skeleton__card {
+    width: 250px;
+  }
+
+  .shopping-list-suggestion-skeleton__data {
+    width: 127px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name {
+    width: 122px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name--second-line {
+    width: 84px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .shopping-list-suggestion-skeleton__card {
+    width: 400px;
+  }
+
+  .shopping-list-suggestion-skeleton__data {
+    width: 280px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name {
+    width: 200px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name--second-line {
+    width: 104px;
+  }
+}
+
+@media (max-width: 992px) {
+  .shopping-list-suggestion-skeleton__card {
+    width: 290px;
+  }
+
+  .shopping-list-suggestion-skeleton__data {
+    width: 176px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name {
+    width: 160px;
+  }
+
+  .shopping-list-suggestion-skeleton__product-name--second-line {
+    width: 104px;
+  }
+}

@@ -1,0 +1,14 @@
+.cookie-configuration-item-list {
+  color: var(--smoked-70);
+  padding-left: 16px;
+}
+
+.cookie-configuration-item-list__cookie-name {
+  list-style: none;
+}
+
+.cookie-configuration-item-list__cookie-info {
+  list-style-type: disc;
+  display: list-item;
+  margin-left: 40px;
+}

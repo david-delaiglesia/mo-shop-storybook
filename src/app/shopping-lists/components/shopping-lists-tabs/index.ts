@@ -1,0 +1,1 @@
+export { ShoppingListsTabs } from './ShoppingListsTabs'

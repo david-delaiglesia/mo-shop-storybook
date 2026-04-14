@@ -1,0 +1,28 @@
+.product-cell__new-arrival-label {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 2px 6px;
+  z-index: 1;
+  background: #fbba16;
+  border-radius: 4px;
+  font-weight: 700;
+  font-style: Italic;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.product-cell__new-arrival-label--redesign {
+  top: 174px;
+  left: 10px;
+  right: auto;
+  padding: 0px 6px;
+  height: 24px;
+  background: #ffe941;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  font-family: 'Mercadona Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 23px;
+}

@@ -1,0 +1,11 @@
+.summary-taxes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--smoked-70);
+
+  .summary-taxes__tax {
+    flex: none;
+  }
+}

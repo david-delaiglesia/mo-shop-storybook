@@ -1,0 +1,56 @@
+.cart-button {
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(118deg, #fedd5f, var(--egg));
+  color: var(--chocolat);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+}
+
+.cart-button .cart-button__bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--chocolat);
+  padding: 2px 0;
+  height: 24px;
+  text-align: center;
+  color: var(--white);
+}
+
+.cart-button .cart-button__label {
+  color: var(--chocolat);
+  cursor: pointer;
+  width: 50px;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.cart-button:hover {
+  background: linear-gradient(118deg, #fedd5f, var(--egg-white-15));
+}
+
+.cart-button:active,
+.cart-button:focus {
+  outline: none;
+  background: linear-gradient(118deg, #fedd5f, var(--egg-red-10));
+}
+
+.cart-button .ui-icon {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cart-button--empty {
+  color: var(--smoked-40);
+}
+
+.cart-button--empty:focus {
+  outline: none;
+  color: var(--smoked-70);
+}

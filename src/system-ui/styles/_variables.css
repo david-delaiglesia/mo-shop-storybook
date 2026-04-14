@@ -1,0 +1,26 @@
+@import '../../../node_modules/@mercadona/mo.library.shop-ui/styles/variables.css';
+
+:root {
+  /* Colours */
+  --cucumber-white-15: rgb(38, 184, 121);
+  --cucumber-black-20: rgb(0, 137, 78);
+  --white-cucumber-10: rgb(229, 247, 239);
+  --egg-white-15: rgb(252, 195, 80);
+  --egg-red-10: rgb(252, 166, 44);
+  --tomato-white-15: rgb(223, 38, 38);
+  --tomato-black-20: rgb(174, 0, 0);
+  --tomato-100: rgba(217, 0, 0);
+
+  /* Fonts */
+  --primary-font: 'Open Sans';
+  --condensed-font: 'Open Sans Condensed';
+
+  /* Elements */
+  --max-cell-width: 216px;
+  --navbar-height: 76px;
+  --footer-height: 70px;
+  --cart-width: 24rem;
+  --slot-height: 36px;
+  --slots-gap: 8px;
+  --shopping-list-height: 100vh - 76px - 102px;
+}

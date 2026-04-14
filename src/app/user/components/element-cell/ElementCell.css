@@ -1,0 +1,26 @@
+.element-cell {
+  position: relative;
+  padding-left: 80px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-default);
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+
+  .element-cell__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .element-cell__actions {
+    display: flex;
+    gap: 16px;
+
+    .element-cell__action-warning {
+      align-self: center;
+    }
+  }
+}

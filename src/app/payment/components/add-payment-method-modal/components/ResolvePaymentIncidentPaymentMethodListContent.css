@@ -1,0 +1,38 @@
+.resolve-payment-incident-payment-method-list-content__payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.resolve-payment-incident-payment-method-list-content__add-new {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--cucumber);
+  border-radius: 16px;
+
+  &:hover {
+    color: var(--cucumber-white-15);
+  }
+  &:active {
+    color: var(--cucumber-black-20);
+  }
+
+  .resolve-payment-incident-payment-method-list-content__add-new__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: var(--white-cream-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.resolve-payment-incident-payment-method-list-content__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}

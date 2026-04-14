@@ -1,0 +1,41 @@
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .payment-list__loader {
+    flex-grow: 1;
+  }
+
+  .payment-container__header {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--smoked-20);
+  }
+
+  .payment-container__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .payment-container__section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .payment-list__title {
+      margin: 0;
+    }
+  }
+
+  .payment-list__title {
+    margin: 0 0 16px 0;
+  }
+
+  @media (max-width: 992px) {
+    .payment-list {
+      padding: 0 10px;
+    }
+  }
+}

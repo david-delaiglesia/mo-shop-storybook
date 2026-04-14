@@ -1,0 +1,51 @@
+.address-picker {
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.address-picker-addresses {
+  max-height: 505px;
+  overflow-y: auto;
+}
+
+.address-picker--shadow {
+  box-shadow: var(--shadow-hard);
+}
+
+.address-picker-title {
+  margin-bottom: 8px;
+}
+
+.address-picker__add-button {
+  color: var(--cucumber);
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.address-picker__add-button:focus {
+  outline: none;
+  color: var(--cucumber-black-20);
+}
+
+.address-picker__add-button .ui-icon {
+  margin-right: 16px;
+}
+
+.address-picker-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+  border-top: 0.5px solid var(--white-cream);
+}
+
+.address-picker-buttons .button {
+  width: 120px;
+}
+
+.address-picker__cancel-button {
+  margin-right: 10px;
+  color: var(--smoked-70);
+  font-weight: 600;
+}

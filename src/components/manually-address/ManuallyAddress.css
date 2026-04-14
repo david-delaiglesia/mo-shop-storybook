@@ -1,0 +1,31 @@
+.geosuggest .geosuggest-input-list .manually-address {
+  cursor: default;
+  padding-top: 16px;
+}
+
+.manually-address .manually-address__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-cream-light);
+  padding: 8px 16px;
+  border-radius: 8px;
+  gap: 8px;
+  align-items: center;
+}
+
+.manually-address
+  .manually-address__content
+  .manually-address__content__action {
+  padding: 2px 16px;
+  color: var(--cucumber);
+  cursor: pointer;
+}
+
+.manually-address
+  .manually-address__content
+  .manually-address__content__action:hover,
+.manually-address--active:not(:hover)
+  .manually-address__content
+  .manually-address__content__action {
+  color: var(--cucumber-black-20);
+}

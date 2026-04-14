@@ -1,0 +1,1 @@
+export { CartProductAlert } from './CartProductAlert'

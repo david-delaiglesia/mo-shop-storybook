@@ -1,0 +1,1 @@
+export { SuggestionProductItem } from './SuggestionProductItem'

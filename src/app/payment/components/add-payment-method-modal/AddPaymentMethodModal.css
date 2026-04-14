@@ -1,0 +1,44 @@
+.add-payment-method-modal__types {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.add-payment-method-modal__payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.add-payment-method-modal__add-new {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--cucumber);
+  border-radius: 16px;
+
+  &:hover {
+    color: var(--cucumber-white-15);
+  }
+  &:active {
+    color: var(--cucumber-black-20);
+  }
+
+  .add-payment-method-modal__add-new__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: var(--white-cream-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.add-payment-method-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}

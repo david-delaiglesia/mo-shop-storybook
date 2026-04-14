@@ -1,0 +1,57 @@
+.invoice-request-modal__container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  padding: 40px;
+  align-items: flex-start;
+}
+
+.invoice-request-modal__title {
+  margin: 0px 0px 32px;
+}
+
+.invoice-request-modal__buttons-container {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.invoice-request-modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.invoice-request-modal__input {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.invoice-request-modal__input-label {
+  margin-bottom: 16px;
+  color: var(--smoked-70);
+}
+
+.invoice-request-modal__description {
+  color: var(--smoked-70);
+}
+
+.invoice-request-modal__link-container {
+  display: flex;
+  align-items: center;
+  color: var(--cucumber);
+  margin-top: 8px;
+}
+
+.invoice-request-modal__link {
+  color: var(--cucumber);
+  margin-right: 4px;
+}
+
+.invoice-request-moda__accept-button {
+  width: 156px;
+  align-self: center;
+  margin-top: 32px;
+}

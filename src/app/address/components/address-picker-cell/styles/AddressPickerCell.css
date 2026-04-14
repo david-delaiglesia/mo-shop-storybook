@@ -1,0 +1,72 @@
+.address-picker-cell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid var(--white-cream);
+  padding: 16px 0;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.address-picker-cell:focus {
+  outline: none;
+
+}
+
+.address-picker-cell:focus .address-picker-cell__check {
+  border-color: var(--smoked-70);
+}
+
+.address-picker-cell > .ui-icon {
+  margin-right: 10px;
+  color: var(--cucumber);
+  font-size: 1.75rem;
+}
+
+.address-picker-cell__address-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.address-picker-cell__detail {
+  margin-left: 8px;
+}
+
+.address-picker-cell__postal-code,
+.address-picker-cell__town {
+  color: var(--smoked-70);
+}
+
+.address-picker-cell__town {
+  margin-left: 5px;
+}
+
+.address-picker-cell__check {
+  width: 28px;
+  height: 28px;
+  border: 0.5px solid var(--white-cream);
+  border-radius: 14px;
+  margin-left: auto;
+
+}
+
+.address-picker-cell__check .ui-icon {
+  color: var(--white);
+  font-size: 28px;
+}
+
+.address-picker-cell__check.active {
+  background-color: var(--cucumber);
+  border-color: var(--cucumber);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-picker-cell__address-town {
+  flex-basis: 100%;
+}

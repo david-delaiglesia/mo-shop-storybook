@@ -1,0 +1,65 @@
+.order-summary .order-summary__detail {
+  border-bottom: 1px solid var(--white-cream);
+  margin-bottom: 12px;
+}
+
+.order-summary .order-summary__detail .order-summary__subtotal {
+  margin-bottom: 11px;
+}
+
+.order-summary
+  .order-summary__detail
+  .order-summary__subtotal
+  > p:last-of-type {
+  color: var(--smoked-70);
+}
+
+.order-summary .order-summary__delivery,
+.order-summary .order-summary__products,
+.order-summary .order-summary__total,
+.order-summary .order-summary__volume-extra-row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.order-summary .order-summary__delivery p:last-child,
+.order-summary .order-summary__products p:last-child,
+.order-summary .order-summary__total p:last-child,
+.order-summary .order-summary__volume-extra-row p:last-child {
+  margin-left: auto;
+}
+
+.order-summary .order-summary__total {
+  margin-bottom: 2px;
+}
+
+.order-summary .order-summary__delivery {
+  margin-bottom: 12px;
+}
+
+.order-summary .order-summary__delivery-bonus {
+  margin-bottom: 4px;
+}
+
+.order-summary .order-summary__volume-extra-row {
+  margin-top: 8px;
+}
+
+.order-summary .order-summary__volume-extra-row .order-summary__volume-extra {
+  display: inline-flex;
+}
+
+.order-summary .tooltip .ui-icon {
+  margin: 4px 0 0 4px;
+  color: var(--smoked-40);
+}
+
+.order-summary .tooltip:focus .ui-icon {
+  color: var(--cucumber);
+}
+
+.order-summary__subtotals-subtitle {
+  width: 200px;
+  color: var(--smoked-70);
+  margin-bottom: 16px;
+}

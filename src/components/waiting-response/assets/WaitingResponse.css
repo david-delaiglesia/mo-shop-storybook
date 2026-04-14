@@ -1,0 +1,14 @@
+.waiting-response {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.waiting-response .loader > div {
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background-color: var(--cucumber);
+}

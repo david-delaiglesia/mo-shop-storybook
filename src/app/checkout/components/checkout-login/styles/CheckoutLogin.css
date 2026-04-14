@@ -1,0 +1,45 @@
+:root {
+  --input-width: 316px;
+}
+
+.checkout-login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkout-login .checkout-login__title {
+  margin: 0;
+}
+
+.checkout-login .input-text {
+  width: var(--input-width);
+}
+
+.checkout-login .input-password {
+  width: var(--input-width);
+}
+
+.checkout-login .login__hidden-email {
+  display: none;
+}
+
+.checkout-login .checkout-login__message {
+  margin: 16px 0 24px;
+}
+
+.checkout-login .checkout-login__recover-pass {
+  color: var(--smoked-70);
+  text-decoration: underline;
+  margin: 20px 0 20px;
+  display: block;
+}
+
+.checkout-login .checkout-login__recover-pass:focus {
+  outline: none;
+  color: var(--black);
+}
+
+.checkout-login > .button {
+  width: 102px;
+}

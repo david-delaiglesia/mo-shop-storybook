@@ -1,0 +1,35 @@
+#root .mobile-blocker-layout ~ * {
+  display: none;
+}
+
+.ios-layout,
+.android-layout,
+.generic-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ios-layout .market-links__ios,
+.ios-layout .market-links__android,
+.android-layout .market-links__ios,
+.android-layout .market-links__android,
+.generic-layout .market-links__ios,
+.generic-layout .market-links__android {
+  margin-top: 40px;
+  width: 151px;
+}
+
+.ios-layout .ios-layout__image,
+.ios-layout .android-layout__image,
+.ios-layout .generic-layout__image,
+.android-layout .ios-layout__image,
+.android-layout .android-layout__image,
+.android-layout .generic-layout__image,
+.generic-layout .ios-layout__image,
+.generic-layout .android-layout__image,
+.generic-layout .generic-layout__image {
+  margin-top: 40px;
+  width: 311px;
+  height: 363px;
+}

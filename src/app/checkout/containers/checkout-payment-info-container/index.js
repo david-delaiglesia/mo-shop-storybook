@@ -1,0 +1,1 @@
+export { CheckoutPaymentInfoContainer } from './CheckoutPaymentInfoContainer'

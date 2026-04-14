@@ -1,0 +1,41 @@
+.divider {
+  display: flex;
+
+  &[aria-orientation='horizontal'] {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .divider__separator {
+      width: 100%;
+      height: 1px;
+    }
+
+    .divider__text {
+      padding: 0 8px;
+    }
+  }
+
+  &[aria-orientation='vertical'] {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
+    .divider__separator {
+      width: 1px;
+      height: 100%;
+    }
+
+    .divider__text {
+      padding: 8px 0;
+    }
+  }
+
+  .divider__separator {
+    background-color: var(--white-cream);
+  }
+
+  .divider__text {
+    color: var(--smoked-40);
+  }
+}

@@ -1,0 +1,42 @@
+.error-500 {
+  margin: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.error-500__header {
+  width: 100%;
+  height: auto;
+}
+
+.error-500__message {
+  margin: 32px 0 22px;
+  max-width: 375px;
+}
+
+.error-500__pic {
+  margin-top: 3rem;
+  width: 200px;
+  height: auto;
+  align-self: center;
+}
+
+@media (min-width: 480px) {
+  .error-500 {
+    margin: 60px;
+    align-items: flex-start;
+  }
+
+  .error-500__header {
+    width: 375px;
+  }
+
+  .error-500__message {
+    margin: 32px 0;
+  }
+
+  .error-500__pic {
+    align-self: flex-end;
+  }
+}

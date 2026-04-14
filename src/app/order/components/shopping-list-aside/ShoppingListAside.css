@@ -1,0 +1,29 @@
+.shopping-list-aside__wrapper {
+  position: absolute;
+  background-color: var(--white);
+  height: 100%;
+}
+
+@media (max-width: 1440px) {
+  .shopping-list-aside__wrapper {
+    box-shadow: var(--shadow-hard);
+  }
+}
+
+.shopping-list-aside__content-wrapper {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  width: 300px;
+  padding: 16px 0px;
+  background-color: var(--white-cream-light);
+  height: 100%;
+}
+
+.shopping-list-aside__loader {
+  color: var(--cucumber);
+  height: 60%;
+  display: flex;
+}

@@ -1,0 +1,26 @@
+.ui-small-modal .ui-modal-content {
+  width: 408px;
+}
+
+.ui-small-modal__title {
+  margin: 0 0 12px;
+}
+
+.ui-small-modal__description {
+  color: var(--smoked-70);
+}
+
+.ui-small-modal__actions {
+  display: flex;
+  margin-top: 24px;
+}
+
+.ui-small-modal__actions .ui-button + .ui-button {
+  margin-left: 16px;
+}
+
+.ui-small-modal__image {
+  max-width: 120px;
+  max-height: 120px;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,33 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader > div {
+  border-radius: 100%;
+  animation: loader 1.2s infinite ease-in-out both;
+}
+
+.loader .circle1 {
+  animation-delay: 0s;
+}
+
+.loader .circle2 {
+  animation-delay: 0.12s;
+}
+
+.loader .circle3 {
+  animation-delay: 0.24s;
+}
+
+@keyframes loader {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+}

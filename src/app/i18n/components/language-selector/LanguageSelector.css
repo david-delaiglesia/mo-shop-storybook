@@ -1,0 +1,52 @@
+.language_selector {
+  position: relative;
+  width: 70px;
+  line-height: 0.75rem;
+
+}
+
+.language_selector .current_language {
+  justify-content: space-between;
+  display: flex;
+  outline: none;
+  align-items: center;
+}
+
+.current_language p,
+.current_language .ui-icon {
+  font-size: 0.75rem;
+  color: var(--smoked-40);
+}
+
+.current_language .ui-icon {
+  width: 12px;
+}
+
+.current_language.active p,
+.current_language.active .ui-icon {
+  color: var(--black);
+}
+
+.language_selector .drop-down__trigger {
+  width: 100%;
+}
+
+.language_selector .language_list {
+  width: 315px;
+  max-width: calc(100vw - 45px);
+  border-radius: 8px;
+  text-align: left;
+  background-color: var(--white);
+  box-shadow: var(--shadow-default);
+  border: solid 1px var(--smoked-8);
+  position: absolute;
+  overflow: hidden;
+  bottom: 34px;
+  right: 0%;
+}
+
+@media (min-width: 768px) {
+  .language_selector .language_list {
+    max-width: 109px;
+  }
+}

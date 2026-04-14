@@ -1,0 +1,40 @@
+.ui-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ui-switch .ui-switch__input {
+  display: none;
+}
+
+.ui-switch .ui-switch__switcher {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0.5px 1.5px 0px rgba(0, 0, 0, 0.12) inset;
+  border-radius: 11px;
+}
+
+.ui-switch .ui-switch__switcher:before {
+  position: absolute;
+  cursor: pointer;
+  content: '';
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  top: 2px;
+  background-color: var(--white);
+  transition: 0.4s;
+  border-radius: 100px;
+  box-shadow: 0px 0.25px 0.5px 0.1px rgba(0, 0, 0, 0.12);
+}
+
+.ui-switch__input:checked + .ui-switch__switcher {
+  background-color: var(--cucumber);
+}
+
+.ui-switch__input:checked + .ui-switch__switcher::before {
+  transform: translateX(16px);
+}

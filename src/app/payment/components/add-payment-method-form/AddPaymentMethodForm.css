@@ -1,0 +1,36 @@
+.add-payment-method {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.add-payment-method__iframe {
+  border: none;
+  min-width: 50%;
+  margin-right: 32px;
+}
+
+.add-payment-method__iframe--ceca {
+  min-height: 220px;
+}
+
+.add-payment-method__iframe--redsys {
+  min-height: 325px;
+}
+
+.add-payment-method__info {
+  padding: 8px 0;
+}
+
+.add-payment-method__title {
+  margin-bottom: 16px;
+}
+
+.add-payment-method__image {
+  width: fit-content;
+  margin-bottom: 16px;
+}
+
+.add-payment-method__description {
+  color: var(--smoked-70);
+  margin-top: auto;
+}

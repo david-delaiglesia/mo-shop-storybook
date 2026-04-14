@@ -1,0 +1,126 @@
+.slots-calendar {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slots-calendar__days {
+  width: 200%;
+  transition: 0.6s ease;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slots-calendar__title {
+  margin-top: 24px;
+}
+
+.slots-calendar__description {
+  margin-bottom: 32px;
+}
+
+.slots-calendar__content {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.slots-calendar-today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  background-color: var(--white);
+  color: var(--smoked-40);
+  cursor: not-allowed;
+}
+
+.slots-calendar-today.slots-calendar-today__extended-cutoff {
+  border-radius: 50%;
+  border: solid 1px var(--blueberry-40);
+  color: var(--black);
+  cursor: pointer;
+}
+
+.slots-calendar-today.slots-calendar-today__extended-cutoff:hover {
+  border: solid 1px var(--blueberry);
+}
+
+
+.slots-calendar-today.slots-calendar-today__extended-cutoff--disabled {
+  color: var(--smoked-40);
+  border: none;
+  cursor: not-allowed;
+}
+
+.slots-calendar-today.slots-calendar-today__extended-cutoff--disabled:hover {
+    border: none;
+}
+
+.slots-calendar-today__extended-cutoff--selected {
+  color: var(--white) !important;
+  background-color: var(--blueberry);
+}
+
+.slots-calendar-today__extended-cutoff--selected .title2-r {
+    font-weight: bold;
+}
+
+.slots-calendar-today__extended-cutoff .footnote1-r {
+    margin-top: -4px;
+}
+
+.slots-calendar__left-arrow,
+.slots-calendar__right-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--cucumber);
+  height: 56px;
+  width: 56px;
+  cursor: pointer;
+}
+
+.slots-calendar__left-arrow,
+.slots-calendar__right-arrow {
+  outline: none;
+  text-align: center;
+}
+
+.slots-calendar__right-arrow:disabled {
+  cursor: not-allowed;
+  color: var(--smoked-40);
+}
+
+.slots-calendar-today,
+.slots-calendar__left-arrow {
+  margin: 4px 20px 4px 3px;
+}
+
+.slots-calendar__right-arrow {
+  margin: 4px 3px 4px 20px;
+}
+
+.slots-calendar__days-wrapper {
+  flex: 1;
+  overflow: hidden;
+  padding: 4px 0;
+}
+
+@media (min-width: 1440px) {
+  .slots-calendar__left-arrow,
+  .slots-calendar-today {
+    margin-left: 9px;
+    margin-right: 26px;
+  }
+
+  .slots-calendar__right-arrow {
+    margin-right: 9px;
+    margin-left: 26px;
+  }
+}

@@ -1,0 +1,53 @@
+.chat-contextual-menu {
+  position: relative;
+}
+
+.chat-contextual-menu__toggle {
+  color: var(--cucumber);
+}
+
+.chat-contextual-menu__popup {
+  border-radius: 8px;
+  background: var(--white);
+  filter: drop-shadow(0 4px 15px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  right: -16px;
+  z-index: 1;
+  top: 35px;
+}
+
+.chat-contextual-menu__popup::after {
+  content: '';
+  width: 47px;
+  height: 13px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='47' height='13' viewBox='0 0 47 13' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M0 12.9966C1.71249 12.9966 3.42448 13.0051 5.13697 12.9866C6.77598 12.9686 8.61044 12.9431 10.2055 12.3416C11.9284 11.6916 13.0691 10.555 14.2168 9.21751C15.043 8.25549 16.666 6.20294 17.4563 5.21192C18.1031 4.3994 19.3692 2.79337 20.0605 2.01635C20.9308 1.03883 22.0064 -0.000190735 23.5005 -0.000190735C24.9946 -0.000190735 26.0697 1.03883 26.9395 2.01535C27.6308 2.79187 28.8969 4.3989 29.5442 5.21092C30.3335 6.20194 31.9565 8.25449 32.7832 9.21651C33.9329 10.554 35.0716 11.6906 36.794 12.3406C38.3896 12.9406 40.2245 12.9676 41.8625 12.9856C43.5755 13.0041 45.2875 12.9956 47 12.9956' fill='white'/></svg>")
+    no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: -10px;
+  right: 4px;
+}
+
+.chat-contextual-menu__popup[aria-hidden='true'] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.chat-contextual-menu__popup[aria-hidden='false'] {
+  visibility: visible;
+  opacity: 1;
+}
+
+.chat-contextual-menu__menu-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.chat-contextual-menu__menu-item--is-destructive {
+  color: var(--tomato-100);
+}

@@ -1,0 +1,6 @@
+.ui-close-modal-button__button {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: var(--smoked-70)
+}

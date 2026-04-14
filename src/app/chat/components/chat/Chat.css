@@ -1,0 +1,109 @@
+.chat {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.chat-conversation {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 8px;
+  height: 640px;
+  width: 370px;
+  border-radius: 32px;
+  background-color: var(--white);
+  box-shadow: var(--shadow-hard);
+}
+
+.chat-conversation__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 64px;
+  padding: 16px 24px;
+  border-bottom: 0.33px solid var(--smoked-20);
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.chat-conversation__heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.chat-conversation__section {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+
+.chat-conversation__messages-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-conversation__header-button {
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: var(--white-cream-light);
+  color: var(--smoked-70);
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-conversation__header-button--minimize {
+  align-items: flex-end;
+  padding-bottom: 6px;
+}
+
+.chat-conversation__header-buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.chat-conversation__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.chat-conversation__title {
+  font-family: var(--primary-font);
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.chat-conversation__loader {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-conversation__loader .loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  background-color: var(--white);
+  gap: 8px;
+}
+
+.chat-conversation__loader .loader > div {
+  width: 8px;
+  height: 8px;
+  background-color: var(--cucumber);
+}

@@ -1,0 +1,124 @@
+.payment-method-form__title {
+  margin-bottom: 16px;
+}
+
+.payment-method-form__option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--smoked-20);
+  cursor: pointer;
+  user-select: none;
+}
+
+.payment-method-form__option--new label {
+  height: 2rem;
+}
+
+.payment-method-form__option--new.payment-method-form__option--selected {
+  border-bottom: 0;
+}
+
+.payment-method-form__option label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: inherit;
+}
+
+.payment-method-form__hidden-number,
+.payment-method-form__number {
+  margin-right: 8px;
+}
+
+.payment-method-form__expires {
+  color: var(--smoked-70);
+}
+
+.payment-method-form__option input {
+  margin-left: auto;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.payment-method-form__option-check {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 1rem;
+  border: 1px solid var(--smoked-20);
+  pointer-events: none;
+}
+
+.payment-method-form__option-check .ui-icon {
+  display: none;
+}
+
+.payment-method-form__option
+  input:checked
+  ~ .payment-method-form__option-check {
+  background-color: var(--cucumber);
+  border-color: transparent;
+}
+
+.payment-method-form__option
+  input:checked
+  ~ .payment-method-form__option-check
+  .ui-icon {
+  display: inline;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.keyboard-user
+  .payment-method-form__option
+  input:focus
+  ~ .payment-method-form__option-check {
+  border-color: var(--white);
+  box-shadow: 0 0 2px 2px var(--cucumber);
+}
+
+.payment-method-form__card-icon {
+  display: inline-flex;
+  width: 3rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 16px;
+}
+
+.payment-method-form__card-icon.card-icon__unknown {
+  background-image: url('./assets/credit-card.png');
+}
+
+.payment-method-form__card-icon.card-icon__visa {
+  background-image: url('./assets/visa.png');
+}
+
+.payment-method-form__card-icon.card-icon__mastercard {
+  background-image: url('./assets/mastercard.png');
+}
+
+.payment-method-form__card-icon.card-icon__maestro {
+  background-image: url('./assets/maestro.png');
+}
+
+.payment-method-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+
+.payment-method-form__actions .ui-button:not(:last-child) {
+  margin-right: 16px;
+}

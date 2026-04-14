@@ -1,0 +1,57 @@
+.select-shopping-list-dialog__wrapper .modal-content {
+  padding: 0 2rem;
+}
+
+.select-shopping-list-dialog__content {
+  width: 472px;
+  height: 480px;
+  padding: 32px 0px;
+  text-align: left;
+}
+
+.select-shopping-list-dialog__title {
+  margin-bottom: 8px;
+}
+
+.select-shopping-list-dialog__description {
+  color: var(--smoked-70);
+  margin-bottom: 8px;
+}
+
+.select-shopping-list-dialog__card {
+  display: flex;
+  flex-direction: column;
+  height: 324px;
+  overflow-y: auto;
+}
+
+.select-shopping-list-dialog__create-new-list-button {
+  color: var(--cucumber);
+}
+
+.select-shopping-list-dialog__create-new-list-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  margin-right: 32px;
+}
+
+.select-shopping-list-dialog__create-new-list-icon {
+  height: 40px;
+  width: 40px;
+  background-color: var(--white-cream-light);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-shopping-list-dialog__card-item-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: clip;
+}

@@ -1,0 +1,15 @@
+.add-product-to-list {
+  display: flex;
+  padding: 8px;
+  background-color: var(--white-cream-light);
+  border-radius: 12px;
+}
+
+.add-product-to-list__image {
+  color: var(--cucumber);
+  margin-right: 4px;
+}
+
+.add-product-to-list__text {
+  color: var(--cucumber);
+}

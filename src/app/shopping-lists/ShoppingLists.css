@@ -1,0 +1,33 @@
+.shopping-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: inherit;
+}
+
+.shopping-lists__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--white-cream);
+  align-items: center;
+}
+
+.shopping_lists__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.shopping-lists__loader {
+  width: 810px;
+  height: calc(var(--shopping-list-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cucumber);
+}

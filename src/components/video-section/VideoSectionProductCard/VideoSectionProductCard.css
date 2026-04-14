@@ -1,0 +1,110 @@
+.video-section-product-card {
+  position: relative;
+  display: flex;
+  gap: 8px;
+
+  padding: 8px 12px 8px 8px;
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 152px;
+  background: var(--white);
+
+  border-radius: 8px;
+  transition: 0.2s box-shadow ease-in-out;
+  cursor: pointer;
+}
+
+.video-section-product-card:hover {
+  box-shadow: var(--shadow-hard);
+}
+
+.video-section-product-card__open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: inherit;
+}
+
+.video-section-product-card .product-price {
+  margin-bottom: 0px;
+}
+
+.video-section-product-card__image {
+  align-self: center;
+  flex-shrink: 0;
+  width: 136px;
+  height: 136px;
+}
+
+.video-section-product-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.video-section-product-card__info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video-section-product-card__name {
+  margin-top: 0;
+  margin-bottom: 2px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.video-section-product-card__actions {
+  position: relative;
+  z-index: 2;
+}
+
+/* STRIKE 2, se repite en product cell */
+.video-section-product-card .product-price__unit-price {
+  transition: font-size 0.2s ease;
+  line-height: 1em;
+  font-size: 1.125rem;
+}
+
+.video-section-product-card--in-cart .product-price__unit-price {
+  font-size: 0.875rem;
+}
+
+.video-section-product-card--in-cart .product-quantity-button {
+  margin-top: 4px;
+  padding-top: 4px;
+
+  border-top: 1px solid var(--white-cream);
+}
+
+.video-section-product-card .product-quantity-button {
+  height: auto;
+  padding-bottom: 4px;
+}
+
+.video-section-product-card .product-quantity-button .button-rounded,
+.video-section-product-card .product-quantity-button .button-picker {
+  position: initial;
+}
+
+.video-section-product-card .product-quantity-button .button-rounded,
+.video-section-product-card
+  .product-quantity-button
+  .button-picker
+  .button-picker__actions {
+  margin-top: 8px;
+}
+
+.video-section-product-card .product-format.product-format__size--cell {
+  display: flex;
+  gap: 2px;
+}

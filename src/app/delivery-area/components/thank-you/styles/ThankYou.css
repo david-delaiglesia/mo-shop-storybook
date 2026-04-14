@@ -1,0 +1,21 @@
+.thank-you {
+  padding: 40px;
+  width: 416px;
+}
+
+.thank-you .thank-you__mail-image {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.thank-you .thank-you__title {
+  margin: 24px 0 12px;
+  text-align: center;
+}
+
+.thank-you .thank-you__description {
+  color: var(--smoked-70);
+  margin-bottom: 24px;
+  text-align: center;
+}

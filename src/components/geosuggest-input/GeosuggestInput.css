@@ -1,0 +1,29 @@
+.geosuggest {
+  position: relative;
+}
+
+.geosuggest .geosuggest-input-list {
+  width: 100%;
+  border-radius: 4px;
+  text-align: left;
+  background-color: var(--white);
+  box-shadow: var(--shadow-default);
+  border: solid 1px var(--smoked-8);
+  z-index: 2;
+  position: absolute;
+  top: 100%;
+}
+
+.geosuggest .geosuggest-input-list ul {
+  pointer-events: none;
+}
+
+.geosuggest .geosuggest-input-list li {
+  padding: 8px 10px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.geosuggest .geosuggest-input-list.geosuggest-input-list--hide {
+  display: none;
+}

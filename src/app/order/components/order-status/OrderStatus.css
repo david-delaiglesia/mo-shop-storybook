@@ -1,0 +1,40 @@
+.order-status {
+  margin-top: 32px;
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.order-status__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-status__content-title {
+  margin: 0;
+  padding: 0;
+
+}
+.order-status__content-title.order-status__content-title--cancelled {
+  color: var(--tomato);
+}
+
+.order-status__content-title.order-status__content-title--incidence {
+  color: var(--orange);
+}
+
+.order-status__content-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-status__content-body-message {
+  color: var(--smoked-70);
+}
+
+.order-status__content-body-message--bold {
+  color: var(--black);
+}

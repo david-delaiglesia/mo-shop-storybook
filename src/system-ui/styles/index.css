@@ -1,0 +1,172 @@
+@import '_icons.css';
+@import '_z-index.css';
+@import '_fonts.css';
+@import '_variables.css';
+@import '_recaptcha.css';
+@import '../../../node_modules/@mercadona/mo.library.shop-ui/styles/typography.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body:not(.keyboard-user) *:focus {
+  outline: none;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: var(--white);
+  border-radius: 5px;
+}
+
+body.scroll--block {
+  overflow: hidden;
+  -webkit-overflow-scrolling: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+div {
+  outline: none;
+}
+
+span {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+a {
+  color: var(--smoked-20);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.m-404 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.m-404 .button {
+  width: auto;
+  margin: 10px;
+}
+
+.zEWidget-webWidget:not(.zEWidget-webWidget--active) {
+  opacity: 0 !important;
+  display: none;
+  top: -9999px;
+}
+
+#webWidget {
+  max-height: 565px !important;
+}
+
+.ui-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.address-confirmation-modal__map-container .gmnoprint {
+  display: block;
+}
+
+.gm-control-active > img {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.gm-style-mtc > button {
+  font-size: 12px !important;
+}
+
+.gmnoprint.gm-style-mtc-bbw {
+  margin: 4px !important;
+}
+
+.gm-style-mtc > button {
+  font-size: 12px !important;
+}
+
+.gmnoprint.gm-style-mtc-bbw {
+  margin: 4px !important;
+  right: 4px !important;
+}
+
+div.address-confirmation-modal__map-container
+  > div.map
+  > div
+  > div.gm-style
+  > div:nth-child(13)
+  > div
+  > div:nth-child(1)
+  > div {
+  visibility: hidden;
+}
+
+.ui-focus-trap
+  > div
+  > div:nth-child(2)
+  > div
+  > div.address-confirmation-modal__map-container
+  > div.map
+  > div
+  > div.gm-style
+  > div:nth-child(13)
+  > div
+  > div:nth-child(2) {
+  position: relative !important;
+  transform: translateY(-55%) !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

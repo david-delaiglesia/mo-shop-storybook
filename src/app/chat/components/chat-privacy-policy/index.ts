@@ -1,0 +1,1 @@
+export { ChatPrivacyPolicy } from './ChatPrivacyPolicy'

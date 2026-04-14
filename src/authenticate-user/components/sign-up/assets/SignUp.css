@@ -1,0 +1,64 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sign-up h1 {
+  margin: 0 0 16px;
+}
+
+.sign-up label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.sign-up .input-text {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.sign-up .input-text .input-text__label {
+  padding-top: 14px;
+}
+
+.sign-up .input-password {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.sign-up .input-password .input-text {
+  margin-bottom: 0;
+}
+
+.sign-up
+  .input-password
+  .input-text
+  .input-text__message.input-text__message--error {
+  display: none;
+}
+
+.sign-up .terms-conditions {
+  margin: 10px 0 20px;
+  display: flex;
+  width: 100%;
+}
+
+.sign-up .terms-conditions .terms-conditions__policy {
+  margin: 0 0 0 0.3rem;
+}
+
+.sign-up .button {
+  margin-bottom: 16px;
+}
+
+.sign-up .button:last-of-type {
+  color: var(--smoked-70);
+  background: transparent;
+}
+
+.sign-up .button:last-of-type:focus {
+  outline: none;
+  color: var(--black);
+}

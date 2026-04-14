@@ -1,0 +1,58 @@
+.user-area-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--white-cream-light);
+  padding: 2rem;
+}
+
+.user-area-menu {
+  margin-bottom: 2.5rem;
+}
+
+.user-area-menu li {
+  margin-bottom: .75rem;
+}
+
+.user-area-menu li .user-area-menu__item {
+  color: var(--smoked-70);
+  display: flex;
+  padding: .5rem 0;
+  align-items: center;
+}
+
+.user-area-menu li .user-area-menu__item.active,
+.user-area-menu li .user-area-menu__item:hover,
+.user-area-menu li .user-area-menu__item:focus {
+  outline: none;
+  color: var(--cucumber);
+  text-decoration: none;
+}
+
+.user-area-menu li .user-area-menu__item.active .icon,
+.user-area-menu li .user-area-menu__item:hover .icon,
+.user-area-menu li .user-area-menu__item:focus .icon {
+  color: var(--cucumber);
+}
+
+.user-area-menu li .user-area-menu__item .icon {
+  color: var(--smoked-40);
+  font-size: 1.75rem;
+}
+
+.user-area-menu li .user-area-menu__item span {
+  margin-left: .5rem;
+}
+
+.user-area-menu li:hover {
+  cursor: pointer;
+}
+
+.user-area-menu__version {
+  margin-top: auto;
+  color: var(--smoked-40);
+}
+
+.user-area-menu__flag {
+  display: hidden;
+}

@@ -1,0 +1,1 @@
+export { PersonalIdStillNotRegisteredModal } from './PersonalIdStillNotRegistered'

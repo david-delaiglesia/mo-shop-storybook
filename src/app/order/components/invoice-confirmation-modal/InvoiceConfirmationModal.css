@@ -1,0 +1,31 @@
+.invoice-confirmation-modal__container {
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  padding: 52px 80px 32px;
+}
+
+.invoice-confirmation-modal__title {
+  margin: 20px 0px 16px;
+}
+
+.invoice-confirmation-modal__description {
+  margin-bottom: 24px;
+  color: var(--smoked-70);
+}
+
+.invoice-confirmation-modal__image {
+  align-self: center;
+  width: 115px;
+  height: 93px;
+}
+
+.invoice-confirmation-modal__button {
+  width: 224px;
+  align-self: center;
+}
+
+.invoice-confirmation-modal__link {
+  color: var(--cucumber);
+  margin-top: 26px;
+}

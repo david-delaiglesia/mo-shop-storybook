@@ -1,0 +1,11 @@
+export const ORDER_LINE_STATUSES = {
+  PENDING: 'pending',
+  COMPLETE: 'complete',
+  INCOMPLETE: 'incomplete',
+  NOT_AVAILABLE: 'not_available',
+}
+
+export const ORDER_LINE_STATUSES_WITH_PREPARED_UNITS = [
+  ORDER_LINE_STATUSES.COMPLETE,
+  ORDER_LINE_STATUSES.INCOMPLETE,
+]

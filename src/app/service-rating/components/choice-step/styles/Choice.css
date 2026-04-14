@@ -1,0 +1,20 @@
+.choice {
+  border-bottom: 1px solid var(--white-cream);
+  padding: 0.875rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 48px;
+  border-radius: 0;
+}
+
+.choice:focus {
+  background-color: var(--white-cream-light);
+}
+
+.choice .icon {
+  color: var(--smoked-20);
+  font-size: 1rem;
+  line-height: 1rem;
+}

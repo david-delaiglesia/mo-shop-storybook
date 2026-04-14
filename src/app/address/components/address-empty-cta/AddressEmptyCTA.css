@@ -1,0 +1,18 @@
+.address-empty-cta {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.address-empty-cta .address-empty-cta__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.address-empty-cta .address-empty-cta__body {
+  color: var(--smoked-70);
+}

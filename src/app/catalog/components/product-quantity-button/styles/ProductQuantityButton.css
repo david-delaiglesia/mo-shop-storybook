@@ -1,0 +1,66 @@
+.product-quantity-button {
+  position: relative;
+  height: 44px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.product-quantity-button .button-rounded,
+.product-quantity-button .button-picker {
+  width: 100%;
+  margin: 0;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product-quantity-button .button-picker {
+  width: 100%;
+
+  transition: opacity 0.1s ease 0.05s;
+  opacity: 0;
+}
+
+.product-quantity-button .button-picker .button {
+  transition:
+    transform 0.1s 0.1s ease,
+    opacity 0.2s ease;
+  transform-origin: center;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.product-quantity-button .product-quantity-button__add {
+  border: solid 1px var(--egg);
+  overflow: hidden;
+  line-height: 30px;
+
+  transition:
+    width 0.2s ease,
+    background 0.2s ease,
+    border 0.2s 0.2s ease;
+}
+
+.product-quantity-button--hidden {
+  display: none;
+}
+
+.product-quantity-button--in-cart .button-picker {
+  opacity: 1;
+}
+
+.product-quantity-button--in-cart .button-picker .button {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product-quantity-button--in-cart .product-quantity-button__add {
+  align-self: flex-end;
+}
+
+.product-quantity-button--in-cart .product-quantity-button__add .button__text {
+  display: none;
+}

@@ -1,0 +1,40 @@
+.more-actions-product-cell-button__actions-list {
+  position: absolute;
+  right: -8px;
+  top: 37px;
+  width: 170px;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 8px;
+  box-shadow: var(--shadow-hard);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.more-actions-product-cell-button__action {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more-actions-product-cell-button__action-delete {
+  color: var(--tomato-100)
+}
+
+.more-actions-product-cell-button__action:hover {
+  background-color: var(--smoked-8);
+}
+
+.more-actions-product-cell-button__action--disabled {
+  color: var(--smoked-20)
+}
+
+.more-actions-product-cell-button__action--disabled:hover {
+  background-color: unset;
+}
+
+.more-actions-product-cell-button__icon {
+  color: var(--smoked-70);
+}

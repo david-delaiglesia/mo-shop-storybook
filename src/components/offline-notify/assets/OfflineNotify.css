@@ -1,0 +1,8 @@
+.offline-notify {
+  position: fixed;
+  width: 100%;
+  background: #ec8787;
+  color: #551313;
+  padding: 20px;
+  text-align: center;
+}

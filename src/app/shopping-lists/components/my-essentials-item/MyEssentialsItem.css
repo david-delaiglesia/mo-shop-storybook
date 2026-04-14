@@ -1,0 +1,49 @@
+.shopping-list-my-essentials-item__wrapper {
+  display: flex;
+  width: 400px;
+  height: 120px;
+  justify-content: start;
+  border: 1px solid var(--white-cream);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-card-1);
+  transition: 0.2s box-shadow ease-in;
+}
+
+.shopping-list-my-essentials-item__wrapper:hover {
+  box-shadow: var(--shadow-card-1-active);
+}
+
+.shopping-list-my-essentials-item__title {
+  color: var(--black);
+}
+
+.shopping-list-my-essentials-item__title::first-letter {
+  text-transform: capitalize;
+}
+
+.shopping-list-my-essentials-item__quantity {
+  color: var(--smoked-70);
+}
+
+.shopping-list-my-essentials-item__image {
+  height: 96px;
+  padding: 16px;
+}
+
+.shopping-list-my-essentials-item__list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45px;
+  align-self: center;
+}
+
+.shopping-list-my-essentials-item__image-wrapper {
+  position: relative;
+  margin-right: 32px;
+}
+
+.shopping-list-my-essentials-item__image-wrapper .product-cell__image-overlay {
+  border-radius: 4px;
+}

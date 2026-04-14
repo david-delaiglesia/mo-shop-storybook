@@ -1,0 +1,101 @@
+export const recommendations = {
+  next_page: null,
+  results: [
+    {
+      product: {
+        id: '14236',
+        slug: 'galletas-divertidas-hacendado-rey-leon-paquete',
+        limit: 1000,
+        badges: {
+          is_water: false,
+          requires_age_check: false,
+        },
+        packaging: 'Paquete',
+        published: true,
+        share_url:
+          'https://sta.tech.mercadona.es/product/14236/galletas-divertidas-hacendado-rey-leon-paquete',
+        thumbnail:
+          'https://sta-mercadona.imgix.net/20191024/36/14236/vlc1/14236_00_01.jpg?fit=crop&h=300&w=300',
+        categories: [
+          {
+            id: 7,
+            name: 'Cereales y galletas',
+            level: 0,
+            order: 18,
+          },
+        ],
+        display_name: 'Galletas divertidas Hacendado El Rey León',
+        price_instructions: {
+          iva: 10,
+          is_new: false,
+          is_pack: false,
+          pack_size: null,
+          unit_name: 'ud.',
+          unit_size: 0.6,
+          bulk_price: '2.42',
+          unit_price: '1.45',
+          approx_size: false,
+          size_format: 'kg',
+          total_units: 3,
+          drained_weight: null,
+          selling_method: 0,
+          price_decreased: false,
+          reference_price: '2.42',
+          min_bunch_amount: 1.0,
+          reference_format: 'kg',
+          increment_bunch_amount: 1.0,
+        },
+      },
+      recommended_quantity: 1,
+      selling_method: 0,
+    },
+    {
+      product: {
+        id: '40394',
+        slug: 'lote-tratamiento-unas-deliplus-contiene-taco-pulidor-lima-unas-palito-naranjo-aceite-bifasico-laca-unas',
+        limit: 1000,
+        badges: {
+          is_water: false,
+          requires_age_check: false,
+        },
+        packaging: 'Paquete',
+        published: false,
+        share_url:
+          'https://sta.tech.mercadona.es/product/40394/lote-tratamiento-unas-deliplus-contiene-taco-pulidor-lima-unas-palito-naranjo-aceite-bifasico-laca-unas',
+        thumbnail:
+          'https://sta-mercadona.imgix.net/20191024/94/40394/vlc1/40394_00_10.jpg?fit=crop&h=300&w=300',
+        categories: [
+          {
+            id: 20,
+            name: 'Cuidado facial y corporal',
+            level: 0,
+            order: 241,
+          },
+        ],
+        display_name: 'Lote tratamiento de uñas Deliplus',
+        price_instructions: {
+          iva: 21,
+          is_new: false,
+          is_pack: false,
+          pack_size: null,
+          unit_name: null,
+          unit_size: 1,
+          bulk_price: '7.75',
+          unit_price: '7.75',
+          approx_size: false,
+          size_format: 'kg',
+          total_units: null,
+          drained_weight: null,
+          selling_method: 0,
+          price_decreased: false,
+          reference_price: '7.75',
+          min_bunch_amount: 1.0,
+          reference_format: 'ud',
+          increment_bunch_amount: 1.0,
+        },
+      },
+      recommended_quantity: 10,
+      selling_method: 0,
+    },
+  ],
+}

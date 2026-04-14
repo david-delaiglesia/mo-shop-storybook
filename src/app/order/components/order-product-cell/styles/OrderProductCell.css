@@ -1,0 +1,106 @@
+.order-product-cell {
+  --image-width: 48px;
+  --space-between: 68px;
+
+  padding: 0 0 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-product-cell .ui-icon {
+  color: var(--smoked-40);
+  cursor: pointer;
+}
+
+
+.order-product-cell .prepared-units-cell {
+  display: flex;
+  align-items: center;
+}
+
+.order-product-cell.order-product-cell--disabled .order-product-cell__no-units {
+  display: flex;
+  gap: 8px;
+}
+
+.order-product-cell.order-product-cell--disabled .order-product-cell__no-units,
+.order-product-cell.order-product-cell--disabled .order-product-cell__name {
+  color: var(--smoked-40);
+}
+
+.order-product-cell.order-product-cell--disabled .tooltip {
+  color: var(--black);
+}
+
+.order-product-cell .order-product-cell__image {
+  width: var(--image-width);
+  height: 48px;
+  margin-right: var(--space-between);
+}
+
+.order-product-cell .order-product-cell__detail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.order-product-cell .order-product-cell__detail .order-product-cell__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 307px;
+}
+
+.order-product-cell .order-product-cell__detail .order-product-cell__total {
+  display: flex;
+  align-items: center;
+}
+
+.order-product-cell
+  .order-product-cell__detail
+  .order-product-cell__total
+  .order-product-cell__ordered-units,
+.order-product-cell
+  .order-product-cell__detail
+  .order-product-cell__total
+  .order-product-cell__prepared-units {
+  color: var(--smoked-70);
+  text-align: right;
+}
+
+.order-product-cell
+  .order-product-cell__detail
+  .order-product-cell__total
+  .order-product-cell__ordered-units {
+  text-decoration: line-through;
+  color: var(--smoked-40);
+  margin-right: 9px;
+}
+
+.order-product-cell
+  .order-product-cell__detail
+  .order-product-cell__total
+  .order-product-cell__price {
+  width: 70px;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.order-product-cell:last-of-type {
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.order-product-cell:last-of-type .order-product-cell__detail {
+  border-bottom: none;
+}
+
+@media (min-width: 1440px) {
+  .order-product-cell .order-product-cell__detail .order-product-cell__name {
+    max-width: 353px;
+  }
+}

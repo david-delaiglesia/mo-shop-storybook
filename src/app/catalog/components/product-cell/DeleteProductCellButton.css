@@ -1,0 +1,36 @@
+.actions-product-cell-button,
+.delete-product-cell-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  right: 8px;
+  margin: 4px;
+  font-size: 20px;
+  border-radius: 4px;
+  color: var(--smoked-40);
+  background-color: var(--white);
+  transition: all 0.1s;
+}
+
+.product-cell:hover .delete-product-cell-button {
+  opacity: 1;
+  display: flex;
+}
+
+.product-cell:hover .actions-product-cell-button {
+  opacity: 1;
+  display: flex;
+}
+
+@media (hover: hover) {
+  .actions-product-cell-button {
+    opacity: 0;
+  }
+
+  .delete-product-cell-button {
+    opacity: 0;
+  }
+}

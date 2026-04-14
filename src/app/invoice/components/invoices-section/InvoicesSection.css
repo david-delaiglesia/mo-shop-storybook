@@ -1,0 +1,79 @@
+:root {
+  --invoices-section-width-large: 674px;
+  --invoices-section-width-extra-hd: 722px;
+}
+
+.invoices-section {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+}
+
+.invoices-section > *:not(.invoices-section__loader) {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: var(--white-cream);
+  border-style: solid;
+  padding-bottom: 24px;
+}
+
+.invoices-section__loader {
+  flex-grow: 1;
+}
+
+.invoices-section .invoices-section__header {
+  padding-bottom: 16px;
+}
+
+.invoices-section .invoices-section__section,
+.invoices-section .invoices-section__section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.invoices-section .invoices-section__section--with-actions {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.invoices-section__section-actions {
+  display: flex;
+  align-items: center;
+}
+
+.invoices-section__section-title {
+  margin: 0;
+  font-weight: normal;
+}
+
+.invoices-section__section-description {
+  color: var(--smoked-70);
+}
+
+.invoices-section__section-description-link {
+  color: var(--cucumber);
+}
+.invoices-section__section-description-link:hover {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 992px) {
+  .invoices-section {
+    width: var(--invoices-section-width-large);
+  }
+}
+
+@media (min-width: 1440px) {
+  .invoices-section {
+    width: var(--invoices-section-width-extra-hd);
+  }
+}
+
+@media (max-width: 992px) {
+  .invoices-section {
+    padding: 0 10px;
+  }
+}

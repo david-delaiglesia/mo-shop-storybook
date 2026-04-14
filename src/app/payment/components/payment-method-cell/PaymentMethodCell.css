@@ -1,0 +1,59 @@
+.payment-method-cell {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  gap: 8px;
+  border-radius: 12px;
+
+  .payment-method-cell__content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  .payment-method-cell__icon {
+    height: 29px;
+  }
+
+  .payment-method-cell__title {
+    color: var(--black);
+  }
+
+  &.payment-method-cell--valid {
+    cursor: pointer;
+
+    .payment-method-cell__subtitle {
+      color: var(--smoked-70);
+    }
+  }
+
+  &.payment-method-cell--expires_soon {
+    cursor: pointer;
+
+    .payment-method-cell__subtitle {
+      color: var(--orange);
+      font-weight: 600;
+    }
+  }
+
+  &.payment-method-cell--expired {
+    cursor: not-allowed;
+
+    .payment-method-cell__title {
+      color: var(--smoked-40);
+    }
+    .payment-method-cell__subtitle {
+      color: var(--orange);
+      font-weight: 600;
+    }
+  }
+
+  .payment-method-cell__selection-indicator {
+    color: var(--cucumber);
+  }
+}

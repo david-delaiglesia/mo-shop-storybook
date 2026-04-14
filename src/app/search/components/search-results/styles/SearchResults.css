@@ -1,0 +1,34 @@
+.search-results {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.search-results__header {
+  width: 100%;
+  padding: 2px 4px 8px;
+  color: var(--smoked-70);
+}
+
+.search-results__skip-link {
+  position: absolute;
+  all: unset;
+
+  z-index: 9000;
+  opacity: 0;
+}
+
+.search-results__skip-link:focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 16px;
+  border: 2px dashed var(--cucumber);
+  background-color: var(--white);
+  color: var(--cucumber);
+  opacity: 1;
+}
+
+.search-results__skip-link-container {
+  height: 0;
+}

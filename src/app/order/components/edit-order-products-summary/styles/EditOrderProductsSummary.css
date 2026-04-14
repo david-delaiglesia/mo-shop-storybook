@@ -1,0 +1,35 @@
+.edit-order-products-summary .edit-order-products-summary__subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.edit-order-products-summary .edit-order-products-summary__delivery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.edit-order-products-summary .edit-order-products-summary__total,
+.edit-order-products-summary .edit-order-products-summary__extra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 6px;
+}
+.edit-order-products-summary .edit-order-products-summary__total p,
+.edit-order-products-summary .edit-order-products-summary__extra p {
+  margin: 0 9px;
+}
+.edit-order-products-summary .edit-order-products-summary__total span,
+.edit-order-products-summary .edit-order-products-summary__extra span {
+  margin-left: auto;
+}
+.edit-order-products-summary .tooltip:focus .ui-icon {
+  outline: none;
+  color: var(--cucumber);
+}
+.edit-order-products-summary .tooltip .ui-icon {
+  color: var(--smoked-40);
+}
+.edit-order-products-summary .tooltip .tooltip-text {
+  top: -49px;
+}

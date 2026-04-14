@@ -1,0 +1,35 @@
+.chat-setup-error {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 24px;
+}
+
+.chat-setup-error__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  text-align: center;
+}
+
+.chat-setup-error__content h3 {
+  margin: 24px 0 0;
+}
+
+.chat-setup-error__content p {
+    margin: 8px 0 0;
+  }
+
+.chat-setup-error__image {
+  width: 120px;
+  height: 105px;
+}
+
+.chat-setup-error__actions {
+  width: 100%;
+}

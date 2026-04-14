@@ -1,0 +1,135 @@
+.section-video {
+  padding: 16px 12px 0px 12px;
+}
+
+.video__separator {
+  margin: 32px 0 16px 0;
+  border: 0;
+  border-top: 1px solid var(--white-cream);
+}
+
+.video-section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.video-section__title {
+  margin: 0 0 0.25rem;
+}
+
+.video-section__title-no-subtitle {
+  margin: 0;
+}
+
+.video-section__subtitle {
+  color: var(--smoked-70);
+  margin: 0;
+}
+
+.video-section__link {
+  display: flex;
+  align-items: center;
+  color: var(--cucumber);
+  white-space: nowrap;
+}
+
+.video-section__link .icon {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+}
+
+.video-section__video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1272 / 400;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.video-section__products-area {
+  position: relative;
+  margin-top: -8px;
+}
+
+.video-section__mirror {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.video-section__products-area::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(40px);
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--white-30) 10%,
+    var(--white) 60%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--white-30) 10%,
+    var(--white) 60%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.video-section__products {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 8px;
+  overflow: hidden;
+  padding: 0 8px 8px;
+}
+
+.video-section__products .product-cell-container:nth-child(n + 2) {
+  display: none;
+}
+
+@media (min-width: 624px) {
+  .video-section__products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .video-section__products .product-cell-container:nth-child(n + 2) {
+    display: block;
+  }
+
+  .video-section__products .product-cell-container:nth-child(n + 3) {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video-section__products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .video-section__products .product-cell-container:nth-child(n + 3) {
+    display: block;
+  }
+}
+
+.video-section__video-wrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  transition: 0.2s box-shadow ease-in-out;
+}
+
+.video-section__video-wrapper:hover {
+  box-shadow: var(--shadow-hard);
+}

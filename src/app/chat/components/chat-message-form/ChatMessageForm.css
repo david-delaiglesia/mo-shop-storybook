@@ -1,0 +1,87 @@
+.chat-message-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 16px 16px;
+}
+
+.chat-message-form--disabled {
+  padding: 8px 26px 26px;
+}
+
+.chat-message-form__form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 4px 4px 10px;
+  border-radius: 24px;
+  border: 1px solid var(--smoked-20);
+}
+
+.chat-message-form__input {
+  flex: 1;
+  border: unset;
+  caret-color: var(--cucumber);
+}
+
+.chat-message-form__label--is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.chat-message-form__label--as-file-upload-button {
+  cursor: pointer;
+  user-select: none;
+  aspect-ratio: 1 / 1;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--white-cream-light);
+  border: 1px solid var(--smoked-8);
+  color: var(--smoked-70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-message-form__file {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.chat-message-form__label--as-file-upload-button:focus-within {
+  outline: 2px solid currentColor;
+}
+
+.chat-message-form__input::placeholder {
+  color: var(--smoked-40);
+}
+
+.chat-message-form__submit-button {
+  aspect-ratio: 1 / 1;
+  width: 28px;
+  border-radius: 50%;
+  background-color: var(--white);
+  color: var(--cucumber);
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+
+.chat-message-form__submit-button[disabled] {
+  color: var(--smoked-20);
+}
+
+.chat-message-form__submit-button-icon {
+  transform: rotate(90deg);
+}
+
+.chat-message-form__start {
+  border-radius: 8px;
+}

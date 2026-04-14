@@ -1,0 +1,91 @@
+:root {
+  --map-margin: 24px;
+  --address-height: 66px;
+}
+
+.address-form {
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.address-form--shadow {
+  box-shadow: var(--shadow-hard);
+}
+
+.address-form__title {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.address-form__content {
+  margin-top: 16px;
+}
+
+.address-form__group {
+  display: flex;
+  width: 100%;
+}
+
+.address-form__address {
+  width: 100%;
+  min-height: var(--address-height);
+}
+
+.address-form-block {
+  display: flex;
+  flex: 100%;
+}
+
+.address-form__address-number {
+  flex: 0 1 50%;
+}
+
+.address-form__address-detail {
+  flex: 1 1 auto;
+  margin-left: 8px;
+}
+
+.address-form__postal-code {
+  flex: 0 1 50%;
+}
+
+.address-form__town {
+  flex: 1 1 auto;
+  margin-left: 8px;
+}
+
+.address-form__address-comments {
+  width: 100%;
+}
+
+.address-form__address-comments .text-area__label {
+  text-align: left;
+}
+
+.address-form__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.address-form__content .address-form__buttons .button {
+  flex: 50% 0;
+}
+
+.address-form__content--single .address-form__buttons .button,
+.address-form__buttons .button {
+  flex: none;
+  width: auto;
+  padding: 0 44px;
+}
+
+.address-form__content--single .address-form__data,
+.address-form__content--loading .address-form__data {
+  width: 100%;
+  height: 314px;
+}

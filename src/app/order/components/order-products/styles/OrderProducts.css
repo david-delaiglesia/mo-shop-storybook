@@ -1,0 +1,23 @@
+.order-products .rich-title {
+  border-bottom: 1px solid var(--white-cream);
+  margin: 18px 0 0;
+  padding-bottom: 24px;
+  align-items: baseline;
+}
+
+.order-products .rich-title .ui-button--text {
+  padding-right: 24px;
+}
+
+.order-products .order-product-cell {
+  padding-right: 24px;
+}
+
+.order-products .rich-title-label {
+  cursor: pointer;
+}
+
+.order-products__toggle-products {
+  margin-left: 8px;
+  color: var(--blueberry);
+}

@@ -1,0 +1,88 @@
+.order-payment-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  border-radius: 8px;
+
+  .order-payment-list__bizum {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.order-payment-list__title {
+  margin-bottom: 8px;
+}
+
+.order-payment-list-add button {
+  color: var(--cucumber);
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.order-payment-list--new .order-payment-list-add button {
+  gap: 4px;
+}
+
+.order-payment-list-add button:focus {
+  outline: none;
+  color: var(--cucumber-black-20);
+}
+
+.order-payment-list-add .ui-icon {
+  font-size: 22px;
+  padding-right: 4px;
+}
+
+.order-payment-list .order-payment-list-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  gap: 16px;
+  border-top: 0.5px solid var(--white-cream);
+  padding: 16px 0 0;
+}
+
+.order-payment-list-buttons .order-payment-list__cancel-button {
+  color: var(--smoked-70);
+  font-weight: 600;
+}
+
+.order-payment-list-buttons .button {
+  width: 120px;
+}
+
+.order-payment-list__options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.order-payment-list__add-new {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--cucumber);
+  border-radius: 16px;
+
+  &:hover {
+    color: var(--cucumber-white-15);
+  }
+  &:active {
+    color: var(--cucumber-black-20);
+  }
+
+  .order-payment-list__add-new__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: var(--white-cream-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

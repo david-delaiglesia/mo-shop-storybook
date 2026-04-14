@@ -1,0 +1,31 @@
+.btn--oval {
+  background-color: var(--egg);
+  color: var(--chocolat);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 44px;
+  font-size: 1.7rem;
+}
+
+  .btn--oval:hover {
+    background-color: var(--egg-white-15);
+  }
+
+  .btn--oval:active,
+  .btn--oval:focus {
+    background-color: var(--egg-red-10);
+  }
+
+  .btn--oval.btn--small {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    padding: 0 0 0 1px;
+  }
+
+  .btn--oval.btn--small i {
+      line-height: 32px;
+    }

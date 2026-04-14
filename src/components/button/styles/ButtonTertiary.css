@@ -1,0 +1,12 @@
+.btn--tertiary {
+  background-color: transparent;
+  border: solid 1px var(--smoked-20);
+  color: var(--cucumber);
+  line-height: 32px;
+  max-height: 32px;
+}
+
+.btn--tertiary:hover,
+.btn--tertiary:focus {
+  background-color: var(--white-cream-light);
+}

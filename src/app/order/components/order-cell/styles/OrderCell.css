@@ -1,0 +1,116 @@
+.order-cell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  height: 170px;
+}
+
+.order-cell:last-of-type {
+  margin-bottom: 0;
+}
+
+.order-cell--cancelled {
+  height: 150px;
+}
+
+.order-cell--disrupted,
+.order-cell--with-payment-issue {
+  height: 120px;
+}
+
+.order-cell__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.order-cell__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.order-cell__details {
+  flex: 1;
+}
+
+.order-cell__number {
+  color: var(--cucumber);
+  margin-bottom: 5px;
+}
+
+.order-cell__title {
+  margin-bottom: 5px;
+  color: var(--black);
+}
+
+.order-cell__sub-title {
+  display: block;
+}
+
+.order-cell__info {
+  color: var(--smoked-70);
+}
+
+.order-cell__status {
+  border-radius: 23px;
+  text-align: center;
+  color: var(--white);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 8px;
+}
+
+.order-cell__status--ongoing,
+.order-cell__status--preparing,
+.order-cell__status--delivering {
+  background: var(--blueberry);
+}
+
+.order-cell__status--delivered {
+  background: var(--smoked-40);
+}
+
+.order-cell__status--cancelled {
+  background: var(--tomato);
+}
+
+.order-cell__status--disrupted {
+  background: var(--orange);
+}
+
+.order-cell--disrupted .order-cell__actions-content,
+.order-cell--with-payment-issue .order-cell__actions-content {
+  margin-top: -42px;
+}
+
+.order-cell__actions-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-cell__actions-content .ui-button {
+  position: relative;
+}
+
+.order-cell__primary-actions {
+  display: flex;
+  margin-right: auto;
+}
+
+.order-cell__primary-actions .ui-button:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+.order-cell__secondary-actions {
+  display: flex;
+}

@@ -1,0 +1,14 @@
+.order-detail-container__delivery-payment-group > * {
+  margin-top: 16px;
+}
+
+.order-detail-container__order-actions {
+  display: flex;
+  align-items: start;
+  padding: 38px 0px;
+  justify-content: space-between;
+}
+
+.order-detail-container__cancelable-order-actions {
+  justify-content: end;
+}

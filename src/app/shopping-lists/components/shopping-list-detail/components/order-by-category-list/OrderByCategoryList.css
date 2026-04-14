@@ -1,0 +1,8 @@
+.shopping-list-detail-order-by-category-list__title {
+  margin-left: 12px;
+}
+
+.shopping-list-detail-order-by-category-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}

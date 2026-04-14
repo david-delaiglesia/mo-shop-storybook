@@ -1,0 +1,20 @@
+.mood-emoji {
+  display: inline-block;
+  margin: 0 10px;
+  height: 76px;
+  width: 76px;
+  cursor: pointer;
+}
+
+.mood-emoji .mood-emoji__image {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .mood-emoji {
+    margin: 0 28px;
+    height: 80px;
+    width: 80px;
+  }
+}

@@ -1,0 +1,22 @@
+.not-available-step {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.not-available-step .not-available-step__illustration {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.not-available-step .not-available-step__title {
+  margin: 42px 0;
+}
+
+.not-available-step .not-available-step__button {
+  margin-top: 32px;
+  width: 224px;
+  height: 42px;
+}

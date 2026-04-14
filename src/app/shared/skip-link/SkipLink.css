@@ -1,0 +1,17 @@
+.skip-link {
+  z-index: 9000;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  opacity: 0;
+}
+
+.skip-link:focus {
+  padding: 8px 16px;
+  border: 2px dashed var(--cucumber);
+  background-color: var(--white);
+  color: var(--cucumber);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}

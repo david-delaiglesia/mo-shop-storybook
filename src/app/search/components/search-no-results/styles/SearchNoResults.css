@@ -1,0 +1,17 @@
+.search-no-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-no-results .search-no-results__title {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.search-no-results .search-no-results__image {
+  width: 136px;
+  height: auto;
+  margin-top: 40px;
+}

@@ -1,0 +1,32 @@
+.order-cancel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.order-cancel__action {
+  cursor: pointer;
+  color: var(--tomato);
+  display: flex;
+  align-items: center;
+}
+
+.order-cancel__action .ui-icon {
+  margin-right: 13px;
+}
+
+.order-cancel__action span {
+  min-width: 132px;
+  white-space: nowrap;
+}
+
+.order-cancel__action:focus {
+  outline: none;
+  color: var(--tomato-black-20);
+}
+
+.order-cancel__disclaimer {
+  width: 365px;
+  color: var(--smoked-40);
+}

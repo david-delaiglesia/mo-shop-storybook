@@ -1,0 +1,17 @@
+.mobile-layout-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-layout-header__logo {
+  width: 311px;
+  margin: 40px 32px 32px 24px;
+}
+
+.mobile-layout-header__title {
+  color: var(--blueberry);
+  max-width: 313px;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+.payment-card-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .payment-card-form__content {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+  }
+
+  .payment-card-tpv-iframe {
+    border: 0;
+    min-height: 219px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+
+    .loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background-color: var(--white);
+      border-radius: 16px;
+      padding: 16px;
+      gap: 8px;
+
+      & > div {
+        width: 8px;
+        height: 8px;
+        background-color: var(--cucumber);
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .payment-card-tpv-iframe {
+      min-width: 305px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .payment-card-tpv-iframe {
+      min-width: 330px;
+    }
+  }
+
+  .payment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .payment-info__title {
+      color: var(--black);
+    }
+
+    .payment-info__cards {
+      display: flex;
+      gap: 8px;
+    }
+
+    .payment-info__disclaimer {
+      color: var(--smoked-70);
+    }
+  }
+}

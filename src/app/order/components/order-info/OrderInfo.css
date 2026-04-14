@@ -1,0 +1,29 @@
+.order-info {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  border-bottom: solid 1px var(--white-cream);
+  padding-bottom: 16px;
+}
+
+.order-info__content,
+.order-info__summary {
+  margin-top: 32px;
+}
+
+.order-info__summary .order-summary {
+  margin-top: 24px;
+  width: 276px;
+  border-radius: 4px;
+  border: solid 1px var(--smoked-20);
+  padding: 16px;
+}
+
+.order-info__summary .order-summary .tooltip:focus .icon {
+  outline: none;
+  color: var(--cucumber);
+}
+
+.order-info__summary .order-summary .tooltip .tooltip-text {
+  top: -51px;
+}

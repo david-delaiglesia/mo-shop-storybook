@@ -1,0 +1,55 @@
+.change-email-modal .modal-content {
+  padding: 40px;
+  text-align: left;
+  width: 414px;
+  box-shadow: var(--shadow-hard);
+  border-radius: 6px;
+}
+
+.change-email-modal .modal-content .modal-content__header {
+  padding: 0;
+  min-height: 0;
+}
+
+.change-email-modal .modal-content .modal-content__close {
+  margin: 0;
+  right: 24px;
+  top: 26px;
+}
+
+.change-email-modal .change-email-modal__title {
+  margin: 0 0 30px;
+}
+
+.change-email-modal .change-email-modal__label {
+  color: var(--smoked-70);
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.change-email-modal .input-text {
+  margin-bottom: 42px;
+}
+
+.change-email-modal .input-text:last-of-type {
+  margin-bottom: 34px;
+}
+
+.change-email-modal .input-password {
+  margin-bottom: 34px;
+}
+
+.change-email-modal .change-email-modal__buttons {
+  display: flex;
+}
+
+.change-email-modal .change-email-modal__buttons .button {
+  flex: 1;
+}
+
+.change-email-modal .change-email-modal__buttons .button.button-tertiary {
+  margin-right: 14px;
+  max-height: 40px;
+  line-height: 40px;
+  color: var(--smoked-70);
+}

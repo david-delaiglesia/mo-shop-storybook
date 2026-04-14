@@ -1,0 +1,21 @@
+.address-confirmation-modal-label {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.address-confirmation-modal-label__info {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 12px auto;
+  padding: 2px 8.5px;
+  border-radius: 2px;
+  background-color: var(--blueberry);
+  color: var(--white);
+  box-shadow: var(--shadow-label);
+  overflow: hidden;
+}

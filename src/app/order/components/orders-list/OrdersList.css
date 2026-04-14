@@ -1,0 +1,76 @@
+:root {
+  --orders-width-large: 674px;
+  --orders-width-extra-hd: 722px;
+}
+
+@media (min-width: 992px) {
+  .orders-list {
+    width: var(--orders-width-large);
+    margin-bottom: 28px;
+  }
+
+  .orders-list > .button {
+    width: 280px;
+    margin: 40px auto;
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  .orders-list {
+    width: var(--orders-width-extra-hd);
+  }
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.orders-list__loader {
+  flex-grow: 1;
+}
+
+.orders-list__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 16px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--white-cream);
+}
+
+.orders-list__invoice {
+  display: flex;
+  align-items: center;
+  color: var(--smoked-70);
+  outline: none;
+}
+
+.orders-list__invoice:hover {
+  color: var(--cucumber);
+}
+
+.orders-list__invoice .ui-icon {
+  margin-left: 8px;
+}
+
+.orders-list__month {
+  margin-bottom: 28px;
+}
+
+.orders-list__month:last-of-type {
+  margin-bottom: 0;
+}
+
+.orders-list__month-name {
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 992px) {
+  .orders-list {
+    padding: 0 10px;
+  }
+}

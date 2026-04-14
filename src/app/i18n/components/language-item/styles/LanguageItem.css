@@ -1,0 +1,25 @@
+.language-item {
+  padding: 0 16px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  outline: none;
+  line-height: 56px;
+}
+
+.language-item:first-of-type {
+  margin-top: 8px;
+}
+
+.language-item:last-of-type {
+  margin-bottom: 8px;
+}
+
+.language-item.active {
+  background-color: var(--white-cream);
+}
+
+@media (min-width: 768px) {
+  .language-item {
+    line-height: 34px;
+  }
+}

@@ -1,0 +1,59 @@
+.account-menu {
+  position: fixed;
+  top: 55px;
+  right: 70px;
+  background-color: var(--white);
+  width: 232px;
+  overflow: auto;
+  box-shadow: var(--shadow-default);
+  border-radius: 8px;
+  padding: 16px 0 7px;
+  border: 1px solid var(--smoked-8);
+}
+
+.account-menu.account-menu--left {
+  right: 160px;
+}
+
+.account-menu .btn {
+  margin: 8px 16px;
+  width: calc(100% - 32px);
+}
+
+.account-menu hr {
+  margin: 8px 16px;
+  background-color: var(--white-cream);
+  height: 1px;
+  border: 0;
+}
+
+.account-menu__header {
+  margin: 0 16px 4px;
+}
+
+.account-menu__title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 0 4px;
+}
+
+.account-menu__item {
+  color: var(--black);
+  padding: 9px 16px;
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.account-menu__item:hover {
+  background-color: var(--white-cream);
+}
+
+.account-menu__item .ui-icon {
+  margin-right: 8px;
+  color: var(--smoked-40);
+}

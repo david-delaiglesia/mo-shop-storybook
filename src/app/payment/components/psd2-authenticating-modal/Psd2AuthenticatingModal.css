@@ -1,0 +1,105 @@
+.ui-modal-unified__dialog.psd2-authenticating-modal {
+  .ui-modal-unified__header,
+  .ui-modal-unified__content {
+    background-color: var(--white-cream-light);
+  }
+
+  .psd2-authenticating-modal__loader {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+  }
+
+  .ui-modal-unified__title {
+    display: none;
+  }
+
+  .psd2-authenticating-modal__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 82px 0 82px;
+    align-items: center;
+  }
+
+  .psd2-authenticating-modal__title {
+    all: unset;
+    color: var(--black);
+    width: 300px;
+    text-align: center;
+  }
+
+  .psd2-authenticating-modal__timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .psd2-authenticating-modal__countdown {
+    display: flex;
+    gap: 8px;
+
+    .psd2-authenticating-modal__countdown-item {
+      display: flex;
+      gap: 4px;
+      align-items: baseline;
+
+      .psd2-authenticating-modal__countdown-time {
+        color: var(--black);
+      }
+
+      .psd2-authenticating-modal__countdown-label {
+        color: var(--smoked-40);
+      }
+    }
+  }
+
+  .psd2-authenticating-modal__details-card {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    flex-direction: column;
+
+    &:has(> :nth-child(2)) {
+      & > * + * {
+        border-style: solid;
+        border-color: var(--white-cream);
+        border-width: 0;
+        border-top-width: 1px;
+      }
+      & > *:first-child {
+        padding-bottom: 16px;
+      }
+      & > *:last-child {
+        padding-top: 16px;
+      }
+      & > *:not(:first-child):not(:last-child) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+    }
+
+    .psd2-authenticating-modal__details-card-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .psd2-authenticating-modal__details-card__total-estimate {
+      color: var(--black);
+    }
+    .psd2-authenticating-modal__details-card__price {
+      color: var(--black);
+    }
+    .psd2-authenticating-modal__details-card__footnote {
+      color: var(--orange);
+    }
+  }
+
+  .psd2-authenticating-modal__authorization-explanation {
+    display: flex;
+    gap: 8px;
+    color: var(--black);
+  }
+}

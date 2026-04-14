@@ -1,0 +1,66 @@
+.edit-default-quantity-dialog__product {
+  display: flex;
+  border-radius: 12px;
+  gap: 32px;
+  padding: 16px 24px 16px 16px;
+  background-color: var(--white-30);
+  margin: 8px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.edit-default-quantity-dialog__title {
+  text-align: left;
+  padding: 32px;
+}
+
+.edit-default-quantity-dialog__product-overlay {
+  position: absolute;
+  background-color: var(--black);
+  opacity: 0.03;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.edit-default-quantity-dialog__product-image {
+  width: 120px;
+  height: 120px;
+}
+
+.edit-default-quantity-dialog__product-info {
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  width: 232px;
+}
+
+.edit-default-quantity-dialog__price-instructions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-default-quantity-dialog__quantity-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button.button-oval.edit-default-quantity-dialog__quantity-button {
+  color: var(--smoked-70);
+  background-color: var(--smoked-8);
+}
+
+.edit-default-quantity-dialog__product-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

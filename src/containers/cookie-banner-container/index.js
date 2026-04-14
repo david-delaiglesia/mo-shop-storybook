@@ -1,0 +1,1 @@
+export { CookieBannerContainer } from './CookieBannerContainer'

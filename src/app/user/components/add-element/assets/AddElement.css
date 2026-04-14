@@ -1,0 +1,37 @@
+.add-element {
+  color: var(--cucumber);
+  background-color: var(--white-cream-light);
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.add-element--height-default {
+  height: 64px;
+}
+
+.add-element--height-shopping-lists {
+  height: 120px;
+}
+
+.add-element:hover,
+.add-element:active {
+  box-shadow: var(--shadow-card-1);
+  border: 1px solid #e6e6e6;
+  background-color: var(--white);
+}
+
+.add-element__icon {
+  margin-right: 8px;
+}
+
+.add-element__text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,193 @@
+const searchRelatedProducts = {
+  58110: {
+    id: '58110',
+    slug: 'jamon-serrano-hacendado-pieza',
+    badges: {
+      is_water: false,
+      requires_age_check: false,
+    },
+    display_name: 'Jamón serrano Hacendado',
+    limit: 1000,
+    packaging: 'Pieza',
+    price_instructions: {
+      approx_size: false,
+      bulk_price: '5.80',
+      bunch_selector: false,
+      drained_weight: null,
+      increment_bunch_amount: 1,
+      is_new: false,
+      is_pack: false,
+      iva: 10,
+      min_bunch_amount: 1,
+      pack_size: null,
+      price_decreased: false,
+      reference_format: 'kg',
+      reference_price: '5.80',
+      size_format: 'kg',
+      total_units: null,
+      unit_name: null,
+      unit_price: '39.00',
+      unit_selector: true,
+      unit_size: 6,
+      selling_method: 0,
+    },
+    thumbnail:
+      'https://sta-mercadona.imgix.net/20200114/10/58110/vlc1/58110_00_02.jpg?fit=crop&h=300&w=300',
+    share_url:
+      'https://sta.tech.mercadona.es/product/58110/jamon-serrano-hacendado-pieza',
+    categories: [
+      {
+        id: 4,
+        name: 'Charcutería y quesos',
+        order: 159,
+        level: 0,
+        categories: [
+          {
+            id: 50,
+            name: 'Jamón serrano',
+            order: 159,
+            level: 1,
+            categories: [
+              {
+                id: 298,
+                name: 'Jamón serrano',
+                order: 159,
+                level: 2,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    published: true,
+    brand: 'Hacendado',
+  },
+  59028: {
+    id: '59028',
+    slug: 'jamon-trevelez-antonio-alvarez-lonchas-extra-finas-paquete',
+    badges: {
+      is_water: false,
+      requires_age_check: false,
+    },
+    display_name: 'Jamón de Trevélez Antonio Álvarez lonchas extra finas',
+    limit: 1000,
+    packaging: 'Paquete',
+    price_instructions: {
+      approx_size: false,
+      bulk_price: '24.17',
+      bunch_selector: false,
+      drained_weight: null,
+      increment_bunch_amount: 1,
+      is_new: false,
+      is_pack: false,
+      iva: 10,
+      min_bunch_amount: 1,
+      pack_size: null,
+      price_decreased: false,
+      reference_format: 'kg',
+      reference_price: '24.17',
+      size_format: 'kg',
+      total_units: null,
+      unit_name: null,
+      unit_price: '2.90',
+      unit_selector: true,
+      unit_size: 0.12,
+      selling_method: 0,
+    },
+    thumbnail:
+      'https://sta-mercadona.imgix.net/20200114/28/59028/vlc1/59028_00_02.jpg?fit=crop&h=300&w=300',
+    share_url:
+      'https://sta.tech.mercadona.es/product/59028/jamon-trevelez-antonio-alvarez-lonchas-extra-finas-paquete',
+    categories: [
+      {
+        id: 4,
+        name: 'Charcutería y quesos',
+        order: 159,
+        level: 0,
+        categories: [
+          {
+            id: 50,
+            name: 'Jamón serrano',
+            order: 159,
+            level: 1,
+            categories: [
+              {
+                id: 298,
+                name: 'Jamón serrano',
+                order: 159,
+                level: 2,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    published: true,
+    brand: 'Antonio Álvarez',
+  },
+  63544: {
+    id: '63544',
+    slug: 'rosca-jamon-serrano-queso-emmental-hacendado',
+    badges: {
+      is_water: false,
+      requires_age_check: false,
+    },
+    display_name: 'Rosca jamón serrano y queso emmental Hacendado',
+    limit: 1000,
+    packaging: null,
+    price_instructions: {
+      iva: 10,
+      is_new: false,
+      is_pack: false,
+      pack_size: null,
+      unit_name: null,
+      unit_size: 0.42,
+      bulk_price: '6.67',
+      unit_price: '2.80',
+      approx_size: false,
+      size_format: 'kg',
+      total_units: null,
+      unit_selector: true,
+      bunch_selector: false,
+      drained_weight: null,
+      selling_method: 0,
+      price_decreased: false,
+      reference_price: '6.67',
+      min_bunch_amount: 1,
+      reference_format: 'kg',
+      increment_bunch_amount: 1,
+    },
+    thumbnail:
+      'https://sta-mercadona.imgix.net/20200116/44/63544/vlc1/63544_00_02.jpg?fit=crop&h=300&w=300',
+    shareUrl:
+      'https://sta.tech.mercadona.es/product/63544/rosca-jamon-serrano-queso-emmental-hacendado',
+    categories: [
+      {
+        id: 16,
+        name: 'Pizzas y platos preparados',
+        level: 0,
+        order: 590,
+        categories: [
+          {
+            id: 138,
+            name: 'Pizzas',
+            level: 1,
+            order: 590,
+            categories: [
+              {
+                id: 493,
+                name: 'Roscas, quiche y baguettes',
+                level: 2,
+                order: 590,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    published: true,
+    brand: 'Hacendado',
+  },
+}
+
+export { searchRelatedProducts }

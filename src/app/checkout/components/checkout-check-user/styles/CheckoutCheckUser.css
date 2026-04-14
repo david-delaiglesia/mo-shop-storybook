@@ -1,0 +1,24 @@
+.checkout-check-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkout-check-user .checkout-check-user__title {
+  margin: 0;
+  max-width: 242px;
+}
+
+.checkout-check-user .checkout-check-user__message {
+  margin: 16px 0 24px;
+  max-width: 506px;
+}
+
+.checkout-check-user .checkout-check-user__label {
+  margin-bottom: 16px;
+}
+
+.checkout-check-user > .input-text {
+  width: 316px;
+  margin-bottom: 34px;
+}

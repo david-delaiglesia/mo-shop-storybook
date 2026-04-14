@@ -1,0 +1,64 @@
+.more-actions-button__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 135px;
+}
+
+.more-actions-button__button {
+  background-color: var(--white-cream-light);
+  color: var(--smoked-70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px var(--smoked-8) solid;
+  margin-bottom: 10px;
+}
+
+.more-actions-button__button:hover {
+  background-color: var(--white-cream);
+}
+
+.more-actions-button__sub-menu {
+  position: absolute;
+  bottom: -18px;
+  left: 45px;
+  color: var(--tomato);
+  box-shadow: var(--shadow-hard);
+  padding: 8px 0px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.more-actions-button__sub-menu-option {
+  display: flex;
+  align-items: center;
+}
+
+.more-actions-button__sub-menu-option:hover {
+  background-color: var(--smoked-8);
+}
+
+.more-actions-button__sub-menu-option-text {
+  white-space: nowrap;
+  margin-right: 38px;
+  padding-left: 8px;
+}
+
+.more-actions-button__sub-menu-option-icon {
+  display: flex;
+  padding-right: 8px;
+}
+
+.more-actions-button__caption {
+  color: var(--smoked-70);
+}
+
+.more-actions-button__caption-non-div {
+  color: var(--smoked-70);
+  cursor: pointer;
+}

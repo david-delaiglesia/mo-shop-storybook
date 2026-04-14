@@ -1,0 +1,37 @@
+.order-contact {
+  position: relative;
+
+  .order-contact__modify-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
+
+.order-contact__summary-edit {
+  display: flex;
+  flex-direction: column;
+  max-width: 343px;
+}
+
+.order-contact__summary-edit p {
+  margin-bottom: 16px;
+}
+
+.order-contact__summary-edit .order-contact__warning {
+  color: var(--smoked-70);
+}
+
+.order-contact__summary-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-contact__summary-buttons .button {
+  width: 120px;
+}
+
+.order-contact__summary-buttons .button.button-tertiary {
+  margin-right: 8px;
+  color: var(--smoked-70);
+}

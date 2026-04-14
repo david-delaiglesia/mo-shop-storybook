@@ -1,0 +1,26 @@
+:root {
+  --order-detail-width-large: 674px;
+  --order-detail-width-extra-hd: 722px;
+}
+
+.order-detail-layout {
+    padding-bottom: 50px;
+}
+
+@media(min-width: 992px) {
+  .order-detail-layout {
+    width: var(--order-detail-width-large);
+  }
+}
+
+@media(min-width: 1440px) {
+  .order-detail-layout {
+    width: var(--order-detail-width-extra-hd);
+  }
+}
+
+@media(max-width: 992px) {
+  .order-detail-layout {
+    padding: 0 10px;
+  }
+}

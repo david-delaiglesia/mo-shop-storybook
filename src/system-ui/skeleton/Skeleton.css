@@ -1,0 +1,13 @@
+.ui-skeleton {
+  border-radius: 4px;
+  animation: ui-skeleton--loading 0.7s linear infinite alternate;
+}
+
+@keyframes ui-skeleton--loading {
+  0% {
+    background-color: var(--white-cream-light);
+  }
+  100% {
+    background-color: var(--white-cream);
+  }
+}

@@ -1,0 +1,38 @@
+.payment-cell__content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+  margin-left: -64px;
+
+  .payment-cell__icon {
+    height: 29px;
+  }
+
+  .payment-cell__title {
+    color: var(--black);
+  }
+
+  &.payment-cell__content--valid {
+    .payment-cell__subtitle {
+      color: var(--smoked-70);
+    }
+  }
+
+  &.payment-cell__content--expires_soon {
+    .payment-cell__subtitle {
+      color: var(--orange);
+      font-weight: 600;
+    }
+  }
+
+  &.payment-cell__content--expired {
+    .payment-cell__title {
+      color: var(--smoked-40);
+    }
+    .payment-cell__subtitle {
+      color: var(--orange);
+      font-weight: 600;
+    }
+  }
+}
