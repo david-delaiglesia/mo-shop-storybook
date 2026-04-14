@@ -1,0 +1,1648 @@
+{
+  "accesibility_click_and_collect_info_close": "Close modal",
+  "accessibility": {
+    "add_unit_to_cart": "Add {{ unit }} to cart",
+    "alternatives_pluralized_plural": "Alternatives Available",
+    "alternatives_pluralized_singular": "Alternative Available",
+    "cancel_and_go_back": "Cancel and go back",
+    "cart_approximated_total": "Approximate total {{ price }}. Click to see more information.",
+    "click_view_products": "Tap to view the products",
+    "close_list_add_products_modal": "Confirm changes and return to list",
+    "decrease_quantity": "Reduce {{ quantityWithFormat }} quantity.",
+    "decrease_quantity_feedback": "{{ quantityWithFormat }} quantity has been reduced.",
+    "delivery_postal_code": "Deliver to postcode {{ postalCode }}",
+    "empty_cart_feedback": "Cart is empty",
+    "filter_by_brand": "Filter by brand",
+    "filter_by_category": "Filter by category",
+    "filter_results": "Filter results",
+    "g": "Grams",
+    "go_to_category": "Go to the {{ subCategory }} category",
+    "go_to_search_results": "Go to results",
+    "gs": "Grams",
+    "increase_quantity": "Increase {{ quantityWithFormat }} quantity.",
+    "increase_quantity_feedback": "{{ quantityWithFormat }} quantity has been increased.",
+    "in_the_cart": "in cart",
+    "kg": "Kilo",
+    "kgs": "Kilos",
+    "l": "Litre",
+    "list_removed_feedback": "The list has been deleted",
+    "ls": "Litres",
+    "ml": "Millilitres",
+    "mls": "Millilitres",
+    "order_cancelled": "Order has been cancelled",
+    "pack": "Pack",
+    "packs": "Packs",
+    "pluralized_action_plural": "have",
+    "pluralized_action_singular": "has",
+    "price_drops_per_unit": "Previous price: {{ previousPrice }}€ per {{ unit }}, Current price: {{ price }}€ per {{ unit }}",
+    "price_per_unit": "{{ price }}€ per {{ unit }}",
+    "product_added_feedback": "{{ unit }} {{ pluralizedAction }} been added to cart",
+    "product_alternatives": "{{ count }} {{ alternativesPluralized }} for {{ product }}{{ format }}",
+    "product_removed_feedback": "{{ unit }} {{ pluralizedAction }} been removed from cart",
+    "product_removed_from_cart_feedback": "The product has been removed from cart",
+    "product_removed_from_list_feedback": "The product has been removed from the list.",
+    "remove_product_from_cart": "Remove product from cart",
+    "remove_unit_from_cart": "Remove {{ unit }} from cart",
+    "sorting_cart_menu_title": "Sort products",
+    "unit": "Unit",
+    "units": "Units"
+  },
+  "accessibility_app_store_button": "App Store button",
+  "accessibility_cart_button_description": "{{ count }} product in the cart. The total price is {{ totalPrice }} €",
+  "accessibility_cart_button_description_plural": "{{ count }} products in the cart. The total price is {{ totalPrice }} €",
+  "accessibility_click_and_collect_info_modal": "Modal with information about warehouse collection",
+  "accessibility_click_and_collect_map": "Map of the collection point",
+  "accessibility_click_and_collect_map_close": "Close modal",
+  "accessibility_click_and_collect_map_modal": "Modal with a map of the collection point",
+  "accessibility_google_play_button": "Google Play button",
+  "accessibility_happy_mood": "Happy face",
+  "accessibility_language_selector": "Language selector",
+  "accessibility_neutral_mood": "Neutral face",
+  "accessibility_product_detail_image": "Main product image",
+  "accessibility_product_detail_image_thumbnail": "Thumbnail image of the product",
+  "accessibility_product_empty_case_image": "Product not available",
+  "accessibility_see_password": "See password",
+  "accessibility_unhappy_mood": "Disappointed face",
+  "address": {
+    "alerts": {
+      "incomplete": {
+        "no_floor": {
+          "continue": "Save without details",
+          "message": "If your address includes a floor and door number, please add them for more information.",
+          "title": "No floor or door number",
+          "update": "Add details"
+        },
+        "no_number": {
+          "continue": "Save without street number",
+          "message": "If you have a street number, please add it to complete the address.",
+          "title": "Address without street number",
+          "update": "Add number"
+        },
+        "no_number_floor": {
+          "continue": "Save without details",
+          "message": "No number, floor or door number. Please add them for greater accuracy.",
+          "title": "Address incomplete",
+          "update": "Add details"
+        }
+      }
+    }
+  },
+  "address_alert_button_modify": "Add",
+  "address_alert_button_save": "Save",
+  "address_alert_no_details_body": "Street number, floor and door are empty. Would you like to add them?",
+  "address_alert_no_details_title": "Address with no details",
+  "address_alert_no_doorfloor_body": "Add them in order to complete your address. If your address is completed, then click on save.",
+  "address_alert_no_doorfloor_title": "Floor and door?",
+  "address_alert_no_number_body": "If your address has not a street number, please click on Save. If not, add it.",
+  "address_alert_no_number_title": "Address without the street number",
+  "address_list_title": "Where do you want to receive your order?",
+  "address_manual_add_button": "Add",
+  "address_manual_add_label": "Does your address not appear?",
+  "address_map": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "label": "Move the map to find your address",
+    "locate_me": {
+      "button": "Use current location",
+      "warning_modal": {
+        "button": "OK",
+        "description": "Change your browser's privacy settings to use your location.",
+        "title": "The browser has blocked access to your location"
+      }
+    },
+    "pin_at": "Pin at",
+    "satellite": "Satellite",
+    "title": "Indicate address"
+  },
+  "address_modal_no_service_body": "The online service is not available in this address. You can use mercadona.es.",
+  "address_modal_no_service_primary_button": "Ok, go back",
+  "address_modal_no_service_title": "Postal code without service",
+  "address_suggestions_count": "One available suggestion",
+  "address_suggestions_count_plural": "{{count}} available suggestions",
+  "add_address_next_step": "Add a delivery address in the next step",
+  "add_credit_card_doble_verification_disclaimer": "When you accept, your bank will ask you to authorise the operation. Remember to come back here to complete the process.",
+  "add_to_ongoing_order_button": "Add to current order",
+  "add_to_ongoing_order_modal_cancel_button": "Back",
+  "add_to_ongoing_order_modal_confirm_button": "Add to order",
+  "add_to_ongoing_order_modal_title": "Do you want to add {{ count }} unit to the order below?",
+  "add_to_ongoing_order_modal_title_plural": "Do you want to add {{ count }} units to the order below?",
+  "alerts": {
+    "400": {
+      "message": "The data provided is not valid, try to change something",
+      "title": "Your request cannot be processed"
+    },
+    "404": {
+      "message": "Sorry, it is not possible to find the page you are looking for.",
+      "title": "Page not available"
+    },
+    "406": {
+      "action": "Continue shopping",
+      "message": "The amount has been reduced, the minimum to be able to place your order is 50€.",
+      "title": "Minimum order"
+    },
+    "408": {
+      "message": "Please try refreshing the page or try again later.",
+      "title": "Page currently unavailable"
+    },
+    "409": {
+      "message": "We are sorry, the data provided already exist.",
+      "signup": {
+        "message": "Sign up is not available for this email right now. Please contact User Support.",
+        "title": "Operation not completed"
+      },
+      "title": "Your request cannot be processed"
+    },
+    "452": {
+      "message": "You're using an old version of the web. Please update it.",
+      "title": "Update needed"
+    },
+    "add_address": {
+      "msg_floor": "It seems you have not indicated the door or floor number, is that correct?",
+      "msg_number": "It seems you have not indicated your street number, is that correct?",
+      "msg_number_floor": "It seems that you have not indicated the number of your street, door or floor, is that correct?",
+      "msg_out_of_delivery": "We are sorry, the address entered is outside of our delivery area.",
+      "title": "Add delivery address"
+    },
+    "add_blinking_product": {
+      "confirm": "OK",
+      "message": "This product will not be available the day you receive your order.",
+      "title": "It is not possible to add the product"
+    },
+    "age_verification": {
+      "cancel_button": "No, check cart",
+      "confirm_button": "Yes, I am over 18 years of age",
+      "message": "Your order contains a product that requires being over 18 years of age",
+      "title": "Are you over 18?"
+    },
+    "bizum_needs": {
+      "app_installed": "<b>Your bank's app</b> installed on your smartphone. ",
+      "phone_with_bizum": "<b>Your phone number</b> linked to Bizum. ",
+      "title": "To use Bizum, you need:"
+    },
+    "cancel_order": {
+      "message": "If you continue, you will lose the reserved date and delivery time slot.",
+      "title": "Cancel order?"
+    },
+    "clear_cart": {
+      "message": "Are you sure you want to empty your cart?",
+      "title": "Empty cart"
+    },
+    "delete_address": {
+      "message": "Are you sure you want to remove the delivery address?",
+      "title": "Remove the delivery address"
+    },
+    "delete_payment": {
+      "message": "Are you sure you want to remove the card?",
+      "title": "Remove card"
+    },
+    "delete_payment_method": {
+      "message": "Are you sure you want to remove the payment method?",
+      "title": "Delete payment method"
+    },
+    "disrupted_payment": {
+      "message": "It seems that there is still a problem with your payment method. Try introducing a new card.",
+      "title": "Unresolved incident"
+    },
+    "edit_min_purchase": {
+      "message": "Remember, the minimum amount of the products in order to make changes is € {{ minPurchase }}",
+      "title": "Minimum order"
+    },
+    "errors": {
+      "slot": {
+        "1": {
+          "message": "The selected time slot is not available. Please select your time slot again",
+          "title": "Time slot not available"
+        },
+        "2": {
+          "message": "The selected time slot is not available. Please select your time slot again",
+          "title": "Time slot not available"
+        }
+      }
+    },
+    "log_out": {
+      "close_session": "Logout",
+      "message": "{{ userName }}, do you want to log out?",
+      "title": "Logout"
+    },
+    "min_purchase": {
+      "message": "Remember that to place your order the minimum amount is €50",
+      "title": "Minimum order"
+    },
+    "no_service": {
+      "message": "We are sorry, we do not yet deliver to that area but you can buy in the classic online version at www.mercadona.es",
+      "title": "Postal code without service"
+    },
+    "no_service_country": {
+      "message": "We are sorry, the address entered is outside of our delivery area",
+      "title": "Without service"
+    },
+    "no_service_exception": {
+      "message": "We are sorry, the address entered is outside of our delivery area",
+      "title": "Without service"
+    },
+    "order_payment_method_updated": {
+      "title": "Payment method updated"
+    },
+    "payment_authenticating": {
+      "authorization_explanation_fixed_weight": "The final amount will be charged on the day of delivery, after the products have been prepared.",
+      "authorization_explanation_variable_weight": "The exact total will be charged on the day of delivery, after the products have been weighed and prepared.",
+      "just_an_authorisation": "This is not a payment, just an authorisation",
+      "margin_amount": "Margin on products sold by weight (fruit, meat, fish…)",
+      "remaining_time": "Time remaining",
+      "title": "Open your <b>banking app</b> to authorise <b>{{ amount }}</b>",
+      "total_authorize": "Amount to authorise",
+      "total_estimate": "Estimated total"
+    },
+    "payment_confirmed": {
+      "title": "Payment confirmed"
+    },
+    "payment_failed": {
+      "title": "The transaction could not be carried out"
+    },
+    "payment_method_error": {
+      "confirm": "OK",
+      "message": "There has been a problem with the payment gateway. Please, try again later.",
+      "title": "Your request cannot be processed"
+    },
+    "payment_timing": {
+      "delivery_day": "Delivery day",
+      "message": "The charge will be automatic: check that the payment method is active and has enough balance on the delivery day.",
+      "order_confirmed": "Order confirmed",
+      "order_payment": "Order payment",
+      "title": "The charge to your account will be made on the delivery day",
+      "today": "Today"
+    },
+    "phone_without_bizum": {
+      "message": "Make sure this phone number is linked to Bizum",
+      "title": "{{ phone }} is not linked to Bizum"
+    },
+    "products_limit": {
+      "confirm": "OK",
+      "message": "You have reached the maximum number of units that we can serve you of this product",
+      "title": "Maximum quantity"
+    },
+    "repeat_purchase": {
+      "add_message": "By continuing, the products and quantities of this order will be added to your cart. Do not forget to check the cart to make sure you have everything you need.",
+      "cancel": "Cancel",
+      "confirm": "Continue",
+      "replace_message": "By continuing, your cart will be replaced with the same products and quantities as in the selected order.",
+      "title": "Repeat order"
+    },
+    "reset_password": {
+      "confirm_button": "OK",
+      "message": "We have sent you an email to {{ email }} with the instructions to choose your password.",
+      "title": "Change password"
+    },
+    "support": {
+      "message": "Call the Freephone +34 800 500 220",
+      "title": "Can we help you?"
+    },
+    "address_wrong_postal_code": {
+      "title": "The post code does not match the address",
+      "subtitle": "Suggested address:",
+      "save": "Save suggestion",
+      "edit": "Edit address"
+    },
+    "max_size_area_exceeded": {
+      "title": "Order too large",
+      "subtitle": "Your order exceeds the truck's capacity at the following temperatures:",
+      "ambient": "Ambient",
+      "chilled": "Refrigerated",
+      "frozen": "Frozen",
+      "description": "To process the order, please reduce the number of items in your cart.",
+      "ambient_exceeded": "The ambient-temperature products exceed the truck's capacity.",
+      "chilled_exceeded": "The refrigerated products exceed the truck's capacity.",
+      "frozen_exceeded": "The frozen products exceed the truck's capacity.",
+      "ambient_ok": "The ambient-temperature products fit in the truck and can be added to the order.",
+      "chilled_ok": "The refrigerated products fit in the truck and can be added to the order.",
+      "frozen_ok": "The frozen products fit in the truck and can be added to the order."
+    },
+    "order_address_not_in_warehouse": {
+      "title": "It is not possible to change to the selected address",
+      "subtitle": "To change the address, cancel this order, change the address and start a new order."
+    },
+    "checkout_slot_not_available": {
+      "title": "The selected delivery slot is no longer available",
+      "subtitle": "Please choose another one to complete your order.",
+      "action": "Choose a new slot"
+    },
+    "order_slot_not_available": {
+      "title": "It's not possible to switch to the selected slot",
+      "subtitle": "The selected delivery slot is no longer available."
+    }
+  },
+  "alerts_close": "Close",
+  "alert_cookies_accept_button": "Accept",
+  "alert_cookies_and": "and",
+  "alert_cookies_configuration": "Settings",
+  "alert_cookies_message": "We use first-party and third-party cookies, both session and persistent, to make browsing on our website easy and safe for users. We also use cookies to measure and obtain statistical data about users’ browsing. You can configure and accept the use of cookies, as well as change your consent options, at any time.",
+  "alert_cookies_reject_button": "Reject",
+  "alert_more_info_cookies_terms": "Further information",
+  "alert_products_limit_button": "OK",
+  "alert_products_limit_message\n": "You have reached the maximum number of units that we can serve you of this product",
+  "alert_products_limit_title": "Maximum quantity",
+  "alert_product_limit_title": "Maximum product limit",
+  "alert_purchase_edited_cta_title": "Review order",
+  "alert_purchase_modification_body": "You can check the changes made on your order.",
+  "alert_purchase_modification_button": "Understood",
+  "alert_purchase_modification_title": "Order updated",
+  "all_invoice": "Invoices",
+  "alt_warning_image": "Warning triangle",
+  "always_send_invoices_switch": "Always send invoices",
+  "amplitude_id_": "amplitude_id_*",
+  "amplitude_id_description": "This cookie allows us to assist and provide support to the users of our website.",
+  "amplitude_id_expiration": "1 year",
+  "amplitude_id_required_analytics": "amplitude_id",
+  "amplitude_id_required_analytics_description": "This cookie allows us to collect anonymised data about the way users browse our website so that we can carry out statistical analysis on its use.",
+  "amplitude_id_required_analytics_expiration": "1 year",
+  "approximate_value_field": "approx.",
+  "aria_label_close": "Close product detail dialog",
+  "aria_loading": "Loading",
+  "aria_next_widget": "Next order card",
+  "aria_previous_widget": "Previous order card",
+  "automatic_invoice_accepted_dialog_title": "Your future invoices will be sent automatically",
+  "automatic_invoice_button": "Automatic invoicing",
+  "automatic_invoice_deactivated": "Deactivated",
+  "automatic_invoice_dialog_message": "We will send them automatically with the document that you have indicated.",
+  "automatic_invoice_dialog_primary_button": "Yes, always",
+  "automatic_invoice_dialog_title": "Do you want an invoice for your future orders?",
+  "automatic_invoice_document_field_tittle": "Document number",
+  "automatic_invoice_info_message": "This will be applied in your future orders.",
+  "automatic_invoice_label": "Number of document with which we will send your invoices",
+  "availability_advice": {
+    "cancel_button": "Choose another day",
+    "choose_another_day_button": "Select a different day",
+    "confirm_button": "Continue",
+    "continue_without_products_button": "Continue without the products",
+    "day1_abbrev": "M",
+    "day2_abbrev": "TU",
+    "day3_abbrev": "W",
+    "day4_abbrev": "T",
+    "day5_abbrev": "F",
+    "day6_abbrev": "S",
+    "friday": "Friday",
+    "message": "The following products are not available on {{ weekDay }}, they will be removed from your order when you continue:",
+    "message_not_available": "Not available on {{ weekDay }}",
+    "message_only_available": "Only available on {{ weekDay }}",
+    "monday": "Monday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "thursday": "Thursday",
+    "title": "Availability notice",
+    "title_checkout": "These products will not be available on the selected day",
+    "title_merge": "These products will not be available on the day of delivery",
+    "tuesday": "Tuesday",
+    "unavailable_from": "Not available from {{month}} {{day}}",
+    "unavailable_from_detail": "This product is not available from {{month}} {{day}}",
+    "wednesday": "Wednesday"
+  },
+  "button": {
+    "accept": "Accept",
+    "agreed": "OK",
+    "back": "Back",
+    "cancel": "Cancel",
+    "cancel_order": "Yes, cancel order",
+    "change": "Modify",
+    "clear_cart": "Empty cart",
+    "confirm": "Confirm",
+    "correct": "It is correct",
+    "create": "Create",
+    "delete": "Remove",
+    "edit": "Modify",
+    "edit_payment": "Edit payment method",
+    "enter": "Enter",
+    "finish": "Finish",
+    "get_ticket": "Download ticket",
+    "go_back": "Go back",
+    "go_on": "Continue",
+    "modify_order": "Modify order",
+    "next": "Continue",
+    "no": "No",
+    "ok": "OK",
+    "refresh": "Refresh",
+    "repeat_order": "Repeat order",
+    "reset": "Change",
+    "retry": "Retry",
+    "save": "Change",
+    "save_changes": "Save",
+    "start_chat": "Help"
+  },
+  "button_aria_get_ticket": "Download ticket",
+  "button_edit_purchase": "Modify order",
+  "card_tokenizaton_help_message": "When you “Save”, we will redirect you to your bank’s website to complete the transaction.",
+  "cart": {
+    "aria_close": "Close cart and continue adding products",
+    "aria_description": "Shopping cart",
+    "aria_open": "Show cart",
+    "cart_to_list_tooltip_message": "Now you can save the products in your cart in a new list.",
+    "cart_to_list_tooltip_title": "Save in a new list",
+    "clear": "Empty",
+    "delete_cart": "Empty cart",
+    "delivery_postal_code": "Delivery in",
+    "empty_cart": "You have not yet added any products to your cart",
+    "more_actions_button_text": "more actions",
+    "postal_code_modal": {
+      "title": "Postal Code"
+    },
+    "price": "Estimated cost",
+    "price_message": "For products sold by weight, the amount charged will be adjusted to the quantity served. Charging of the final amount will be made after the preparation of your order.",
+    "save_to_list": "Save to new list",
+    "start_checkout": "Checkout",
+    "title": "Cart"
+  },
+  "categories": {
+    "footer": "View {{ categoryName }}"
+  },
+  "cells": {
+    "address": {
+      "permanent": "Selected address",
+      "set_permanent": "Select"
+    },
+    "common": {
+      "delete": "Remove",
+      "edit": "Modify",
+      "set_default": "Set as default"
+    },
+    "order": {
+      "delivered_date": "Delivered on {{ date }}",
+      "delivering_action": "Your order will arrive soon",
+      "delivering_title": "Delivering",
+      "delivery_date": "Delivery on {{ weekDay }}, {{ monthDay }} of {{ month }}",
+      "disrupted_action": "View incident",
+      "disrupted_delivery_text": "Incident during the delivery",
+      "disrupted_payment_text": "Payment has failed",
+      "preparing_action": "Preparing your order.",
+      "preparing_title": "Preparing",
+      "products": "{{ count }} product",
+      "products_plural": "{{ count }} products"
+    },
+    "payment": {
+      "expired": "Expired",
+      "expires_soon": "Expires on {{ expiryDate }}",
+      "label": "Payment method ending in ‪{{ creditCardNumber }}‬",
+      "permanent": "Default card",
+      "set_permanent": "Set as default",
+      "valid": "Valid until {{ expiryDate }}"
+    }
+  },
+  "change_address": "Change address",
+  "change_card_continue_button": "Continue",
+  "change_card_new_card_title": "Add new card for this order",
+  "change_card_title": "Use a different card for this order",
+  "change_card_valid_until": "Valid until",
+  "change_hive_alert_button": "Check your shopping trolley",
+  "change_hive_alert_button_legacy": "Ok",
+  "change_hive_alert_message": "When you change the address, some products will no longer be available in your shopping trolley",
+  "change_hive_alert_message_legacy": "When changing direction the catalog has changed. Check your cart if you had added something.",
+  "change_hive_alert_title": "Products not available at this address",
+  "change_hive_alert_title_legacy": "Change of address",
+  "change_hive_on_address_alert_button": "Return to shopping trolley",
+  "change_hive_on_address_alert_message": "Availability may vary if the address is changed. Process the order again.",
+  "chat": {
+    "context_menu": {
+      "button": {
+        "label": "More options"
+      },
+      "finish_chat": "End chat",
+      "toggle_sound": {
+        "mute": "Mute sound",
+        "unmute": "Unmute sound"
+      }
+    },
+    "conversation": {
+      "agent_assigned": "{{name}} joined the chat",
+      "aria_label": "Chat messages with customer service",
+      "document": {
+        "sent_successfully": "document {{name}} sent successfully"
+      },
+      "ended": "Conversation ended",
+      "failed_message": {
+        "not_sent": "Not sent",
+        "retry": "Try sending again"
+      },
+      "file_upload_progress": "file upload progress",
+      "image": {
+        "sent_successfully": "image sent to the chat"
+      },
+      "open_document": "Open document",
+      "queue_position": "You are number {{position}} in the queue",
+      "received_document": "document {{name}} received successfully",
+      "received_image": "image received in the chat",
+      "agent_typing": "Agent is typing"
+    },
+    "drag_and_drop": {
+      "overlay": {
+        "subtitle": "Supported files: PNG, JPEG, JPG and PDF",
+        "title": "Release to send"
+      }
+    },
+    "file_form": {
+      "input": {
+        "label": "Attach images or files"
+      }
+    },
+    "finish_confirmation": {
+      "continue_button": "Continue my inquiry",
+      "decoration_image": {
+        "exit_door": "Exit door"
+      },
+      "description": "Feel free to write to us again whenever you need. We'll be here to help.",
+      "finish_button": "End conversation",
+      "title": "Shall we end this conversation?"
+    },
+    "floating_button": {
+      "aria_label": {
+        "without_notifications": "Open chat",
+        "with_notifications": "Open chat. You have {{count}} unread messages"
+      },
+      "label": "Help",
+      "minimize": "Minimise chat"
+    },
+    "header": {
+      "close_button": "End chat",
+      "minimize_button": "Minimise chat"
+    },
+    "message": {
+      "upload": {
+        "error": {
+          "file_size_exceeded": "It exceeds the permitted limit ({{limit}})",
+          "generic": "Failed to upload. Please try again.",
+          "invalid_file_type": "Incompatible file. Use {{allowed_extensions}}."
+        }
+      }
+    },
+    "messages_forms": {
+      "label": "Send messages and files"
+    },
+    "message_form": {
+      "input_placeholder": "Write a message...",
+      "label": "message for the chat",
+      "send_message_button": "Send message",
+      "start_new_conversation": "Start new chat"
+    },
+    "privacy_policy": {
+      "disclaimer": "By starting this chat, you confirm that you have read and agree to our",
+      "link_label": "Privacy Policy"
+    },
+    "setup": {
+      "error": {
+        "retry_button": "Try again",
+        "tagline": "Please try again",
+        "title": "Sorry, we couldn’t start the chat."
+      }
+    },
+    "status_badge": {
+      "available": "Available",
+      "unavailable": "Not available"
+    },
+    "title": "Customer service"
+  },
+  "checkout": {
+    "action": "Confirm order",
+    "credit_card_expired_on_delivery_date": "This credit card will be expired on the delivery date. Select another one to continue.",
+    "header": {
+      "aria": "Back",
+      "label": "Checkout"
+    },
+    "terms": {
+      "text": "By confirming your order, you hereby accept"
+    },
+    "title": "Summary"
+  },
+  "checkout_check_user": {
+    "label": "Enter your email.",
+    "message": "To continue with the order, please log in.",
+    "title": "Login"
+  },
+  "checkout_completion_hint": "Once the purchase is completed you will be able to modify your order until the day before delivery.",
+  "checkout_completion_hint_subtitle": "The final amount will not be charged until the delivery date.",
+  "checkout_completion_hint_title": "To complete the purchase, you just have to authorise the payment.",
+  "checkout_confirm": {
+    "back_to_shop_button": "Go back to store",
+    "delivery_date": "{{ weekDay }}, {{ monthDay }} of {{ month }} at {{ startTime }} to {{ endTime }}",
+    "earlier_cutoff_date": "{{ weekDay }} {{ monthDay }} {{ month }}",
+    "earlier_cutoff_description": "Please keep in mind that you can change your order if you forget something.",
+    "earlier_cutoff_time": "Deadline {{ time }}",
+    "earlier_cutoff_title": "Deadline to change this order",
+    "edit_hint_morning": "Once you have finalized your order, you will be able to modify it until {{ time }} h on the morning of {{ day }} {{ month }}.",
+    "edit_hint_new": "Once you have finalised your order, you will be able to modify it up until {{ time }}h on {{ day }} {{ month }}",
+    "edit_reminder": "Remember that you can modify your order until the day before delivery.",
+    "edit_reminder_morning": "Remember that you can modify your order until {{ time }} h on the morning of {{ day }} {{ month }}.",
+    "edit_reminder_new": "Remember that you can modify this order up until {{ time }}h on {{ day }} {{ month }}",
+    "email": "We have sent a confirmation to your email {{email}}",
+    "message": "Your order has been placed.",
+    "order_number": "Order nº {{ id }}",
+    "price": "Estimated cost",
+    "price_message": "For products sold by weight, the amount charged will be adjusted to the quantity served. Charging of the final amount will be made after the preparation of your order.",
+    "profile": "Remember you can still edit",
+    "profile_link": "this order",
+    "reminder": "Delivery:",
+    "reminder_span": "next",
+    "review_order_button": "Review order",
+    "title": "Order confirmed!"
+  },
+  "checkout_failed_authentication_alert_close_button": "Close",
+  "checkout_failed_authentication_alert_explanation": "It looks like there was a problem with the bank authorisation. You can try with another card or find more information in the Help section.",
+  "checkout_failed_authentication_alert_retry_button": "Try again",
+  "checkout_failed_authentication_alert_title": "We’re sorry, we couldn’t complete the order",
+  "checkout_login": {
+    "message": "Enter your password to continue with your order.",
+    "remember_password": "Forgot password?",
+    "title": "Hello again"
+  },
+  "checkout_payment_changes_alert_explanation": "Now your bank may give you instructions for authorising the amount in line with the new regulation (PSD2).",
+  "checkout_payment_changes_alert_explanation_plural": "Now your bank may give you instructions for authorising the purchase amount on its website or app.",
+  "checkout_payment_changes_alert_explanation_1": "Now your bank may give you instructions for authorising the purchase amount on its website or app.",
+  "checkout_payment_changes_alert_explanation_2": "You may have to authorise up to €5 more in case the price of the variable weight products ends up being higher.",
+  "checkout_payment_changes_alert_explanation_2_relative": "You may have to authorise your bank for the approximate total +10% in case the price of the variable weight products ends up being higher.",
+  "checkout_payment_changes_alert_explanation_3": "Remember, we'll only charge you the exact amount of the products served on the delivery day.",
+  "checkout_payment_changes_alert_explanation_back_button": "Back",
+  "checkout_payment_changes_alert_explanation_continue_button": "Continue",
+  "checkout_payment_changes_alert_title": "Important changes in online payment",
+  "checkout_payment_hint_message": "You may have to authorise the amount of this order with your bank.",
+  "checkout_payment_hint_more_info": "More information",
+  "checkout_remember_password": {
+    "message": "We have sent to {{ email }} an email with the instructions to recover your password.",
+    "title": "Recover password"
+  },
+  "checkout_sign_up": {
+    "message": "Log in to enjoy the online purchasing of Mercadona.",
+    "name": "Name",
+    "password": "Enter your password",
+    "surname": "Surname(s)",
+    "terms": "our terms and conditions as well as our privacy policy.",
+    "title": "Create account"
+  },
+  "click_and_collect_button": "Warehouse collection",
+  "click_and_collect_explanation_faq": "Learn more",
+  "click_and_collect_explanation_how_title": "We deliver tour purchase without you getting out of the car",
+  "click_and_collect_explanation_service_price": "The cost of the service is 4.21 euros including VAT and the minimum order is 50 euros.",
+  "click_and_collect_explanation_subtitle": "Once you are in the warehouse, give us your email and we will deliver your purchase in the area set aside for this purpose.",
+  "click_and_collect_explanation_title": "Warehouse collection",
+  "click_and_collect_explanation_what_title": "Purchase online and select \"warehouse collection\"",
+  "click_and_collect_explanation_when_subtitle": "There are 20-minute collection time slots available from 17:00 to 22:00, Monday to Saturday, except holidays",
+  "click_and_collect_explanation_when_title": "Choose the day and time that you would like to collect your purchase",
+  "click_n_collect_more_info": "More info",
+  "collection_point": "See collection address",
+  "collection_point_map": "See map",
+  "collection_point_map_title": "Warehouse address",
+  "collection_point_vlc_name": "La Colmena Mercadona",
+  "comments_current_length_hint": "{{ currentLength }} of {{ maxLength }}",
+  "comments_max_length_hint": "Max. {{ maxLength }}",
+  "commons": {
+    "and": "and",
+    "options": "Options",
+    "or": "or",
+    "order": {
+      "aprox_price": "Estimated total",
+      "cancel": {
+        "advertise": "Remember that cancelling this order you will lose the reserved date and time slot. We inform you that you have not made any payment in relation to this order.",
+        "title": "Cancel order"
+      },
+      "cancelled": "Cancelled",
+      "cart_updated": {
+        "message": "Do not forget to check it to make sure you have everything you need.",
+        "review": "Check cart",
+        "title": "Cart updated"
+      },
+      "collecting": "Ready for collection",
+      "delivered": "Delivered",
+      "delivering": "Out for delivery",
+      "delivery_disrupted": "Incident with the delivery",
+      "disrupted": "Incident",
+      "edit": {
+        "confirmation": {
+          "cancel": "Stay",
+          "confirm": "Exit without saving",
+          "message": "If you continue, you will lose all the changes you have made.",
+          "title": "Are you sure?"
+        }
+      },
+      "final_price": "Total",
+      "next_to_delivery": "On the way",
+      "on_going": "Confirmed",
+      "order_contact": {
+        "add_contact": "Add a phone number",
+        "contact": "Phone number",
+        "phone_advertise": "We will only use it if we need to contact you in relation to your purchase, payment or delivery process. This phone number will be saved for future purchases.",
+        "phone_advertise_edit": "We will only use it to contact you in relation to your purchase, payment or delivery process. This phone number will be saved for future orders.",
+        "title": "Contact",
+        "title_phone": "Phone"
+      },
+      "order_delivery": {
+        "address_list": {
+          "add_address": "Add address",
+          "title": "Delivery address for this order"
+        },
+        "address_subtitle": "Delivery address",
+        "delivery_address": "Delivery address",
+        "delivery_date": {
+          "date": "{{ weekDay }} {{ monthDay }} of {{ month }}",
+          "time": "from {{ startTime }} to {{ endTime }}",
+          "title": "Delivery date"
+        },
+        "edit_address": "Change address",
+        "empty_address": "Add where you want to receive your order.",
+        "hide_slots": "To see the available time slots it is necessary to introduce a delivery address.",
+        "slots_calendar": {
+          "avaliable_days": "Pick a day for",
+          "item": "{{ startTime }} - {{ endTime }} h",
+          "item_label": "From {{ startTime }} to {{ endTime }}",
+          "more_days": "More days",
+          "prev_days": "Previous",
+          "title": "Pick a slot for",
+          "today_text": "Today"
+        },
+        "slots_detail": {
+          "at_capacity": "Not available",
+          "not_available": "Not available",
+          "title": "Pick a slot for {{ weekDay }}, {{ monthDay }} of {{ month }}"
+        },
+        "title": "Delivery"
+      },
+      "order_id": "Order {{ orderId }}",
+      "order_payment": {
+        "bank_redirection_disclaimer": "After \"Saving\" you could be redirected to your bank’s website in order to authorize the transaction.",
+        "payment": "Payment method",
+        "payment_form": {
+          "title": "Add a payment method"
+        },
+        "payment_list": {
+          "add_payment": "Add card",
+          "card_data": "{{ cardNumber }} Valid until {{ expiryDate }}",
+          "choose_card": "Choose card",
+          "options": "Saved payment methods",
+          "title": "Payment method for this order:"
+        },
+        "title": "Payment",
+        "valid_payment_date": "Valid until {{ expiryDate }}"
+      },
+      "order_products": {
+        "title": "{{ count }} product",
+        "title_plural": "{{ count }} products"
+      },
+      "payment_disrupted": "Payment has failed",
+      "prepared": "Prepared",
+      "prepared_click_and_collect": "Preparing",
+      "preparing": "Preparing",
+      "repeat_modal": {
+        "cancel": "Cancel",
+        "confirm": "Continue",
+        "title": "Repeat order"
+      },
+      "reprepared_pending_payment": {
+        "action": "Solve pending payment",
+        "description": "Select a payment method to resolve the issue.",
+        "summary": "As we have changed the weight or number of units of some products, which we have prepared again to preserve freshness.",
+        "title": "Pending payment of €{{amount}}",
+        "widget": "Pending payment"
+      },
+      "summary": {
+        "click_n_collect": {
+          "delivery": "Preparation cost"
+        },
+        "delivery": "Service cost",
+        "igic_taxes": "IGIC included",
+        "price": "Total",
+        "price_aprox": "Estimated cost",
+        "products_counter": "{{ count }} products",
+        "products_price": "Products cost",
+        "taxes": "VAT included",
+        "variable-price-weight-products": "May vary for products sold by weight"
+      }
+    },
+    "payment_form": {
+      "disclaimer": "The card will be saved as a payment method. You will be able to delete it when you wish from your account.",
+      "text": "Accepted cards"
+    },
+    "policy_terms": {
+      "&": " as well as",
+      "privacy": "the privacy policy.",
+      "terms": "our terms and conditions",
+      "text": "By continuing, you accept"
+    },
+    "postal_code_form": {
+      "error": "We are sorry, we do not yet deliver to that area but you can buy in the classic online version at www.mercadona.es",
+      "header": "Where do you want to receive your order?",
+      "old_shop": "Go to classic version",
+      "title": "Where do you want to receive your order?"
+    },
+    "product": {
+      "add_quantity": "Add {{ quantity }}",
+      "add_to_cart": "Add to cart",
+      "add_to_cart_shopping_list": "Add {{ quantity }} to cart",
+      "decrease": "Remove item from cart",
+      "in_cart": "In cart",
+      "remove": "Remove from cart"
+    },
+    "thanks": "Thank you"
+  },
+  "confirm_checkout_loader_exaplanation": "It may take a few seconds...",
+  "confirm_checkout_loader_title": "Confirming your order",
+  "cookies_configuration_accept": "Accept",
+  "cookies_configuration_accept_thirdparty_cookies": "Accept analytical cookies",
+  "cookies_configuration_always_active": "Always activated",
+  "cookies_configuration_body_necessary": "This website uses cookies to make the web page function correctly and safely. These cookies, classified as necessary, are essential to the website’s functioning. Therefore, they are automatically stored on your browser.",
+  "cookies_configuration_body_thirdparty": "We also use third-party statistical cookies that help to analyse and understand how you use the website, with full anonymity. These cookies will be stored on your browser with your consent. However, the exclusion of these cookies could affect your user experience.",
+  "cookies_configuration_cancel": "Close",
+  "cookies_configuration_close_configuration": "Close cookies settings",
+  "cookies_configuration_description": "Description",
+  "cookies_configuration_expiration": "Expiration",
+  "cookies_configuration_necessary_explanation": "These are necessary for the web page to function and, therefore, cannot be disabled.",
+  "cookies_configuration_necessary_title": "Technical cookies",
+  "cookies_configuration_reject_thirdparty_cookies": "Reject analytical cookies",
+  "cookies_configuration_required_analytics_explanation": "They are required to perform statistical analysis on anonymised data regarding the way users browse our website.",
+  "cookies_configuration_required_analytics_title": "Required analytics",
+  "cookies_configuration_thirdparty_explanation": "These make it possible to analyse your browsing on our website for statistical studies on usage.",
+  "cookies_configuration_thirdparty_title": "Analytics",
+  "cookies_configuration_title": "Cookie settings",
+  "countdown_hours": "hours",
+  "countdown_minutes": "min",
+  "countdown_remaining_time": "Time left to modify your order:",
+  "countdown_remaining_time_widget": "Time left to modify:",
+  "countdown_seconds": "sec",
+  "create_new_order_button": "Confirm new order",
+  "day_selection_help_hint": "Choose a day to display the available delivery times",
+  "delivery_available_days_message": "Next delivery date in {{ count }} calendar days.",
+  "dialog_close": "Close",
+  "discover_search_view_title": "Discover",
+  "draft_unsaved_changes_body": "Please save your latest changes to avoid losing them.",
+  "draft_unsaved_changes_cancel": "Later",
+  "draft_unsaved_changes_confirm": "See changes",
+  "draft_unsaved_changes_title": "You have made unsaved changes to your order",
+  "drained_field": "drained",
+  "duplicated_order_alert_body": "Please confirm you want to receive multiple orders on the same address and same day",
+  "duplicated_order_alert_confirm_button": "Confirm order",
+  "duplicated_order_alert_title": "You are about place 2 orders for the same day and address",
+  "edit_purchase_confirm_button": "Save changes",
+  "enter_postal_code_modal_title": "Enter your postal code in order to access your shop",
+  "errors": {
+    "404": "Sorry, it is not possible to find the page you are looking for.",
+    "500": "Sorry, the content of this page cannot be displayed."
+  },
+  "error_link": "Go to shop",
+  "error_something_went_wrong_subtitle": "The action taken has failed. If the error persists, please contact us via chat.",
+  "error_something_went_wrong_title": "Something happened",
+  "extra_water": {
+    "description": "The maximum limit of water per order is {{ max_liters }} and you currently have {{ current_liters }} litres.",
+    "title": "Maximum limit for water"
+  },
+  "failed_authentication_alert_close_button": "Close without saving changes",
+  "failed_authentication_alert_explanation": " It looks like there was a problem with the authorization. You can try with another card or contact us through the Help chat.",
+  "failed_authentication_alert_retry_button": "Try again",
+  "failed_authentication_alert_title": "The changes were not saved correctly",
+  "failed_payment_alert_close_button": "Close without resolving",
+  "failed_payment_alert_explanation": "It looks like there was a problem collecting the payment. You can try with another card or contact us through the Help chat.",
+  "failed_payment_alert_retry_button": "Try again",
+  "failed_payment_alert_title": "The payment attempt has failed",
+  "footer_section": {
+    "cookies": "Cookies policy",
+    "copyright": "© Mercadona S.A.",
+    "privacy": "Privacy policy",
+    "terms": "Terms and conditions"
+  },
+  "header": {
+    "menu": {
+      "categories": "Categories",
+      "my_products": "My Essentials",
+      "shopping_lists": "Lists"
+    },
+    "search": "Search products",
+    "user_menu": {
+      "anom_message": "Sign in",
+      "menu": {
+        "account": "Account",
+        "anom": "Guest",
+        "close_session": "Logout",
+        "faqs": "FAQ",
+        "help": "Help",
+        "identify": "Sign in",
+        "orders": "My orders"
+      },
+      "user_message": "Hello {{ userName }}"
+    }
+  },
+  "home_banner_subtitle": "Current procuct selection",
+  "home_banner_title": "Featured products",
+  "home_delivery_button": "Home delivery",
+  "home_news_subtitle": "Recently added or improved products",
+  "home_sections": {
+    "availability": {
+      "title": "Delivery available"
+    }
+  },
+  "home_title": "Mercadona online shopping",
+  "i": "i",
+  "inaccurate_address_modal": {
+    "button": "Indicate on the map",
+    "description": "Please indicate precisely where you would like to receive your order.",
+    "title": "We are having trouble finding your address"
+  },
+  "input": {
+    "address": "Street name",
+    "address_comments": "Additional information (E.g. There is no lift)",
+    "address_number": "Floor, door...",
+    "address_suggestion": "Street and number",
+    "comments": "(Optional) I.e. There's no elevator...",
+    "email": "Email",
+    "name": "Name",
+    "number": "Number",
+    "password": "Password",
+    "phone": "Phone number",
+    "postal_code": "Postal code",
+    "surname": "Surname(s)",
+    "town": "Town/City"
+  },
+  "invoices": {
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "modify_invoice": {
+      "title": "Modify invoice"
+    },
+    "personal_id_not_registered_modal": {
+      "button": "Go to the Invoices portal",
+      "subtitle": "Come back when you are finished to complete the application",
+      "title": "Register the document in the Invoices portal"
+    },
+    "personal_id_not_registered_modal_warning": {
+      "button": "Try again",
+      "close_button": "Exit without saving",
+      "subtitle": "Please check that you have completed the registration in the invoices Portal or try again.",
+      "title": "It appears that the document is still not registered"
+    },
+    "requested_invoice": {
+      "button": "Go to the Invoices portal",
+      "title": "Invoice requested"
+    },
+    "request_invoice": {
+      "info": "The invoice will be available in the Invoices Portal.",
+      "label": "ID, resident ID or Corporate Tax ID number",
+      "subtitle": "Enter the document number",
+      "title": "Request invoice"
+    }
+  },
+  "invoice_data_button_message": "You can modify your invoicing data on the <a>Invoices Portal</a>.",
+  "invoice_data_button_title": "Invoicing data",
+  "is_new_badge": "New",
+  "i_description": "Used for identifying site users",
+  "i_expiration": "1 year",
+  "list": {
+    "language": {
+      "ca": "Catalan",
+      "en": "English",
+      "es": "Spanish",
+      "eu": "Basque",
+      "va": "Valencian",
+      "vai": "Valencian"
+    }
+  },
+  "login": {
+    "check_user": {
+      "error": "Enter a valid email",
+      "label": "Enter your email",
+      "title": "Sign in"
+    },
+    "image": {
+      "label": "Take advantage of Mercadona's new personalised service.",
+      "title": "Just for you"
+    },
+    "label": "Enter your password",
+    "recovery_password": {
+      "text": "We have sent to {{ email }} an email with the instructions to reset your password.",
+      "title": "Reset password"
+    },
+    "remember_password": "Forgot password?",
+    "title": "Hello again"
+  },
+  "mit_term_accept_button": "Authorise",
+  "mit_term_cancel_button": "Back",
+  "mit_term_explanation": "We need you to authorise the payment of this order, including possible changes you may make and products with variable weight.<br>By authorising, you allow us to charge the final amount on the delivery day, in accordance with the payment conditions.",
+  "mit_term_reminder": "Authorise the payment with your bank and return to the app to complete the purchase.",
+  "mit_term_title": "Authorisation required",
+  "mobile_block": {
+    "download_app": "Download the app to buy from your mobile or tablet."
+  },
+  "my_invoices_button_message": "You can find your invoices on the <a>Invoices Portal</a>.",
+  "my_invoices_button_title": "My invoices",
+  "my_products": {
+    "anonymous_title": "Log in to see your essentials",
+    "counter": "{{ recommendedProducts }} products",
+    "empty_button_text": "View all the products",
+    "empty_button_text_anonymous": "Login",
+    "empty_message": "To save you time, here you will find the products and quantities you usually buy.",
+    "empty_message_anonymous": "Once you sign in to your account and place the first order, here you will find the products and quantities you usually buy to save you time.",
+    "empty_title": "Make your first order to see your essentials",
+    "header": "My Essentials",
+    "message": "Here you can see the products and quantities you usually buy to save you time."
+  },
+  "my_regulars": {
+    "empty_precision_message": "We need more information about your purchases to be able to recommend products in this section.",
+    "empty_recall_message": "We need more information about your purchases to be able to recommend products in this section. You can see your usual products in the section What I buy the most.",
+    "empty_section_title": "You still don't have enough purchases",
+    "header": "My Essentials",
+    "message": "Here you can see the products and quantities you usually buy to save you time.",
+    "precision_button": "What I buy the most",
+    "recall_button": "I also buy"
+  },
+  "new_price_authenticaton_alert_continue_button": "Continue",
+  "new_price_authenticaton_alert_explanation": "With the new European payment regulation (PSD2), we need you to authorise the price change for your order in the next step.",
+  "new_price_authenticaton_alert_faq_button": "Learn more",
+  "new_price_authenticaton_alert_title": "The price has changed",
+  "next_order_widget_description": "Your order is next in line for delivery",
+  "non_supported_address_no_slots_available_description": "Please contact customer service.",
+  "non_supported_address_no_slots_available_title": "There are no slots available",
+  "not_supported_browser_choice": "Microsoft Edge",
+  "not_supported_browser_choice_plural": "Microsoft Edge",
+  "not_supported_browser_choice_1": "Microsoft Edge",
+  "not_supported_browser_choice_2": "Google Chrome",
+  "not_supported_browser_choice_3": "Mozilla Firefox",
+  "not_supported_browser_choice_4": "Safari",
+  "not_supported_browser_explanation": "We are sorry, but we cannot guarantee the best experience with this browser. Please use another browser or download one of the ones recommended here.",
+  "not_supported_browser_help": "Remember that if you have any doubts, you can contact us through the Help chat.",
+  "not_supported_browser_title": "Unsupported browser",
+  "no_delivery_available_days_message": "We apologise for the inconvenience, but there are currently no delivery slots available.",
+  "no_results": {
+    "default": "There are no results",
+    "orders": {
+      "body": "Here you'll see the list of your orders",
+      "button": "Start your order",
+      "title": "You have not yet made your first order. "
+    }
+  },
+  "offline": "It seems that you have lost your internet connection.",
+  "old_browser_banner_download_link": "here.",
+  "old_browser_banner_message": "Download the latest version",
+  "old_browser_banner_title": "Unsupported browser:",
+  "onbarding_notify_me_thanks_description": "We will send you an email when the service is fully operational in your area.",
+  "onbarding_notify_me_thanks_title": "Thank you",
+  "onboarding_notify_me_link": "Notify me when it's available in my area",
+  "onboarding_notify_me_mercadona_es": "Go to Mercadona.es",
+  "onboarding_notify_me_send_button": "Send",
+  "onboarding_notify_me_title": "Enter your email and we'll let you know as soon as it's available.",
+  "onboarding_no_service_classic_web_button": "Go to the classic website.",
+  "onboarding_no_service_new_postal_code_button": "Use another postal code",
+  "onboarding_no_service_title": "The new Mercadona online service is not available yet in the \"{{ postalCode }}\" postal code.",
+  "on_going_order": {
+    "action_disrupted_delivery_customer": "We have tried to deliver your order",
+    "action_disrupted_delivery_system": "There has been a problem",
+    "action_disrupted_payment": "Please check your payment method",
+    "action_disrupted_payment_description": "Please resolve the issue to receive your order.",
+    "delivering_today": "Delivery today from {{ startTime }} to {{ endTime }}",
+    "delivering_tomorrow": "Delivery tomorrow from {{ startTime }} to {{ endTime }}",
+    "delivery": "Delivery {{ weekDay }} {{ monthDay }} from {{ startTime }} to {{ endTime }}",
+    "delivery_time": "Delivery from {{ startTime }} to {{ endTime }}",
+    "order_number": "Order {{ orderNumber }}",
+    "title": "Next delivery"
+  },
+  "order": {
+    "detail": {
+      "status": {
+        "confirmed": {
+          "body": "Have you forgotten something? You can still modify your order <b>until {{ time }} h on {{ day }} of {{ month }}.</b>\n",
+          "body_morning": "Have you forgotten something? You can still modify your order <b>until {{ time }} h on the morning of the {{ day }} of {{ month }}.</b>\n",
+          "title": "Confirmed"
+        },
+        "delivering": {
+          "body": "Your order has been dispatched at the scheduled time. We will deliver it between {{ slotStart }} and {{ slotEnd }}",
+          "title": "Out for delivery"
+        },
+        "disrupted_by_customer": {
+          "body": "We have tried to deliver your order without success. Please contact us."
+        },
+        "disrupted_by_system": {
+          "body": "We're sorry, the delivery of your order has been delayed due to an incident. Please contact us if you are unable to be at the delivery address."
+        },
+        "next_to_delivery": {
+          "body": "Your order is next in line for delivery. We’re on our way to your address.",
+          "title": "On the way"
+        },
+        "payment_disrupted": {
+          "action": "Resolve payment incident",
+          "declined": {
+            "inactive_card": {
+              "reason": "Please check that your card is active."
+            },
+            "insufficient_funds": {
+              "reason": "Please check your account balance or spending limit."
+            },
+            "online_payment_disabled": {
+              "reason": "Make sure online purchases are enabled for this payment method."
+            },
+            "subtitle": "Check your payment method or select another one before retrying.",
+            "title": "Payment declined by your bank"
+          },
+          "reprepared_unknown": {
+            "reason": "The outstanding payment could not be processed successfully."
+          },
+          "retry_payment": "Retry payment",
+          "title": "Solve incident",
+          "unknown": {
+            "reason": "The payment for your order was not completed successfully."
+          }
+        }
+      }
+    }
+  },
+  "order_confirmed": {
+    "check_email": "Check the confirmation in your email {{email}}",
+    "delivery": "Delivery",
+    "title": "Order <a>{{orderId}}</a> confirmed"
+  },
+  "order_details_delivered_product_list_missing_items_tooltip_body": "The ordered amount of this product wasn't delivered because of lack of stock.",
+  "order_details_delivered_product_list_missing_items_tooltip_title": "Change in amount",
+  "order_details_delivered_product_list_not_available": "Not delivered",
+  "order_details_delivered_product_list_not_available_tooltip_body": "Due to lack of stock this product was not delivered with this order.",
+  "order_details_delivered_product_list_not_available_tooltip_title": "Product not delivered",
+  "order_details_not_delivered_product_list_missing_items_tooltip_body": "The ordered amount of this product won't be delivered because of lack of stock.",
+  "order_details_not_delivered_product_list_missing_items_tooltip_title": "Change in amount",
+  "order_details_not_delivered_product_list_not_available": "Not available",
+  "order_details_not_delivered_product_list_not_available_tooltip_body": "Unfortunately this product is not currently available.",
+  "order_details_not_delivered_product_list_not_available_tooltip_title": "Product not available",
+  "order_detail_payment_failed_payment_method_list_disclaimer": "Choose a payment method to solve the issue.",
+  "order_detail_payment_failed_payment_method_section_disclaimer": "Edit the payment method to solve the payment issue",
+  "out_of_stock": {
+    "message": "Temporarily out of stock"
+  },
+  "packs_field": "packs",
+  "pack_field": "pack",
+  "password_invalid_characters": "You can only use letters, numbers and common punctuation characters",
+  "password_strength_invalid_description": "Enter at least 6 characters",
+  "password_strength_strong_description": "Strong",
+  "password_strength_weak_description": "Weak",
+  "payment_method": {
+    "add_new_payment_method": {
+      "subtitle": "Select a payment method",
+      "title": "Add payment method"
+    },
+    "bizum": {
+      "form": {
+        "description": "Enter your phone number linked to Bizum ",
+        "note": "Bizum will be saved as a payment method. You will be able to delete it when you wish from your account.",
+        "note-onetime": "This payment is one-off and we will not save Bizum as a payment method for your next orders.",
+        "phone": {
+          "label": "Mobile phone number"
+        },
+        "secure": "Your details are protected and the confirmation is made from your bank's app.",
+        "title": "What is your Bizum?"
+      },
+      "trigger": "Pay using Bizum"
+    },
+    "card": {
+      "form": {
+        "notifier": "Upon saving the card, open your banking app opens to authorise the operation"
+      }
+    },
+    "empty": {
+      "action": "Add payment method",
+      "message": "Add a payment method to pay for your orders",
+      "title": "No payment method"
+    }
+  },
+  "payment_method_required_error_message": "We need you to add a card in order to authorise payment",
+  "payment_method_type": {
+    "bizum": "Bizum",
+    "card": "Card"
+  },
+  "product_cell": {
+    "zoom": "Click to increase"
+  },
+  "product_detail": {
+    "age_warning": "Order restricted to people over 18 years of age.",
+    "aria_close": "Close",
+    "aria_description": "Product detail",
+    "disclaimer": "The pack or product shown may not be up-to-date. We recommend that you check it upon receipt to confirm the details about it and its allergens. For additional information, contact us at our customer service Freephone 800 500 220.",
+    "unavailable_weekdays": "This product is not available on {{ weekDay }}.",
+    "unavailable_weekdays_and_from": "This product is not available on {{ unavailableWeekdays }}. It will also cease to be available from {{ unavailableFromDay }} {{ unavailableFromMonth }}"
+  },
+  "product_detail_allergens": "Allergens: {{ variable }}",
+  "product_detail_ingredients": "Ingredients: {{ variable }}",
+  "product_detail_origin": "Origin: {{ variable }}",
+  "product_detail_storage_instruction": "Storage instructions: {{ variable }}",
+  "product_detail_use_instructions": "Instructions for use: {{ variable }}",
+  "product_empty_case_see_products_clicks": "See other products",
+  "product_empty_case_subtitle": "This product is not available at the moment",
+  "product_empty_case_title": "Product not available",
+  "product_empty_case_understood_button": "Ok",
+  "product_limitations_back_button": "Back",
+  "product_limitations_back_to_cart": "Back to cart",
+  "product_limitations_cell": "You will receive:",
+  "product_limitations_continue_button": "Accept",
+  "product_limitations_description": "We are currently limiting the number of units that can be purchased in an order. The following products are affected.",
+  "product_limitations_title": "The maximum amount is exceeded for some products",
+  "product_postal_code_button": "Enter",
+  "product_postal_code_button_responsive": "Open in App",
+  "product_postal_code_subtitle": "Go to the shop by entering your postal code",
+  "product_postal_code_subtitle_responsive": "Download the app and buy in Mercadona from your mobile device.",
+  "product_postal_code_title": "Do you want this product?",
+  "product_sorting_by_category": "By category",
+  "product_sorting_by_importance": "By importance",
+  "product_sorting_by_time": "As they were added",
+  "product_sorting_title": "Sort",
+  "product_unavailable": "You have unavailable products in your cart",
+  "psd2_global_loader_explanation": "It may take a few seconds...",
+  "psd2_global_loader_title": "Connecting with your bank",
+  "purchase_confirmed_status_service_rating_cell_description": "Tell us how it was.",
+  "purchase_delivery_time": "from {{start_date}} to {{end_date}}",
+  "purchase_payment_button": "Confirm order",
+  "recaptcha": {
+    "google_service_conditions_link_label": "Terms of Service",
+    "info": "The login is protected by Google reCAPTCHA to make the website more secure.",
+    "more_info": "The information collected by Google reCAPTCHA is subject to the Google ",
+    "more_info_2": ". By improving the security of the website, we improve the protection of your data.",
+    "more_info_and": " and ",
+    "more_info_link_label": "More information.",
+    "privacy_policy_link_label": "Privacy Policy"
+  },
+  "remove_products": "Remove product",
+  "remove_products_cancel_order_modal_cancel_button": "Go back",
+  "remove_products_cancel_order_modal_confirm_button": "Cancel order",
+  "remove_products_cancel_order_modal_description": "You will lose your reserved delivery date and timeslot.",
+  "remove_products_cancel_order_modal_title": "Do you want to cancel your order?",
+  "remove_products_info": "If you remove an essential product it will disappear from the list until you buy it again.",
+  "remove_products_title": "Don't show in My Essentials",
+  "remove_product_aria": "Remove {{ productName }} from my regular products",
+  "repeat_purchase_hint": "When you repeat the order, the products will be added to the cart",
+  "reset_password_add_email_placeholder": "Email",
+  "reset_password_add_email_title": "Enter your email",
+  "reset_password_cta_button": "Reset password",
+  "reset_password_help_button": "Help",
+  "reset_password_new_password_placeholder": "Password",
+  "reset_password_new_password_title": "New password",
+  "reset_password_restablished_description": "Your new password has been correctly associated with your email.",
+  "reset_password_restablished_identify_button": "Start shopping",
+  "reset_password_restablished_title": "Password reset",
+  "reset_password_subtitle": "Choose a new password to access your account",
+  "reset_password_title": "Reset password",
+  "sca_required_modal_alt_image": "Credit cards",
+  "search_bar_amount_results": "Showing {{resultsCount}} results for '{{resultsQuery}}'",
+  "search_bar_brands_title": "Brand",
+  "search_bar_categories_title": "Category",
+  "section_carousel": {
+    "go_to_season": "More {{ seasonName }}"
+  },
+  "select_delivery_method_subtitle": "Choose whether you would like us to deliver your order to your house or whether to collect it from our warehouse.",
+  "select_delivery_method_title": "Where do you want to receive your order?",
+  "service_rating_button": "Rate",
+  "service_rating_modal_back_button": "Back",
+  "service_rating_modal_mood_explanation": "Click an option to rate",
+  "service_rating_modal_mood_subtitle": "We want to improve the service we offer you and your opinion is key.",
+  "service_rating_modal_mood_title": "How was your order?",
+  "service_rating_modal_not_available_button": "Ok",
+  "service_rating_modal_not_available_title": "You have already rated this order, thank you for your help.",
+  "service_rating_modal_thanks_button": "Go to mercadona.es",
+  "service_rating_modal_thanks_title": "Thanks for your opinion!",
+  "service_rating_start_chat": "Start chat with customer support",
+  "service_rating_text_field_send_button": "Send",
+  "service_rating_text_field_title": "Tell us more",
+  "service_rating_title": "Rate this order",
+  "share_button": "Share",
+  "sharing_preview_description": "Look at this product",
+  "shopping_lists": {
+    "add_to_list": {
+      "button_text": "Save in lists",
+      "description": "Select the list in which you want to save this product.",
+      "error_message": "It was not possible to save the product to the list, please try again.",
+      "new_list": "New list",
+      "notification": "Saved in {{ listName }}",
+      "title": "Save in a list"
+    },
+    "create": {
+      "description": "Enter a name for your new list",
+      "error_message": "It was not possible to create the list, please try again.",
+      "input_label": "Name of the list",
+      "new_list_title": "Create new list",
+      "title": "Create list"
+    },
+    "delete_list": {
+      "delete_button_text": "Delete list",
+      "dialog_description": "You will lose all the products saved in this list.",
+      "dialog_primary_action_text": "Delete list",
+      "dialog_secondary_action_text": "Go back",
+      "dialog_title": "Do you want to delete this list?",
+      "error_message": "It was not possible to delete the list, please try again.",
+      "more_actions_button_text": "more actions"
+    },
+    "error_button_text": "Understood",
+    "error_title": "Operation not performed.",
+    "header_actions": {
+      "add_all_to_cart": "Add all to cart",
+      "options": "Options",
+      "search_products": "Search products"
+    },
+    "list_detail": {
+      "empty_description": "Empty list"
+    },
+    "list_item": {
+      "in_list": "In the list",
+      "product": "product",
+      "products": "products"
+    },
+    "logged_out_user": {
+      "message_text": "Once you access your account, you will find all your lists here.",
+      "title": "Sign in to see your lists"
+    },
+    "more_actions": {
+      "edit_quantity": "Edit quantity",
+      "product_decrease": "Reduce quantity",
+      "product_increase": "Add quantity",
+      "remove_product": "Remove product"
+    },
+    "my_essentials": {
+      "description": "Based on your orders",
+      "title": "My Essentials"
+    },
+    "search": {
+      "save": "Save",
+      "saved": "Saved",
+      "suggestions_title": "Suggestions for your list"
+    },
+    "success_dialog": {
+      "accept_button": "Understood",
+      "title": "unit added to cart",
+      "title_plural": "units added to cart"
+    },
+    "suggestions": {
+      "empty_results": "There are no suggestions",
+      "more_suggestions": "See other suggestions",
+      "title": "Suggestions for your list"
+    },
+    "title": "Lists",
+    "whats_new": {
+      "go_to_lists": "Go to lists",
+      "organise_subtitle": "Create your lists of favourites, recipes, essentials and more.",
+      "organise_title": "Organise things just the way you like",
+      "save_time_subtitle": "Add all the products and quantities that you normally buy with just a click.",
+      "save_time_title": "Do your shopping in record time",
+      "suggestions_subtitle": "Discover recommended products for your list.",
+      "suggestions_title": "Personalised suggestions",
+      "title": "Lists now available!",
+      "understood": "Understood"
+    },
+    "tabs": {
+      "nav_label": "Shopping lists navigation"
+    }
+  },
+  "sign_up": {
+    "error": "The password is not valid.",
+    "label": "Name",
+    "notification": "Hello {{ userName }}, Mercadona welcomes you",
+    "password": "Enter your password",
+    "surname": "Surname(s)",
+    "title": "Create account"
+  },
+  "skip_link_cart": "Go to cart",
+  "skip_link_content": "Go to content",
+  "slot_alert_low_availability": "{{ days_left }} days left for this delivery",
+  "slot_available_for_selected_day": "Slots for",
+  "slot_selection_help_hint": "Choose a slot and confirm to proceed with the purchase",
+  "slot_size": "1 hour slot",
+  "snackbar_share_message": "Link copied to the clipboard",
+  "substitutions_completed_alert_title": "Correctly replaced product",
+  "substitutions_empty_state_subtitle": "Sorry, we have not found alternatives for this product.",
+  "substitutions_empty_state_title": "There are no similar products",
+  "substitutions_explanation_text": "Choose one or more alternatives to replace the unavailable product",
+  "substitutions_title": "{{ similarCount }} alternative available",
+  "substitutions_title_plural": "{{ similarCount }} alternatives available",
+  "substitution_back_button": "Back to alternatives",
+  "substitution_see_alternatives_button": "View alternatives",
+  "summary_discount_subtitle": "Free preparation as compensation for your last order.",
+  "summary_ipsi_title": "IPSI included",
+  "tok": {
+    "iframe": "Enter your card data to confirm your order."
+  },
+  "tokenization_failed_authentication_alert_close_button": "Understood",
+  "tokenization_failed_authentication_alert_explanation": "It looks like there was a problem with the bank authorisation. You can try with another card or find more information in the Help section",
+  "tokenization_failed_authentication_alert_title": "We're sorry, we could not save the card.",
+  "token_authn_mit_term_cancel_button": "Back unconfirmed",
+  "token_authn_mit_term_continue_button": "Authorise",
+  "token_authn_mit_term_explanation": "We need you to authorise the payment of this order, including possible changes you may make to it and products with variable weight.<br>By authorising, you allow us to charge the final amount on the delivery day, in accordance with the payment conditions.",
+  "token_authn_mit_term_title": "Authorisation required",
+  "token_authn_not_confirmed_alert_continue_button": "Understood",
+  "token_authn_not_confirmed_alert_explanation": "We need you to authorise the card payment to be able to confirm your order.",
+  "token_authn_not_confirmed_alert_title": "Order not confirmed",
+  "token_authn_reminder": "Once the purchase is completed you will be able to modify your order at no cost until the day before delivery.",
+  "token_authn_step_one_continue_button": "Continue",
+  "token_authn_step_two_title": "Confirm order",
+  "tooltip": {
+    "price_message": "For products sold by weight, the amount charged will be adjusted to the quantity served. Charging of the final amount will be made after the preparation of your order."
+  },
+  "units_field": "units",
+  "unit_field": "unit",
+  "unlogged_alert_description": "If you already added products from your account, remember to log in so you don’t lose them.",
+  "unlogged_alert_login_button": "Sign in",
+  "unlogged_alert_notnow_button": "Not now",
+  "unlogged_alert_title": "Do you already have an account?",
+  "unpublished_cell_title": "Product not available",
+  "unpublished_products_cart_description": "These products are not currently available. If you confirm the purchase they will not be included.",
+  "unpublished_products_cart_help_button": "View",
+  "unpublished_products_cart_help_title": "There is {{ unpublishedItems }} product not available",
+  "unpublished_products_cart_help_title_plural": "There are {{ unpublishedItems }} products not available",
+  "unpublished_products_cart_title": "Products not available",
+  "user_area": {
+    "addresses": {
+      "add_address": "New delivery address",
+      "confirm_town": {
+        "edit_btn": "Edit address",
+        "message": "The address you have just added is in:",
+        "title": "Are you sure?"
+      },
+      "delete_address_success": "Address deleted",
+      "empty_message": "Add where you want to receive your order.",
+      "empty_title": "There is no address",
+      "other_adresses": {
+        "title": "Other addresses"
+      },
+      "selected_address": {
+        "title": "Selected address"
+      },
+      "title": "Addresses"
+    },
+    "edit_order": {
+      "click_n_collect": {
+        "delivery_price": "Preparation cost"
+      },
+      "delivery_price": "Service cost",
+      "header": "Modify order",
+      "placeholder": "Search for products you want to add to your order.",
+      "price": "Estimated cost",
+      "products_price": "Amount products",
+      "title": "Products in my order"
+    },
+    "menu": {
+      "addresses": "Addresses",
+      "faqs": "FAQ",
+      "invoices": "Invoices",
+      "orders": "My orders",
+      "payment_methods": "Payment methods",
+      "personal_info": "Personal data"
+    },
+    "orders": {
+      "invoice": "Do you need an invoice for your company?",
+      "see_more": "See more",
+      "title": "My orders"
+    },
+    "order_detail": {
+      "download_ticket": {
+        "tooltip": "Your receipt will be available once your order has been charged on the day of delivery.",
+        "tooltip_title": "Ticket not available"
+      },
+      "order_price": "SUMMARY",
+      "order_status": "Order status",
+      "status_msg": {
+        "cancelled": "You have cancelled this order. Remember that you can \"repeat order\" and buy the same products again.",
+        "collecting": "We will expect you at the scheduled time so as to put the shopping in your car.",
+        "delivered_first": "We have delivered your order to the address indicated.",
+        "delivered_second": "Your purchase receipt is now available to",
+        "delivered_third": "download.",
+        "delivering": "Your order has left on time. We will arrive soon with your order.",
+        "delivery_disrupted_system": "We’re sorry, the delivery of your order has been delayed due to an incident. Please contact us if you are unable to be at the delivery address",
+        "delivery_disrupted_user": "We have tried to deliver your order. Please, contact us to retry.",
+        "on_going": "You can",
+        "on_going_content": "your order until {{ time }} on the {{ day }} of {{ month }} before it goes to",
+        "on_going_content_morning": "until {{ time }} h on the morning of {{ day }} {{ month }}",
+        "on_going_content_new": " until {{ time }} on the {{ day }} of {{ month }} before it goes to",
+        "on_going_content_new_1": "your order",
+        "on_going_content_new_2": "until {{ time }} h on the {{ day }} of {{ month }}",
+        "on_going_content_new_3": " before it goes to",
+        "on_going_modify": "modify",
+        "payment_disrupted": "Unable to make the payment. Choose or add a new payment method to solve the issue",
+        "prepared": "Your order is now prepared and charged. We will shortly deliver your order to its destination.",
+        "prepared_not_paid": "Your order is now prepared.",
+        "prepared_paid": "Your order is now prepared and charged.",
+        "preparing": "We are preparing your order.",
+        "your_order": "your order"
+      },
+      "title": "My orders",
+      "total_cost": "Estimated cost {{ total }}"
+    },
+    "payments": {
+      "add_payment": "Add new card",
+      "empty_message": "Add the card you want to make your orders with",
+      "other_payments": {
+        "title": "Other cards"
+      },
+      "selected_payment": {
+        "title": "Default card"
+      },
+      "title": "Payment methods"
+    },
+    "payment_methods": {
+      "add_new": "Add payment method",
+      "default_method": {
+        "title": "Regular payment method"
+      },
+      "other_methods": {
+        "title": "Other payment methods"
+      }
+    },
+    "personal_info": {
+      "change_email_modal": {
+        "confirm_button": "Accept",
+        "email_label": "Enter your new email",
+        "password_label": "For security, enter your password to change your email",
+        "title": "Change email"
+      },
+      "delete_account": {
+        "description": "To delete your user account, we will send you an email with the steps you will need to follow.",
+        "label": "Delete your user account",
+        "warning_label": "Your account is currently in the process of being deleted. You will receive an email informing you that the process has been completed."
+      },
+      "delete_account_modal": {
+        "button": "Understood",
+        "description": "This process may take several days, as we will review the status of your orders before deleting your account.",
+        "title": "The process for deleting your user account has begun"
+      },
+      "email": {
+        "description": "Your email is also the username for access to the account.",
+        "label": "Email"
+      },
+      "name": {
+        "description": "Indicate your name and surname(s) to locate you in relation to your order.",
+        "label": "Name"
+      },
+      "password": {
+        "description": "We will send you an email with the steps to follow to change your password.",
+        "label": "Password",
+        "reset_button": "Change"
+      },
+      "phone": {
+        "description": "We will only use it if we need to contact you in relation to your purchase, payment or delivery process. This phone number will be saved for future purchases.",
+        "label": "Phone number"
+      },
+      "postal_code": {
+        "description": "Postal code where you want to receive your order.",
+        "label": "Postal code"
+      },
+      "title": "Personal data",
+      "warning_modal": {
+        "cancel_button": "Go back",
+        "checkbox": {
+          "label": "Yes, I wish to delete my user account and delete all my data."
+        },
+        "delete_button": "Delete my user account",
+        "description": "By deleting your user account, all your personal data, the history of your orders and your purchase receipts will be permanently deleted.",
+        "title": "Don’t you want to continue shopping with us?"
+      }
+    },
+    "title": "Account"
+  },
+  "usst": "usst",
+  "usst_expiration": "1 year",
+  "validation_errors": {
+    "is_required": "This field cannot be left blank.",
+    "wrong_email_format": "Enter a valid email",
+    "wrong_last_name_format": "The format of the surnames is not correct",
+    "wrong_name_format": "The format of the names is not correct",
+    "wrong_password_format": "The password requires six characters",
+    "wrong_pc_format": "The postcode is not correct",
+    "wrong_phone_format": "The format of the telephone is not correct"
+  },
+  "view_products": "View products",
+  "whats_new_button": "Understood",
+  "whats_new_subtitle": "Repeat your order from the home screen",
+  "whats_new_title": "What’s new",
+  "widget_chat_action": "Chat",
+  "widget_edit_action": "Modify",
+  "widget_fix_action": "Fix",
+  "widget_rate_action": "Rate",
+  "widget_repeat_purchase_action": "Repeat order",
+  "widget_see_action": "See order",
+  "widget_ticket_action": "See ticket",
+  "x_selling_title": "Related products",
+  "yabs-sid": "yabs-sid",
+  "yabs-sid_description": "Session ID",
+  "yabs-sid_expiration": "Until the session ends",
+  "ymex": "ymex",
+  "ymex_description": "It records data on the visitor’s behaviour on the website. This is used for the internal analysis and optimisation of the website.",
+  "ymex_expiration": "1 year",
+  "yp": "yp",
+  "yp_expiration": "10 years",
+  "yuidss": "yuidss",
+  "yuidss_description": "It collects information about the visitor’s behaviour on multiple websites. This information is used on the website to optimise the relevance of the advertising.\t",
+  "yuidss_expiration": "1 year",
+  "zendesk": {
+    "need_help": "Help"
+  },
+  "_ga": "_ga",
+  "_gaexp": "_gaexp",
+  "_gaexp_description": "It is used to determine a user’s inclusion in an experiment and the expiration of the experiments in which are participating.",
+  "_gaexp_expiration": "It depends on the duration of the experiment, but it is usually 90 days.",
+  "_ga_description": "This cookie is used to distinguish unique users by assigning a randomly generated number as the customer identifier. It is included in every page request on a site and is used to calculate visitor, session and campaign data for analytics reports on the sites.",
+  "_ga_expiration": "2 years",
+  "_gid": "_gid",
+  "_gid_description": "It is used to distinguish between users.",
+  "_gid_expiration": "1 day",
+  "__mo_ca": "__mo_ca",
+  "__mo_ca_description": "This cookie is used to store cookies consent for the platform",
+  "__mo_ca_expiration": "1 year",
+  "__mo_da": "__mo_da",
+  "__mo_da_description": "This cookie is used to store user information related to the warehouse and the postal code",
+  "__mo_da_expiration": "1 year",
+  "__mo_ui": "__mo_ui",
+  "__mo_ui_description": "This cookie is used to store the user’s language preferences",
+  "__mo_ui_expiration": "1 year",
+  "__zlcmid": "__zlcmid",
+  "__zlcmid_description": "This cookie is used to identify the user's device and for the proper functioning of the help chat.",
+  "__zlcmid_expiration": "1 year"
+}

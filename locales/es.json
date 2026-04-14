@@ -1,0 +1,1650 @@
+{
+  "accesibility_click_and_collect_info_close": "Cerrar modal",
+  "accessibility": {
+    "add_unit_to_cart": "Añadir {{ unit }} al carro",
+    "alternatives_pluralized_plural": "Alternativas disponibles",
+    "alternatives_pluralized_singular": "Alternativa disponible",
+    "cancel_and_go_back": "Cancelar y volver",
+    "cart_approximated_total": "Total aproximado {{ price }}. Pulsa para consultar más información.",
+    "click_view_products": "Pulsa para ver los productos",
+    "close_list_add_products_modal": "Confirmar cambios y volver a la lista",
+    "decrease_quantity": "Reducir cantidad {{ quantityWithFormat }}",
+    "decrease_quantity_feedback": "Se ha reducido la cantidad {{ quantityWithFormat }}",
+    "delivery_postal_code": "Entregar en código postal {{ postalCode }}",
+    "empty_cart_feedback": "Se ha vaciado el carro",
+    "filter_by_brand": "Filtrar por marca",
+    "filter_by_category": "Filtrar por categoría",
+    "filter_results": "Filtrar resultados",
+    "g": "Gramos",
+    "go_to_category": "Ir a la categoría de {{ subCategory }}",
+    "go_to_search_results": "Ir a los resultados",
+    "gs": "Gramos",
+    "increase_quantity": "Aumentar cantidad {{ quantityWithFormat }}",
+    "increase_quantity_feedback": "Se ha aumentado la cantidad {{ quantityWithFormat }}",
+    "in_the_cart": "en el carro",
+    "kg": "Kilo",
+    "kgs": "Kilos",
+    "l": "Litro",
+    "list_removed_feedback": "Se ha eliminado la lista",
+    "ls": "Litros",
+    "ml": "Mililitros",
+    "mls": "Mililitros",
+    "order_cancelled": "Se ha anulado el pedido",
+    "pack": "Pack",
+    "packs": "Packs",
+    "pluralized_action_plural": "han",
+    "pluralized_action_singular": "ha",
+    "price_drops_per_unit": "Precio anterior: {{ previousPrice }}€ por {{ unit }}, Precio actual: {{ price }}€ por {{ unit }}",
+    "price_per_unit": "{{ price }}€ por {{ unit }}",
+    "product_added_feedback": "Se {{ pluralizedAction }} añadido {{ unit }} al carro",
+    "product_alternatives": "{{ count }} {{ alternativesPluralized }} para {{ product }}{{ format }}",
+    "product_removed_feedback": "Se {{ pluralizedAction }} quitado {{ unit }} del carro",
+    "product_removed_from_cart_feedback": "Se ha quitado el producto del carro",
+    "product_removed_from_list_feedback": "Se ha quitado el producto de la lista.",
+    "remove_product_from_cart": "Quitar producto del carro",
+    "remove_unit_from_cart": "Quitar {{ unit }} del carro",
+    "sorting_cart_menu_title": "Ordenar productos",
+    "unit": "Unidad",
+    "units": "Unidades"
+  },
+  "accessibility_app_store_button": "Botón App Store",
+  "accessibility_cart_button_description": "{{ count }} producto en el carrito. El precio total es {{ totalPrice }} €",
+  "accessibility_cart_button_description_plural": "{{ count }} productos en el carrito. El precio total es {{ totalPrice }} €",
+  "accessibility_click_and_collect_info_modal": "Finestra d'informació sobre la recollida en magatzem",
+  "accessibility_click_and_collect_map": "Mapa del punto de recogida",
+  "accessibility_click_and_collect_map_close": "Cerrar modal",
+  "accessibility_click_and_collect_map_modal": "Modal con mapa del punto de recogida",
+  "accessibility_google_play_button": "Botón Google Play",
+  "accessibility_happy_mood": "Cara feliz",
+  "accessibility_language_selector": "Selector de idioma",
+  "accessibility_neutral_mood": "Cara neutra",
+  "accessibility_product_detail_image": "Imagen principal del producto",
+  "accessibility_product_detail_image_thumbnail": "Imagen en miniatura del producto",
+  "accessibility_product_empty_case_image": "Producto no disponible",
+  "accessibility_see_password": "Ver contraseña",
+  "accessibility_unhappy_mood": "Cara decepcionada",
+  "address": {
+    "alerts": {
+      "incomplete": {
+        "no_floor": {
+          "continue": "Guardar sin detalles",
+          "message": "Si tu dirección incluye piso y puerta, añádelos para más información.",
+          "title": "Falta piso y puerta",
+          "update": "Añadir detalles"
+        },
+        "no_number": {
+          "continue": "Guardar sin número",
+          "message": "Si tu calle tiene número, añádelo para completar la dirección.",
+          "title": "Dirección sin número",
+          "update": "Añadir número"
+        },
+        "no_number_floor": {
+          "continue": "Guardar sin detalles",
+          "message": "Falta número, piso y puerta. Añádelos para mayor precisión.",
+          "title": "Dirección incompleta",
+          "update": "Añadir detalles"
+        }
+      }
+    }
+  },
+  "address_alert_button_modify": "Añadir",
+  "address_alert_button_save": "Guardar",
+  "address_alert_no_details_body": "El número de la calle, el piso y la puerta están sin rellenar. ¿Quieres añadirlos?",
+  "address_alert_no_details_title": "Dirección sin detalles",
+  "address_alert_no_doorfloor_body": "Añádelos para completar tu dirección, si no los tienes pulsa en guardar.",
+  "address_alert_no_doorfloor_title": "¿Piso y puerta?",
+  "address_alert_no_number_body": "Si tu dirección no tiene número pulsa en guardar, si no añade uno.",
+  "address_alert_no_number_title": "Dirección sin número",
+  "address_list_title": "¿Dónde quieres recibir tu pedido?",
+  "address_manual_add_button": "Añadir",
+  "address_manual_add_label": "¿No aparece tu dirección?",
+  "address_map": {
+    "cancel": "Cancelar\n",
+    "confirm": "Confirmar",
+    "label": "Mueve el mapa para encontrar tu dirección",
+    "locate_me": {
+      "button": "Utilizar ubicación actual",
+      "warning_modal": {
+        "button": "Entendido",
+        "description": "Cambia la configuración de privacidad de tu navegador para poder usar tu ubicación.",
+        "title": "El navegador ha bloqueado el acceso a tu ubicación"
+      }
+    },
+    "pin_at": "Marcador en",
+    "satellite": "Satélite",
+    "title": "Indicar dirección"
+  },
+  "address_modal_no_service_body": "El nuevo servicio online no está disponible en esta dirección. Puedes hacer la compra desde mercadona.es",
+  "address_modal_no_service_primary_button": "Ok, volver",
+  "address_modal_no_service_title": "Sin servicio",
+  "address_suggestions_count": "Una sugerencia disponible",
+  "address_suggestions_count_plural": "{{count}} sugerencias disponibles",
+  "add_address_next_step": "Añade una dirección de entrega en el siguiente paso",
+  "add_credit_card_doble_verification_disclaimer": "Al aceptar, tu banco te pedirá que autorices la operación. Recuerda volver aquí para terminar el proceso.",
+  "add_to_ongoing_order_button": "Añadir al pedido en curso",
+  "add_to_ongoing_order_modal_cancel_button": "Volver",
+  "add_to_ongoing_order_modal_confirm_button": "Añadir al pedido",
+  "add_to_ongoing_order_modal_title": "¿Quieres añadir {{ count }} unidad al siguiente pedido?",
+  "add_to_ongoing_order_modal_title_plural": "¿Quieres añadir {{ count }} unidades al siguiente pedido?",
+  "alerts": {
+    "400": {
+      "message": "Los datos proporcionados no son válidos",
+      "title": "Operación no realizada"
+    },
+    "404": {
+      "message": "Lo sentimos, no es posible encontrar la página que buscas.",
+      "title": "Página no disponible"
+    },
+    "406": {
+      "action": "Seguir comprando",
+      "message": "El importe se ha reducido, el mínimo para poder realizar tu pedido es 50€.",
+      "title": "Pedido mínimo"
+    },
+    "408": {
+      "message": "Por favor, prueba a refrescar la página o inténtalo de nuevo más tarde.",
+      "title": "Página no disponible en este momento"
+    },
+    "409": {
+      "message": "Lo sentimos, los datos proporcionados ya existen.",
+      "signup": {
+        "message": "No es posible registrarse con este email en este momento. Ponte en contacto con Atención al Cliente.",
+        "title": "Operación no realizada"
+      },
+      "title": "Operación no realizada"
+    },
+    "452": {
+      "message": "Estás usando una versión antigua de la web. Por favor, actualizala.",
+      "title": "Actualización necesaria"
+    },
+    "add_address": {
+      "msg_floor": "Parece que no has indicado la puerta o piso, ¿es correcto?",
+      "msg_number": "Parece que no has indicado el número de tu calle, ¿es correcto?",
+      "msg_number_floor": "Parece que no has indicado ni el número de tu calle ni la puerta o piso, ¿es correcto?",
+      "msg_out_of_delivery": "Lo sentimos, la dirección introducida está fuera de nuestra zona de reparto.",
+      "title": "Añadir dirección de entrega"
+    },
+    "add_blinking_product": {
+      "confirm": "Entendido",
+      "message": "Este producto no estará disponible el día que recibirás tu pedido.",
+      "title": "No es posible añadir el producto"
+    },
+    "age_verification": {
+      "cancel_button": "No, revisar carro",
+      "confirm_button": "Sí, soy mayor de 18 años",
+      "message": "Tu pedido contiene algún producto que requiere ser mayor de 18 años.",
+      "title": "¿Eres mayor de edad?"
+    },
+    "bizum_needs": {
+      "app_installed": "<b>La app de tu banco</b> instalada en el móvil. ",
+      "phone_with_bizum": "<b>Tu número de móvil</b> vinculado a Bizum. ",
+      "title": "Para usar Bizum necesitas:"
+    },
+    "cancel_order": {
+      "message": "Si continúas, perderás la fecha y el tramo de entrega reservados.",
+      "title": "¿Anular pedido?"
+    },
+    "clear_cart": {
+      "message": "¿Seguro que quieres vaciar tu carro?",
+      "title": "Vaciar carro"
+    },
+    "delete_address": {
+      "message": "¿Seguro que quieres eliminar la dirección de entrega?",
+      "title": "Eliminar dirección"
+    },
+    "delete_payment": {
+      "message": "¿Seguro que quieres eliminar la tarjeta?",
+      "title": "Eliminar tarjeta"
+    },
+    "delete_payment_method": {
+      "message": "¿Seguro que quieres eliminar el método de pago?",
+      "title": "Eliminar método de pago"
+    },
+    "disrupted_payment": {
+      "message": "Parece que sigue habiendo un problema con tu método de pago. Prueba a introducir una nueva tarjeta.",
+      "title": "Incidencia sin resolver"
+    },
+    "edit_min_purchase": {
+      "message": "Recuerda que el importe mínimo de los productos para poder realizar modificaciones es de {{ minPurchase }} €.",
+      "title": "Pedido mínimo"
+    },
+    "errors": {
+      "slot": {
+        "1": {
+          "message": "El tramo seleccionado no está disponible. Por favor selecciona tu tramo de nuevo",
+          "title": "Tramo no disponible"
+        },
+        "2": {
+          "message": "El tramo seleccionado no está disponible. Por favor selecciona tu tramo de nuevo",
+          "title": "Tramo no disponible"
+        }
+      }
+    },
+    "log_out": {
+      "close_session": "Cerrar sesión",
+      "message": "{{ userName }}, ¿quieres cerrar sesión?",
+      "title": "Cerrar sesión"
+    },
+    "min_purchase": {
+      "message": "Recuerda que el importe mínimo para poder realizar tu pedido es de 50€.",
+      "title": "Pedido mínimo"
+    },
+    "no_service": {
+      "message": "Lo sentimos, aún no repartimos en esa zona pero puedes comprar en la versión clásica de compra online www.mercadona.es",
+      "title": "Sin servicio"
+    },
+    "no_service_country": {
+      "message": "Lo sentimos, la dirección introducida está fuera de la zona de reparto",
+      "title": "Sin servicio"
+    },
+    "no_service_exception": {
+      "message": "Lo sentimos, la dirección introducida está fuera de la zona de reparto",
+      "title": "Sin servicio"
+    },
+    "order_payment_method_updated": {
+      "title": "Método de pago actualizado"
+    },
+    "payment_authenticating": {
+      "authorization_explanation_fixed_weight": "El importe final se cobrará el día de la entrega, después de preparar los productos.",
+      "authorization_explanation_variable_weight": "El total exacto se cobrará el día de la entrega, después de pesar y preparar los productos.",
+      "just_an_authorisation": "No es un pago, solo una autorización",
+      "margin_amount": "Margen por productos al peso (fruta, carne, pescado...)",
+      "remaining_time": "Tiempo restante",
+      "title": "Abre la <b>app de tu banco</b> para autorizar <b>{{ amount }}</b>",
+      "total_authorize": "Importe a autorizar",
+      "total_estimate": "Total aproximado"
+    },
+    "payment_confirmed": {
+      "title": "Pago confirmado"
+    },
+    "payment_failed": {
+      "title": "No se ha podido realizar la operación"
+    },
+    "payment_method_error": {
+      "confirm": "Entendido",
+      "message": "Ha ocurrido un problema con la pasarela de pago. Inténtalo de nuevo más tarde, por favor.",
+      "title": "Operación no realizada"
+    },
+    "payment_timing": {
+      "delivery_day": "Día de entrega",
+      "message": "El cargo será automático: revisa que el método de pago esté activo y con saldo suficiente el día de la entrega.",
+      "order_confirmed": "Pedido confirmado",
+      "order_payment": "Cobro del pedido",
+      "title": "El cargo en tu cuenta se hará el día de la entrega",
+      "today": "Hoy"
+    },
+    "phone_without_bizum": {
+      "message": "Asegúrate tener Bizum con este número de teléfono",
+      "title": "{{ phone }} no tiene Bizum"
+    },
+    "products_limit": {
+      "confirm": "Entendido",
+      "message": "Has alcanzado el máximo de unidades que podemos servirte de este producto.",
+      "title": "Cantidad máxima"
+    },
+    "repeat_purchase": {
+      "add_message": "Al continuar, se añadirán a tu carro los productos y las cantidades de este pedido. No olvides revisar que tienes todo lo que necesitas.",
+      "cancel": "Cancelar",
+      "confirm": "Continuar",
+      "replace_message": "Al continuar, tu carro se reemplazará con los mismos productos y cantidades que en el pedido seleccionado.",
+      "title": "Repetir pedido"
+    },
+    "reset_password": {
+      "confirm_button": "Entendido",
+      "message": "Te hemos enviado un email a {{ email }} con las instrucciones para elegir tu contraseña.",
+      "title": "Cambiar contraseña"
+    },
+    "support": {
+      "message": "Llama al teléfono gratuito 800 500 220",
+      "title": "¿Te ayudamos?"
+    },
+    "address_wrong_postal_code": {
+      "title": "El código postal no coincide con la dirección",
+      "subtitle": "Dirección sugerida:",
+      "save": "Guardar sugerencia",
+      "edit": "Editar dirección"
+    },
+    "max_size_area_exceeded": {
+      "title": "Pedido demasiado grande",
+      "subtitle": "Tu pedido supera la capacidad del camión en las siguientes temperaturas:",
+      "ambient": "Ambiente",
+      "chilled": "Refrigerado",
+      "frozen": "Congelado",
+      "description": "Para tramitar el pedido, reduce la cantidad de productos en el carro.",
+      "ambient_exceeded": "Los productos a temperatura ambiente superan la capacidad del camión.",
+      "chilled_exceeded": "Los productos refrigerados superan la capacidad del camión.",
+      "frozen_exceeded": "Los productos congelados superan la capacidad del camión.",
+      "ambient_ok": "Los productos a temperatura ambiente caben en el camión y pueden ser añadidos al pedido.",
+      "chilled_ok": "Los productos refrigerados caben en el camión y pueden ser añadidos al pedido.",
+      "frozen_ok": "Los productos congelados caben en el camión y pueden ser añadidos al pedido."
+    },
+    "order_address_not_in_warehouse": {
+      "title": "No es posible cambiar a la dirección seleccionada",
+      "subtitle": "Para cambiar la dirección, cancela este pedido, cambia la dirección de entrega y realiza una nueva compra."
+    },
+    "checkout_slot_not_available": {
+      "title": "El tramo de entrega seleccionado ya no está disponible",
+      "subtitle": "Elige otro para terminar de confirmar tu pedido.",
+      "action": "Elegir nuevo tramo"
+    },
+    "order_slot_not_available": {
+      "title": "No es posible cambiar al tramo seleccionado",
+      "subtitle": "El tramo de entrega seleccionado ya no está disponible."
+    }
+  },
+  "alerts_close": "Cerrar",
+  "alert_cookies_accept_button": "Aceptar",
+  "alert_cookies_and": "y",
+  "alert_cookies_configuration": "Configuración",
+  "alert_cookies_message": "Utilizamos cookies propias y de terceros, de sesión y persistentes, con la finalidad de hacer que la navegación de los usuarios por nuestra página web sea fácil y segura. A su vez, utilizamos cookies para medir y obtener datos estadísticos de la navegación de los usuarios. Puedes configurar y aceptar el uso de cookies, así como modificar tus opciones de consentimiento en cualquier momento.",
+  "alert_cookies_reject_button": "Rechazar",
+  "alert_more_info_cookies_terms": "Más información",
+  "alert_products_limit_button": "Entendido",
+  "alert_products_limit_message\n": "Has alcanzado el máximo de unidades que podemos servirte de este producto.",
+  "alert_products_limit_title": "Cantidad máxima",
+  "alert_product_limit_title": "Límite máximo de producto",
+  "alert_purchase_edited_cta_title": "Revisar pedido",
+  "alert_purchase_modification_body": "Puedes comprobar los cambios realizados en tu pedido.",
+  "alert_purchase_modification_button": "Entendido",
+  "alert_purchase_modification_title": "Pedido actualizado",
+  "all_invoice": "Facturas",
+  "alt_warning_image": "Triángulo de alerta",
+  "always_send_invoices_switch": "Emitir facturas siempre",
+  "amplitude_id_": "amplitude_id_*",
+  "amplitude_id_description": "Esta cookie nos permite dar soporte y ayuda a los usuarios de nuestro sitio web.",
+  "amplitude_id_expiration": "1 año",
+  "amplitude_id_required_analytics": "amplitude_id",
+  "amplitude_id_required_analytics_description": "Esta cookie nos permite analizar de manera anónima la navegación de los usuarios en nuestro sitio web para realizar estudios estadísticos sobre su uso.",
+  "amplitude_id_required_analytics_expiration": "1 año",
+  "approximate_value_field": "aprox.",
+  "aria_label_close": "Cerrar diálogo ficha de producto",
+  "aria_loading": "Cargando",
+  "aria_next_widget": "Siguiente tarjeta de pedido",
+  "aria_previous_widget": "Anterior tarjeta de pedido",
+  "automatic_invoice_accepted_dialog_title": "Tus próximas facturas se emitirán automáticamente",
+  "automatic_invoice_button": "Facturación automática",
+  "automatic_invoice_deactivated": "Desactivada",
+  "automatic_invoice_dialog_message": "Las emitiremos automáticamente con el documento que nos has indicado.",
+  "automatic_invoice_dialog_primary_button": "Sí, siempre",
+  "automatic_invoice_dialog_title": "¿Quieres factura de tus próximos pedidos?",
+  "automatic_invoice_document_field_tittle": "Número de documento",
+  "automatic_invoice_info_message": "Se aplicará en tus próximos pedidos.",
+  "automatic_invoice_label": "Número de documento con el que emitiremos tus facturas",
+  "availability_advice": {
+    "cancel_button": "Elegir otro día",
+    "choose_another_day_button": "Elegir otro día",
+    "confirm_button": "Continuar",
+    "continue_without_products_button": "Continuar sin los productos",
+    "day1_abbrev": "L",
+    "day2_abbrev": "M",
+    "day3_abbrev": "X",
+    "day4_abbrev": "J",
+    "day5_abbrev": "V",
+    "day6_abbrev": "S",
+    "friday": "viernes",
+    "message": "Los siguientes productos no están disponibles los {{ weekDay }}, al continuar se eliminarán de tu pedido:",
+    "message_not_available": "No disponible los {{ weekDay }}",
+    "message_only_available": "Sólo disponible los {{ weekDay }}",
+    "monday": "lunes",
+    "saturday": "sábados",
+    "sunday": "domingos",
+    "thursday": "jueves",
+    "title": "Aviso de disponibilidad",
+    "title_checkout": "Estos productos no estarán disponibles el día seleccionado",
+    "title_merge": "Estos productos no estarán disponibles el día de tu entrega",
+    "tuesday": "martes",
+    "unavailable_from": "No disponible a partir del {{day}} de {{month}}",
+    "unavailable_from_detail": "Este producto no está disponible a partir del {{day}} de {{month}}",
+    "wednesday": "miércoles"
+  },
+  "button": {
+    "accept": "Aceptar",
+    "agreed": "Entendido",
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "cancel_order": "Sí, anular pedido",
+    "change": "Cambiar",
+    "clear_cart": "Vaciar carro",
+    "confirm": "Confirmar",
+    "correct": "Es correcto",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "edit_payment": "Editar método de pago",
+    "enter": "Entrar",
+    "finish": "Finalizar",
+    "get_ticket": "Descargar ticket",
+    "go_back": "Volver atrás",
+    "go_on": "Continuar",
+    "modify_order": "Modificar pedido",
+    "next": "Continuar",
+    "no": "No",
+    "ok": "Entendido",
+    "refresh": "Actualizar",
+    "repeat_order": "Repetir pedido",
+    "reset": "Cambiar",
+    "retry": "Reintentar",
+    "save": "Cambiar",
+    "save_changes": "Guardar",
+    "start_chat": "Ayuda"
+  },
+  "button_aria_get_ticket": "Descargar ticket",
+  "button_edit_purchase": "Modificar pedido",
+  "card_tokenizaton_help_message": "Al “Guardar” vamos a redirigirte a la página de tu banco para completar la operación.",
+  "cart": {
+    "aria_close": "Cerrar carro y seguir añadiendo productos",
+    "aria_description": "Carro de la compra",
+    "aria_open": "Mostrar carro",
+    "cart_to_list_tooltip_message": "Ahora puedes guardar los productos del carro en una nueva lista.",
+    "cart_to_list_tooltip_title": "Guardar en nueva lista",
+    "clear": "Vaciar",
+    "delete_cart": "Vaciar carro",
+    "delivery_postal_code": "Entregar en",
+    "empty_cart": "Aún no has añadido productos a tu carro",
+    "more_actions_button_text": "más acciones",
+    "postal_code_modal": {
+      "title": "Código Postal"
+    },
+    "price": "Total aproximado",
+    "price_message": "En los productos al peso, el importe se ajustará a la cantidad servida. El cobro del importe final se realizará tras la preparación de tu pedido.",
+    "save_to_list": "Guarda en nueva lista",
+    "start_checkout": "Tramitar pedido",
+    "title": "Carro"
+  },
+  "categories": {
+    "footer": "Ver {{ categoryName }}"
+  },
+  "cells": {
+    "address": {
+      "permanent": "Dirección seleccionada",
+      "set_permanent": "Seleccionar"
+    },
+    "common": {
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "set_default": "Usar como habitual"
+    },
+    "order": {
+      "delivered_date": "Entregado el {{ date }}",
+      "delivering_action": "Tu pedido no tardará en llegar",
+      "delivering_title": "Entregando",
+      "delivery_date": "Entrega el {{ weekDay }}, {{ monthDay }} de {{ month }}",
+      "disrupted_action": "Ver Incidencia",
+      "disrupted_delivery_text": "Incidencia en la entrega",
+      "disrupted_payment_text": "Incidencia con el pago",
+      "preparing_action": "Preparando tu pedido para envío.",
+      "preparing_title": "Preparando",
+      "products": "{{ count }} producto",
+      "products_plural": "{{ count }} productos"
+    },
+    "payment": {
+      "expired": "Caducada",
+      "expires_soon": "Caduca próximamente el {{ expiryDate }}",
+      "label": "Método de pago acabado en {{ creditCardNumber }}",
+      "permanent": "Tarjeta habitual",
+      "set_permanent": "Usar como habitual",
+      "valid": "Válida hasta {{ expiryDate }}"
+    }
+  },
+  "change_address": "Cambiar direción",
+  "change_card_continue_button": "Continuar",
+  "change_card_new_card_title": "Añadir nueva tarjeta para este pedido",
+  "change_card_title": "Cambiar tarjeta para este pedido",
+  "change_card_valid_until": "Válida hasta",
+  "change_hive_alert_button": "Revisa el carro",
+  "change_hive_alert_button_legacy": "Entendido",
+  "change_hive_alert_message": "Al cambiar de dirección algunos productos ya no están disponibles en tu carro",
+  "change_hive_alert_message_legacy": "Al cambiar de dirección el catálogo ha variado. Revisa tu carro si habías añadido algo.",
+  "change_hive_alert_title": "Productos no disponibles en esta dirección",
+  "change_hive_alert_title_legacy": "Cambio de dirección",
+  "change_hive_on_address_alert_button": "Volver al carro",
+  "change_hive_on_address_alert_message": "Al cambiar de dirección la disponibilidad puede variar. Tramita el pedido de nuevo.",
+  "chat": {
+    "context_menu": {
+      "button": {
+        "label": "Más opciones"
+      },
+      "finish_chat": "Finalizar chat",
+      "toggle_sound": {
+        "mute": "Desactivar sonido",
+        "unmute": "Activar sonido"
+      }
+    },
+    "conversation": {
+      "agent_assigned": "{{name}} se unió al chat",
+      "aria_label": "Mensajes del chat con Atención al cliente",
+      "document": {
+        "sent_successfully": "document {{name}} enviat amb èxit"
+      },
+      "ended": "Conversación finalizada",
+      "failed_message": {
+        "not_sent": "No enviado",
+        "retry": "Reintentar envío"
+      },
+      "file_upload_progress": "progreso de subida del fichero",
+      "image": {
+        "sent_successfully": "imagen enviada al chat"
+      },
+      "open_document": "Abrir documento",
+      "queue_position": "Estás en la posición {{position}} de la cola",
+      "received_document": "documento {{name}} recibido con éxito",
+      "received_image": "imagen recibida en el chat",
+      "agent_typing": "El agente está escribiendo"
+    },
+    "drag_and_drop": {
+      "overlay": {
+        "subtitle": "Archivos soportados: PNG, JPEG, JPG y PDF",
+        "title": "Suelta para enviar"
+      }
+    },
+    "file_form": {
+      "input": {
+        "label": "Adjuntar imágenes o archivos"
+      }
+    },
+    "finish_confirmation": {
+      "continue_button": "Continuar mi consulta",
+      "decoration_image": {
+        "exit_door": "Puerta de salida"
+      },
+      "description": "Vuelva a escribir cuando lo necesite, estaremos aquí para ayudarle. ",
+      "finish_button": "Finalizar conversación",
+      "title": "¿Finalizamos esta conversación?"
+    },
+    "floating_button": {
+      "aria_label": {
+        "without_notifications": "Abrir chat",
+        "with_notifications": "Abrir chat. Tienes {{count}} mensaje/s sin leer"
+      },
+      "label": "Ayuda",
+      "minimize": "Minimizar chat"
+    },
+    "header": {
+      "close_button": "Finalizar chat",
+      "minimize_button": "Minimizar chat"
+    },
+    "message": {
+      "upload": {
+        "error": {
+          "file_size_exceeded": "Supera el límite permitido ({{limit}})",
+          "generic": "No se pudo cargar. Inténtalo de nuevo.",
+          "invalid_file_type": "Archivo incompatible. Usa {{allowed_extensions}}."
+        }
+      }
+    },
+    "messages_forms": {
+      "label": "Enviar mensajes y archivos"
+    },
+    "message_form": {
+      "input_placeholder": "Escribe un mensaje...",
+      "label": "mensaje para el chat",
+      "send_message_button": "Enviar mensaje",
+      "start_new_conversation": "Iniciar nueva conversación"
+    },
+    "privacy_policy": {
+      "disclaimer": "Al iniciar este chat, confirmas que has leído y aceptas nuestra ",
+      "link_label": "Política de Privacidad"
+    },
+    "setup": {
+      "error": {
+        "retry_button": "Reintentar",
+        "tagline": "Por favor, inténtelo de nuevo.",
+        "title": "Lo sentimos, el chat no pudo iniciarse."
+      }
+    },
+    "status_badge": {
+      "available": "Disponible",
+      "unavailable": "No disponible"
+    },
+    "title": "Atención al cliente"
+  },
+  "checkout": {
+    "action": "Confirmar pedido",
+    "credit_card_expired_on_delivery_date": "Esta tarjeta habrá caducado el día de la entrega. Elige otra para continuar.",
+    "header": {
+      "aria": "Volver",
+      "label": "Tramitar pedido"
+    },
+    "terms": {
+      "text": "Al confirmar pedido, aceptas"
+    },
+    "title": "Resumen"
+  },
+  "checkout_check_user": {
+    "label": "Introduce tu email.",
+    "message": "Para poder continuar con el pedido, identifícate por favor.",
+    "title": "Identifícate"
+  },
+  "checkout_completion_hint": "Una vez finalizada la compra podrás modificar tu pedido hasta el día antes de la entrega.",
+  "checkout_completion_hint_subtitle": "El importe final no se te cobrará hasta el día de la entrega.",
+  "checkout_completion_hint_title": "Para completar la compra sólo te falta autorizar el pago.",
+  "checkout_confirm": {
+    "back_to_shop_button": "Volver a tienda",
+    "delivery_date": "{{ weekDay }}, {{ monthDay }} de {{ month }} de {{ startTime }} a {{ endTime }}",
+    "earlier_cutoff_date": "{{ weekDay }} {{ monthDay }} de {{ month }}",
+    "earlier_cutoff_description": "Recuerda que puedes modificar tu pedido si has olvidado algo.",
+    "earlier_cutoff_time": "Límite {{ time }} h",
+    "earlier_cutoff_title": "Hora límite para modificar este pedido",
+    "edit_hint_morning": " Una vez finalizada la compra podrás modificar tu pedido hasta las {{ time }} h de la madrugada del {{ day }} de {{ month }}.",
+    "edit_hint_new": "Una vez finalizada la compra podrás modificar tu pedido hasta antes de las {{ time }}h del {{ day }} de {{ month }}.",
+    "edit_reminder": "Recuerda que puedes modificar este pedido hasta el día antes de la entrega.",
+    "edit_reminder_morning": "Recuerda que puedes modificar este pedido hasta las {{ time }} h de la madrugada del {{ day }} de {{ month }}.",
+    "edit_reminder_new": "Recuerda que puedes modificar este pedido hasta las {{ time }}h del {{ day }} de {{ month }}.",
+    "email": "Hemos enviado una confirmación a tu email {{email}}",
+    "message": "Tu pedido se ha realizado.",
+    "order_number": "Pedido nº {{ id }}",
+    "price": "Total aproximado",
+    "price_message": "En los productos al peso, el importe se ajustará a la cantidad servida. El cobro del importe final se realizará tras la preparación de tu pedido.",
+    "profile": "Recuerda que aún puedes editar",
+    "profile_link": "este pedido",
+    "reminder": "Entrega:",
+    "reminder_span": "próximo",
+    "review_order_button": "Revisar pedido",
+    "title": "¡Pedido confirmado!"
+  },
+  "checkout_failed_authentication_alert_close_button": "Cerrar",
+  "checkout_failed_authentication_alert_explanation": "Parece que ha habido un problema con la autorización del banco. Puedes probar con otra tarjeta o buscar más información en la Ayuda.",
+  "checkout_failed_authentication_alert_retry_button": "Volver a intentar",
+  "checkout_failed_authentication_alert_title": "Lo sentimos, no se ha podido finalizar el pedido",
+  "checkout_login": {
+    "message": "Introduce tu contraseña para continuar con tu pedido.",
+    "remember_password": "No recuerdo mi contraseña",
+    "title": "Hola de nuevo"
+  },
+  "checkout_payment_changes_alert_explanation": "Ahora tu banco podría darte instrucciones para autorizar el importe según la nueva normativa (PSD2).",
+  "checkout_payment_changes_alert_explanation_plural": "Ahora tu banco podría darte instrucciones para autorizar el importe de la compra en su propia web o app.",
+  "checkout_payment_changes_alert_explanation_1": "Ahora tu banco podría darte instrucciones para autorizar el importe de la compra en su propia web o app.",
+  "checkout_payment_changes_alert_explanation_2": "Puede que tengas que autorizar con él hasta 5€ más por si el precio de los productos al peso fuera finalmente mayor.",
+  "checkout_payment_changes_alert_explanation_2_relative": "Puede que tengas que autorizar en el banco el total aproximado + 10% por si el precio de los productos al peso fuera finalmente mayor.",
+  "checkout_payment_changes_alert_explanation_3": "Recuerda que solo se te cobrará el día de la entrega el importe exacto de los productos servidos.",
+  "checkout_payment_changes_alert_explanation_back_button": "Volver",
+  "checkout_payment_changes_alert_explanation_continue_button": "Continuar",
+  "checkout_payment_changes_alert_title": "Cambios importantes en el pago online",
+  "checkout_payment_hint_message": "Es posible que tengas que autorizar el importe de este pedido con tu banco.",
+  "checkout_payment_hint_more_info": "Más información",
+  "checkout_remember_password": {
+    "message": "Te hemos enviado a {{ email }} un email con las instrucciones para recuperar tu contraseña.",
+    "title": "Recuperar contraseña"
+  },
+  "checkout_sign_up": {
+    "message": "Identifícate para disfrutar de la compra online de Mercadona.",
+    "name": "Nombre",
+    "password": "Introduce tu contraseña",
+    "surname": "Apellidos",
+    "terms": "nuestros términos y condiciones así como la política de privacidad.",
+    "title": "Crear cuenta"
+  },
+  "click_and_collect_button": "Recogida en almacén",
+  "click_and_collect_explanation_faq": "Saber más",
+  "click_and_collect_explanation_how_title": "Te la entregamos sin que bajes del coche",
+  "click_and_collect_explanation_service_price": "El coste de preparación es de 4,21 € IVA incluido y el pedido mínimo son 50 €.",
+  "click_and_collect_explanation_subtitle": "Una vez estés en el almacén, indícanos tu email y te entregaremos tu compra en la zona habilitada para ello.",
+  "click_and_collect_explanation_title": "Recogida en almacén",
+  "click_and_collect_explanation_what_title": "Compra online y selecciona \"recogida en almacén\"",
+  "click_and_collect_explanation_when_subtitle": "Dispones de franjas de recogida de 20 minutos, disponibles de 17:00 a 22:00 de lunes a sábado, excepto festivos",
+  "click_and_collect_explanation_when_title": "Elige el día y la hora a la que quieres recoger tu compra",
+  "click_n_collect_more_info": "Más info",
+  "collection_point": "Ver dirección de recogida",
+  "collection_point_map": "Ver mapa",
+  "collection_point_map_title": "Dirección almacén",
+  "collection_point_vlc_name": "La Colmena Mercadona",
+  "comments_current_length_hint": "{{ currentLength }} de {{ maxLength }}",
+  "comments_max_length_hint": "Máx. {{ maxLength }}",
+  "commons": {
+    "and": "y",
+    "options": "Opciones",
+    "or": "o",
+    "order": {
+      "aprox_price": "Total aproximado",
+      "cancel": {
+        "advertise": "Recuerda que anulando este pedido perderás la fecha y tramo de entrega reservados. Te informamos de que no has realizado ningún pago en relación a este pedido.",
+        "title": "Anular pedido"
+      },
+      "cancelled": "Anulado",
+      "cart_updated": {
+        "message": "No olvides revisarlo para comprobar que está todo lo que necesitas.",
+        "review": "Revisar carro",
+        "title": "Carro actualizado"
+      },
+      "collecting": "Listo para recoger",
+      "delivered": "Entregado",
+      "delivering": "En reparto",
+      "delivery_disrupted": "Incidencia con la entrega",
+      "disrupted": "Incidencia",
+      "edit": {
+        "confirmation": {
+          "cancel": "Permanecer",
+          "confirm": "Salir sin guardar",
+          "message": "Si continúas, perderás todos los cambios que has realizado.",
+          "title": "¿Estás seguro?"
+        }
+      },
+      "final_price": "Total",
+      "next_to_delivery": "En camino",
+      "on_going": "Confirmado",
+      "order_contact": {
+        "add_contact": "Añade un teléfono de contacto",
+        "contact": "Teléfono de contacto",
+        "phone_advertise": "Sólo lo utilizaremos si necesitamos contactar contigo en relación a tu proceso de compra, pago o entrega. Se guardará este teléfono para futuras compras.",
+        "phone_advertise_edit": "Sólo lo usaremos para contactar contigo en relación a tu proceso de compra, pago o entrega. Se guardará este teléfono para futuros pedidos.",
+        "title": "Contacto",
+        "title_phone": "Teléfono"
+      },
+      "order_delivery": {
+        "address_list": {
+          "add_address": "Añadir dirección",
+          "title": "Dirección de entrega para este pedido"
+        },
+        "address_subtitle": "Dirección de entrega",
+        "delivery_address": "Dirección de entrega",
+        "delivery_date": {
+          "date": "{{ weekDay }} {{ monthDay }} de {{ month }}",
+          "time": "de {{ startTime }} a {{ endTime }}",
+          "title": "Fecha de entrega"
+        },
+        "edit_address": "Cambiar dirección",
+        "empty_address": "Añade dónde quieres recibir tu pedido.",
+        "hide_slots": "Para ver los tramos disponibles es necesaria una dirección de entrega.",
+        "slots_calendar": {
+          "avaliable_days": "Días disponibles en",
+          "item": "{{ startTime }} a {{ endTime }} h",
+          "item_label": "De {{ startTime }} a {{ endTime }}",
+          "more_days": "Más días",
+          "prev_days": "Anteriores",
+          "title": "Horas de entrega para",
+          "today_text": "Hoy"
+        },
+        "slots_detail": {
+          "at_capacity": "No disponible",
+          "not_available": "No disponible",
+          "title": "Horas de entrega para {{ weekDay }}, {{ monthDay }} de {{ month }}"
+        },
+        "title": "Entrega"
+      },
+      "order_id": "Pedido {{ orderId }}",
+      "order_payment": {
+        "bank_redirection_disclaimer": "Al \"Guardar\" puede que te redirijamos a la página de tu banco para autorizar la operación.",
+        "payment": "Método de pago",
+        "payment_form": {
+          "title": "Añade un método de pago"
+        },
+        "payment_list": {
+          "add_payment": "Añadir tarjeta",
+          "card_data": "{{ cardNumber }} Válida hasta el {{ expiryDate }}",
+          "choose_card": "Elegir tarjeta",
+          "options": "Métodos de pago guardados",
+          "title": "Método de pago para este pedido:"
+        },
+        "title": "Pago",
+        "valid_payment_date": "Válida hasta {{ expiryDate }}."
+      },
+      "order_products": {
+        "title": "{{ count }} producto",
+        "title_plural": "{{ count }} productos"
+      },
+      "payment_disrupted": "Incidencia con el pago",
+      "prepared": "Preparado",
+      "prepared_click_and_collect": "En preparación",
+      "preparing": "En preparación",
+      "repeat_modal": {
+        "cancel": "Cancelar",
+        "confirm": "Continuar",
+        "title": "Repetir pedido"
+      },
+      "reprepared_pending_payment": {
+        "action": "Resolver pago pendiente",
+        "description": "Selecciona un método de pago para resolverlo.",
+        "summary": "Porque ha cambiado el peso o las unidades de algunos productos que hemos vuelto a preparar para mantenerlos frescos.",
+        "title": "Pago pendiente de {{amount}}€",
+        "widget": "Pago pendiente"
+      },
+      "summary": {
+        "click_n_collect": {
+          "delivery": "Preparación"
+        },
+        "delivery": "Preparación",
+        "igic_taxes": "IGIC incluido",
+        "price": "Total",
+        "price_aprox": "Total aproximado",
+        "products_counter": "{{ count }} productos",
+        "products_price": "Importe productos",
+        "taxes": "IVA incluido",
+        "variable-price-weight-products": "Puede variar por los productos al peso"
+      }
+    },
+    "payment_form": {
+      "disclaimer": "La tarjeta se guardará como método de pago. Podrás eliminarla cuando quieras desde tu cuenta.",
+      "text": "Tarjetas aceptadas"
+    },
+    "policy_terms": {
+      "&": " así como",
+      "privacy": "la política de privacidad.",
+      "terms": "nuestros términos y condiciones",
+      "text": "Al continuar, aceptas"
+    },
+    "postal_code_form": {
+      "error": "Lo sentimos, aún no repartimos en esa zona pero puedes comprar en la versión clásica de compra online www.mercadona.es",
+      "header": "¿Dónde quieres recibir tu pedido?",
+      "old_shop": "Ir a la versión clásica",
+      "title": "¿Dónde quieres recibir tu pedido?"
+    },
+    "product": {
+      "add_quantity": "Añadir {{ quantity }}",
+      "add_to_cart": "Añadir al carro",
+      "add_to_cart_shopping_list": "Añadir {{ quantity }} al carro",
+      "decrease": "Quitar un item del carro",
+      "in_cart": "En carro",
+      "remove": "Eliminar del carro"
+    },
+    "thanks": "Gracias"
+  },
+  "confirm_checkout_loader_exaplanation": "Puede que tarde unos segundos...",
+  "confirm_checkout_loader_title": "Confirmando tu pedido",
+  "cookies_configuration_accept": "Aceptar",
+  "cookies_configuration_accept_thirdparty_cookies": "Aceptar las cookies analíticas",
+  "cookies_configuration_always_active": "Siempre activadas",
+  "cookies_configuration_body_necessary": "Este sitio web utiliza cookies para hacer funcionar de manera correcta y segura la página web. Estas cookies, clasificadas como necesarias son esenciales para el funcionamiento del sitio web por lo que se almacenan en su navegador de forma automática.",
+  "cookies_configuration_body_thirdparty": "También utilizamos cookies estadísticas de terceros que nos ayudan a analizar y comprender cómo utiliza este sitio web de forma anónima. Estas cookies se almacenarán en su navegador si da su consentimiento. Sin embargo, la exclusión de estas cookies puede tener un efecto en su experiencia de usuario.",
+  "cookies_configuration_cancel": "Cerrar",
+  "cookies_configuration_close_configuration": "Cerrar la configuración de cookies",
+  "cookies_configuration_description": "Descripción",
+  "cookies_configuration_expiration": "Expiración",
+  "cookies_configuration_necessary_explanation": "Son necesarias para que funcione la página web por lo que no pueden ser desactivadas.",
+  "cookies_configuration_necessary_title": "Cookies técnicas",
+  "cookies_configuration_reject_thirdparty_cookies": "Rechazar las cookies analíticas",
+  "cookies_configuration_required_analytics_explanation": "Son necesarias para realizar estudios estadísticos sobre la navegación de los usuarios de forma anónima en nuestro sitio web.",
+  "cookies_configuration_required_analytics_title": "Analíticas requeridas",
+  "cookies_configuration_thirdparty_explanation": "Permiten analizar la navegación que realizas por nuestro sitio web para realizar estudios estadísticos sobre su uso.",
+  "cookies_configuration_thirdparty_title": "Analíticas",
+  "cookies_configuration_title": "Configuración de cookies",
+  "countdown_hours": "horas",
+  "countdown_minutes": "min",
+  "countdown_remaining_time": "Tiempo disponible para modificar tu pedido:",
+  "countdown_remaining_time_widget": "Tiempo disponible para modificar:",
+  "countdown_seconds": "seg",
+  "create_new_order_button": "Tramitar nuevo pedido",
+  "day_selection_help_hint": "Elige un día para visualizar las horas de entrega disponibles",
+  "delivery_available_days_message": "Siguiente fecha de entrega en {{ count }} días naturales.",
+  "dialog_close": "Cerrar",
+  "discover_search_view_title": "Descubrir",
+  "draft_unsaved_changes_body": "Guarda los cambios para no perderlos.",
+  "draft_unsaved_changes_cancel": "Más tarde",
+  "draft_unsaved_changes_confirm": "Ver cambios",
+  "draft_unsaved_changes_title": "Tienes cambios sin guardar en tu pedido",
+  "drained_field": "escurrido",
+  "duplicated_order_alert_body": "Confirma que deseas recibir varios pedidos en la misma dirección y el mismo día",
+  "duplicated_order_alert_confirm_button": "Confirmar pedido",
+  "duplicated_order_alert_title": "Vas a recibir 2 pedidos similares el mismo día",
+  "edit_purchase_confirm_button": "Guardar cambios",
+  "enter_postal_code_modal_title": "Introduce tu código postal para poder acceder al surtido disponible en tu zona",
+  "errors": {
+    "404": "Lo sentimos, no es posible encontrar la página que buscas.",
+    "500": "Lo sentimos, el contenido de esta página no se puede mostrar."
+  },
+  "error_link": "Ir a la tienda",
+  "error_something_went_wrong_subtitle": "La acción realizada ha fallado. Si el error persiste, ponte en contacto con nosotros a través del chat.",
+  "error_something_went_wrong_title": "Ha sucedido un error",
+  "extra_water": {
+    "description": "El límite máximo de agua por pedido es de {{ max_liters }} litros y actualmente llevas {{ current_liters }} litros.",
+    "title": "Límite máximo de agua"
+  },
+  "failed_authentication_alert_close_button": "Cerrar sin guardar cambios",
+  "failed_authentication_alert_explanation": "Parece que ha habido un problema con la autorización. Puedes probar con otra tarjeta o ponerte en contacto con nosotros a través de la ayuda.",
+  "failed_authentication_alert_retry_button": "Volver a intentar",
+  "failed_authentication_alert_title": "Los cambios no se han podido guardar correctamente",
+  "failed_payment_alert_close_button": "Cerrar sin resolver",
+  "failed_payment_alert_explanation": "Parece que ha habido un problema con el cobro. Puedes probar con otra tarjeta o ponerte en contacto con nosotros a través de la ayuda.",
+  "failed_payment_alert_retry_button": "Volver a intentar",
+  "failed_payment_alert_title": "El intento de pago ha fallado",
+  "footer_section": {
+    "cookies": "Política de cookies",
+    "copyright": "© Mercadona S.A.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones"
+  },
+  "header": {
+    "menu": {
+      "categories": "Categorías",
+      "my_products": "Mis Habituales",
+      "shopping_lists": "Listas"
+    },
+    "search": "Buscar productos",
+    "user_menu": {
+      "anom_message": "Identifícate",
+      "menu": {
+        "account": "Cuenta",
+        "anom": "Invitado",
+        "close_session": "Cerrar sesión",
+        "faqs": "Preguntas frecuentes",
+        "help": "Ayuda",
+        "identify": "Identifícate",
+        "orders": "Mis pedidos"
+      },
+      "user_message": "Hola {{ userName }}"
+    }
+  },
+  "home_banner_subtitle": "Selección de productos destacados",
+  "home_banner_title": "Productos del momento",
+  "home_delivery_button": "Entrega a domicilio",
+  "home_news_subtitle": "Productos recién añadidos o mejorados",
+  "home_sections": {
+    "availability": {
+      "title": "Entrega disponible"
+    }
+  },
+  "home_title": "Mercadona compra online",
+  "i": "i",
+  "inaccurate_address_modal": {
+    "button": "Indicar en el mapa",
+    "description": "Marca exactamente dónde quieres recibir tu pedido.",
+    "title": "Tenemos problemas para encontrar tu dirección"
+  },
+  "input": {
+    "address": "Calle",
+    "address_comments": "Información adicional (Ej: No hay ascensor)",
+    "address_number": "Piso, puerta...",
+    "address_suggestion": "Calle y número",
+    "comments": "(Opcional) Ej. No hay ascensor...",
+    "email": "Email",
+    "name": "Nombre",
+    "number": "Número",
+    "password": "Contraseña",
+    "phone": "Número de teléfono",
+    "postal_code": "Código postal",
+    "surname": "Apellidos",
+    "town": "Población"
+  },
+  "invoices": {
+    "accept": "Aceptar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "modify_invoice": {
+      "title": "Modificar factura"
+    },
+    "personal_id_not_registered_modal": {
+      "button": "Ir a Portal facturas",
+      "subtitle": "Vuelve cuando termines para completar la solicitud",
+      "title": "Registra el documento en Portal facturas"
+    },
+    "personal_id_not_registered_modal_warning": {
+      "button": "Volver a intentar",
+      "close_button": "Salir sin guardar",
+      "subtitle": "Revisa si has completado el registro en Portal facturas o vuelve a probar.",
+      "title": "Parece que el documento sigue sin estar registrado"
+    },
+    "requested_invoice": {
+      "button": "Ir a Portal facturas",
+      "title": "Factura solicitada"
+    },
+    "request_invoice": {
+      "info": "La factura estará disponible en Portal facturas.",
+      "label": "DNI, NIE o CIF",
+      "subtitle": "Introduce el número de documento",
+      "title": "Solicitar factura"
+    }
+  },
+  "invoice_data_button_message": "Puedes modificar tus datos de facturación en <a>Portal Facturas</a>.",
+  "invoice_data_button_title": "Datos de facturación",
+  "is_new_badge": "Novedad",
+  "i_description": "Utilizado para identificar a los usuarios del sitio",
+  "i_expiration": "1 año",
+  "list": {
+    "language": {
+      "ca": "Catalán",
+      "en": "Inglés",
+      "es": "Español",
+      "eu": "Euskera",
+      "va": "Valenciano",
+      "vai": "Valenciano"
+    }
+  },
+  "login": {
+    "check_user": {
+      "error": "Introduce un email válido",
+      "label": "Introduce tu email",
+      "title": "Identifícate"
+    },
+    "image": {
+      "label": "Sácale partido al nuevo servicio personalizado de Mercadona.",
+      "title": "Sólo para ti"
+    },
+    "label": "Introduce tu contraseña",
+    "recovery_password": {
+      "text": "Te hemos enviado a {{ email }} un email con las instrucciones para restablecer tu contraseña.",
+      "title": "Restablecer contraseña"
+    },
+    "remember_password": "No recuerdo mi contraseña",
+    "title": "Hola de nuevo"
+  },
+  "mit_term_accept_button": "Autorizar",
+  "mit_term_cancel_button": "Volver",
+  "mit_term_explanation": "Necesitamos que nos autorices el pago de este pedido que contemplará las posibles modificaciones que hagas y los productos de peso variable.<br>Al autorizar, nos permites el cobro del importe final el día de la entrega de acuerdo con las condiciones de cobro.",
+  "mit_term_reminder": "Autoriza en tu banco y regresa a la app para completar tu compra.",
+  "mit_term_title": "Autorización necesaria",
+  "mobile_block": {
+    "download_app": "Descarga la app para comprar desde tu móvil o tablet."
+  },
+  "my_invoices_button_message": "Puedes encontrar tus facturas en <a>Portal Facturas</a>.",
+  "my_invoices_button_title": "Mis facturas",
+  "my_products": {
+    "anonymous_title": "Identifícate para ver tus habituales",
+    "counter": "{{ recommendedProducts }} productos habituales",
+    "empty_button_text": "Ver todos los productos",
+    "empty_button_text_anonymous": "Identifícate",
+    "empty_message": "Aquí encontrarás los productos y cantidades que sueles comprar para ahorrarte tiempo.",
+    "empty_message_anonymous": "Una vez accedas a tu cuenta y realices el primer pedido, aquí encontrarás los productos y cantidades que sueles comprar para ahorrarte tiempo.",
+    "empty_title": "Haz tu primer pedido para poder ver tus habituales",
+    "header": "Mis habituales",
+    "message": "Aquí puedes ver los productos y cantidades que sueles comprar para ahorrarte tiempo."
+  },
+  "my_regulars": {
+    "empty_precision_message": "Necesitamos más información de tus compras para poder recomendarte productos en esta sección.",
+    "empty_recall_message": "Necesitamos más información de tus compras para poder recomendarte productos en esta sección. Puedes ver tus productos habituales en la sección Lo que más compro.",
+    "empty_section_title": "Aún no tienes suficientes compras",
+    "header": "Mis habituales",
+    "message": "Aquí puedes ver los productos y cantidades que sueles comprar para ahorrarte tiempo.",
+    "precision_button": "Lo que más compro",
+    "recall_button": "También compro"
+  },
+  "new_price_authenticaton_alert_continue_button": "Seguir",
+  "new_price_authenticaton_alert_explanation": "Con la nueva normativa europea de pagos (PSD2) necesitamos que autorices el cambio de precio de tu pedido en el siguiente paso.",
+  "new_price_authenticaton_alert_faq_button": "Saber más",
+  "new_price_authenticaton_alert_title": "El precio ha cambiado",
+  "next_order_widget_description": "Tu pedido es el siguiente",
+  "non_supported_address_no_slots_available_description": "Por favor, contacta con atención al cliente.",
+  "non_supported_address_no_slots_available_title": "No hay tramos disponibles",
+  "not_supported_browser_choice": "Microsoft Edge",
+  "not_supported_browser_choice_plural": "Microsoft Edge",
+  "not_supported_browser_choice_1": "Microsoft Edge",
+  "not_supported_browser_choice_2": "Google Chrome",
+  "not_supported_browser_choice_3": "Mozilla Firefox",
+  "not_supported_browser_choice_4": "Safari",
+  "not_supported_browser_explanation": "Lo sentimos pero ya no podemos garantizar la mejor experiencia en este navegador. Utiliza otro o descarga uno de los que te proponemos aquí.",
+  "not_supported_browser_help": "Recuerda que si tienes dudas puedes ponerte en contacto con nosotros a través del chat de Ayuda.",
+  "not_supported_browser_title": "Navegador no soportado",
+  "no_delivery_available_days_message": "Sentimos las molestias, actualmente no hay tramos de reparto disponibles.",
+  "no_results": {
+    "default": "No hay resultados",
+    "orders": {
+      "body": "Aquí podrás ver el listado de los pedidos que realices.",
+      "button": "Inicia tu compra",
+      "title": "Aún no has hecho tu primer pedido"
+    }
+  },
+  "offline": "Parece que has perdido la conexión a internet.",
+  "old_browser_banner_download_link": "aquí.",
+  "old_browser_banner_message": "Descarga la última versión",
+  "old_browser_banner_title": "Navegador no soportado:",
+  "onbarding_notify_me_thanks_description": "Te avisaremos por email en cuanto el servicio esté en pleno funcionamiento en tu zona.",
+  "onbarding_notify_me_thanks_title": "Gracias",
+  "onboarding_notify_me_link": "Avísame cuando esté operativa en mi zona",
+  "onboarding_notify_me_mercadona_es": "Ir a Mercadona.es",
+  "onboarding_notify_me_send_button": "Enviar",
+  "onboarding_notify_me_title": "Escribe tu email y te avisaremos en cuanto esté disponible.",
+  "onboarding_no_service_classic_web_button": "Ir a la web clásica",
+  "onboarding_no_service_new_postal_code_button": "Usar otro código postal",
+  "onboarding_no_service_title": "El nuevo servicio de Mercadona online aún no está disponible en el código postal \"{{ postalCode }}\".",
+  "on_going_order": {
+    "action_disrupted_delivery_customer": "Hemos intentado entregar tu pedido",
+    "action_disrupted_delivery_system": "Ha surgido un contratiempo",
+    "action_disrupted_payment": "Por favor, revisa tu método de pago",
+    "action_disrupted_payment_description": "Para recibir tu pedido resuelve la incidencia.",
+    "delivering_today": "Entrega hoy de {{ startTime }} a {{ endTime }}",
+    "delivering_tomorrow": "Entrega mañana de {{ startTime }} a {{ endTime }}",
+    "delivery": "Entrega {{ weekDay }} {{ monthDay }} de {{ startTime }} a {{ endTime }}",
+    "delivery_time": "Entrega de {{ startTime }} a {{ endTime }}",
+    "order_number": "Pedido {{ orderNumber }}",
+    "title": "Próxima entrega"
+  },
+  "order": {
+    "detail": {
+      "status": {
+        "confirmed": {
+          "body": "¿Has olvidado algo? Aún puedes modificar tu pedido <b>hasta las {{ time }} h del {{ day }} de {{ month }}.</b>",
+          "body_morning": "¿Has olvidado algo? Aún puedes modificar tu pedido <b>hasta las {{ time }} h de la madrugada del {{ day }} de {{ month }}.</b>",
+          "title": "Confirmado"
+        },
+        "delivering": {
+          "body": "Tu pedido ha salido a la hora prevista. Lo entregaremos de {{ slotStart }} a {{ slotEnd }}",
+          "title": "En reparto"
+        },
+        "disrupted_by_customer": {
+          "body": "Hemos intentado entregar tu pedido sin éxito. Ponte en contacto con nosotros."
+        },
+        "disrupted_by_system": {
+          "body": "Lo sentimos, tu pedido llegará más tarde por una incidencia. Por favor, contáctanos si no pudieras estar en el domicilio."
+        },
+        "next_to_delivery": {
+          "body": "Tu pedido es el siguiente. Ya vamos de camino a tu dirección",
+          "title": "En camino"
+        },
+        "payment_disrupted": {
+          "action": "Resolver incidencia de pago",
+          "declined": {
+            "inactive_card": {
+              "reason": "Comprueba que tu tarjeta esté activa."
+            },
+            "insufficient_funds": {
+              "reason": "Comprueba el saldo en tu cuenta o si hay un límite de gasto establecido"
+            },
+            "online_payment_disabled": {
+              "reason": "Comprueba que tienes activadas las compras online para este método de pago."
+            },
+            "subtitle": "Revisa tu método de pago o selecciona otro antes de reintentar.",
+            "title": "Pago rechazado por tu banco"
+          },
+          "reprepared_unknown": {
+            "reason": "El pago del importe pendiente no se ha completado correctamente."
+          },
+          "retry_payment": "Reintentar pago",
+          "title": "Resolver incidencia",
+          "unknown": {
+            "reason": "El pago de tu pedido no se ha completado correctamente."
+          }
+        }
+      }
+    }
+  },
+  "order_confirmed": {
+    "check_email": "Revisa la confirmación en tu email {{email}}",
+    "delivery": "Entrega",
+    "title": "Pedido <a>{{orderId}}</a> confirmado"
+  },
+  "order_details_delivered_product_list_missing_items_tooltip_body": "Por falta de disponibilidad no se entregó la cantidad solicitada de este producto en este pedido.",
+  "order_details_delivered_product_list_missing_items_tooltip_title": "Cambio en la cantidad",
+  "order_details_delivered_product_list_not_available": "No entregado",
+  "order_details_delivered_product_list_not_available_tooltip_body": "Por falta de disponibilidad no se pudo entregar el producto en este pedido.",
+  "order_details_delivered_product_list_not_available_tooltip_title": "Producto no entregado",
+  "order_details_not_delivered_product_list_missing_items_tooltip_body": "No podremos entregar la cantidad solicitada de este producto por falta de disponibilidad.",
+  "order_details_not_delivered_product_list_missing_items_tooltip_title": "Cambio en la cantidad",
+  "order_details_not_delivered_product_list_not_available": "No disponible",
+  "order_details_not_delivered_product_list_not_available_tooltip_body": "Lamentablemente no tenemos disponibilidad de este producto.",
+  "order_details_not_delivered_product_list_not_available_tooltip_title": "Producto no disponible",
+  "order_detail_payment_failed_payment_method_list_disclaimer": "Elige un método de pago para resolver la incidencia.",
+  "order_detail_payment_failed_payment_method_section_disclaimer": "Para resolver la incidencia de pago, edita el método de pago",
+  "out_of_stock": {
+    "message": "Temporalmente sin stock"
+  },
+  "packs_field": "packs",
+  "pack_field": "pack",
+  "password_invalid_characters": "Solo puedes usar letras, números y signos de puntuación habituales",
+  "password_strength_invalid_description": "Introduce al menos 6 caracteres",
+  "password_strength_strong_description": "Segura",
+  "password_strength_weak_description": "Débil",
+  "payment_method": {
+    "add_new_payment_method": {
+      "subtitle": "Selecciona un método de pago",
+      "title": "Añadir método de pago"
+    },
+    "bizum": {
+      "form": {
+        "description": "Introduce tu número móvil vinculado a Bizum ",
+        "note": "Bizum se guardará como método de pago. Podrás eliminarlo cuando quieras desde tu cuenta.",
+        "note-onetime": "Este pago es puntual y no guardaremos Bizum como método de pago para tus próximo pedidos.",
+        "phone": {
+          "label": "Número de móvil"
+        },
+        "secure": "Tus datos están protegidos y la confirmación se realiza desde la app de tu banco.",
+        "title": "¿Cuál es tu Bizum?"
+      },
+      "trigger": "Pagar con Bizum"
+    },
+    "card": {
+      "form": {
+        "notifier": "Al guardar la tarjeta abre la app de tu banco para autorizar la operación"
+      }
+    },
+    "empty": {
+      "action": "Añadir método de pago",
+      "message": "Añade el método de pago con el que pagarás tus pedidos",
+      "title": "No hay métodos de pago"
+    }
+  },
+  "payment_method_required_error_message": "Necesitamos que añadas una tarjeta para poder autorizar el pago",
+  "payment_method_type": {
+    "bizum": "Bizum",
+    "card": "Tarjeta"
+  },
+  "Pedido editado hace {{ hours }} horas": "Pedido editado hace {{ days }} día",
+  "Pedido editado hace {{ hours }} horas_plural": "Pedido editado hace {{ days }} días",
+  "product_cell": {
+    "zoom": "Haz clic para aumentar"
+  },
+  "product_detail": {
+    "age_warning": "Pedido restringido a mayores de 18 años.",
+    "aria_close": "Cerrar",
+    "aria_description": "Ficha de producto",
+    "disclaimer": "El envase o el producto mostrado puede no estar actualizado. Te recomendamos que lo revises cuando lo recibas para confirmar los detalles sobre el mismo y sus alérgenos. Para información adicional, contáctanos en el teléfono gratuito de atención al cliente 800 500 220.",
+    "unavailable_weekdays": "Este producto no está disponible los {{ weekDay }}.",
+    "unavailable_weekdays_and_from": "Este producto no está disponible los/el {{ unavailableWeekdays }}. Además, dejará de estar disponible a partir del {{ unavailableFromDay }} de {{ unavailableFromMonth }}"
+  },
+  "product_detail_allergens": "Alérgenos: {{ variable }}",
+  "product_detail_ingredients": "Ingredientes: {{ variable }}",
+  "product_detail_origin": "Origen: {{ variable }}",
+  "product_detail_storage_instruction": "Instrucciones de almacenamiento: {{ variable }}",
+  "product_detail_use_instructions": "Instrucciones de uso: {{ variable }}",
+  "product_empty_case_see_products_clicks": "Ver otros productos",
+  "product_empty_case_subtitle": "Este producto no está disponible en este momento",
+  "product_empty_case_title": "Producto no disponible",
+  "product_empty_case_understood_button": "Entendido",
+  "product_limitations_back_button": "Volver",
+  "product_limitations_back_to_cart": "Volver al carro",
+  "product_limitations_cell": "Se servirán:",
+  "product_limitations_continue_button": "Aceptar",
+  "product_limitations_description": "Actualmente tenemos limitadas las unidades que se pueden solicitar en una compra. Los siguientes productos se verán afectados.",
+  "product_limitations_title": "Hay productos que superan la cantidad máxima",
+  "product_postal_code_button": "Entrar",
+  "product_postal_code_button_responsive": "Abrir en la App",
+  "product_postal_code_subtitle": "Accede a la tienda introduciendo tu código postal",
+  "product_postal_code_subtitle_responsive": "Descarga la app y compra en Mercadona desde tu móvil.",
+  "product_postal_code_title": "¿Quieres este producto?",
+  "product_sorting_by_category": "Por categorías",
+  "product_sorting_by_importance": "Por relevancia",
+  "product_sorting_by_time": "Según se añadieron",
+  "product_sorting_title": "Ordenar",
+  "product_unavailable": "Tienes productos no disponibles en tu carro",
+  "psd2_global_loader_explanation": "Puede que tarde unos segundos...",
+  "psd2_global_loader_title": "Conectando con tu banco",
+  "purchase_confirmed_status_service_rating_cell_description": "Cuéntanos cómo fue todo.",
+  "purchase_delivery_time": "de {{start_date}} a {{end_date}}",
+  "purchase_payment_button": "Confirmar pedido",
+  "recaptcha": {
+    "google_service_conditions_link_label": "Condiciones del servicio",
+    "info": "El inicio de sesión está protegido por Google reCAPTCHA para hacer la web más segura.",
+    "more_info": "La información recopilada por Google reCAPTCHA está sujeta a la ",
+    "more_info_2": " de Google. Al mejorar la seguridad de la web, mejoramos la protección de tus datos.",
+    "more_info_and": " y a las ",
+    "more_info_link_label": "Más info.",
+    "privacy_policy_link_label": "Política de Privacidad"
+  },
+  "remove_products": "Quitar producto",
+  "remove_products_cancel_order_modal_cancel_button": "Volver atrás",
+  "remove_products_cancel_order_modal_confirm_button": "Anular pedido",
+  "remove_products_cancel_order_modal_description": "Perderás la fecha y el tramo de entrega reservados.",
+  "remove_products_cancel_order_modal_title": "¿Quieres anular el pedido?",
+  "remove_products_info": "Si quitas un producto habitual desaparecerá del listado hasta que vuelvas a comprarlo.",
+  "remove_products_title": "No mostrar en Mis Habituales",
+  "remove_product_aria": "Quitar {{ productName }} de mis productos habituales",
+  "repeat_purchase_hint": "Al repetir pedido se añadirán todos los productos al carro",
+  "reset_password_add_email_placeholder": "Email",
+  "reset_password_add_email_title": "Introduce tu email",
+  "reset_password_cta_button": "Restablecer contraseña",
+  "reset_password_help_button": "Ayuda",
+  "reset_password_new_password_placeholder": "Contraseña",
+  "reset_password_new_password_title": "Nueva contraseña",
+  "reset_password_restablished_description": "Tu nueva contraseña se ha asociado a tu email correctamente.",
+  "reset_password_restablished_identify_button": "Empezar a comprar",
+  "reset_password_restablished_title": "Contraseña restablecida",
+  "reset_password_subtitle": "Elige una contraseña nueva para acceder a tu cuenta",
+  "reset_password_title": "Restablecer contraseña",
+  "sca_required_modal_alt_image": "Tarjetas de crédito",
+  "search_bar_amount_results": "Mostrando {{resultsCount}} resultados para '{{resultsQuery}}'",
+  "search_bar_brands_title": "Marca",
+  "search_bar_categories_title": "Categoría",
+  "section_carousel": {
+    "go_to_season": "Más {{ seasonName }}"
+  },
+  "select_delivery_method_subtitle": "Elige si quieres que te llevemos el pedido a casa o ir a recogerlo a nuestro almacén.",
+  "select_delivery_method_title": "¿Dónde quieres recibir tu pedido?",
+  "service_rating_button": "Valorar",
+  "service_rating_modal_back_button": "Volver",
+  "service_rating_modal_mood_explanation": "Pulsa una opción para valorar",
+  "service_rating_modal_mood_subtitle": "Queremos mejorar el servicio que te ofrecemos y tu opinión es clave.",
+  "service_rating_modal_mood_title": "¿Cómo fue tu pedido?",
+  "service_rating_modal_not_available_button": "Terminar",
+  "service_rating_modal_not_available_title": "Ya has valorado este pedido anteriormente. Gracias por tu ayuda.",
+  "service_rating_modal_thanks_button": "Ir a Mercadona.es",
+  "service_rating_modal_thanks_title": "¡Gracias por tu opinión!",
+  "service_rating_start_chat": "Iniciar chat con atención al cliente",
+  "service_rating_text_field_send_button": "Enviar",
+  "service_rating_text_field_title": "Cuéntanos más",
+  "service_rating_title": "Valora este pedido",
+  "share_button": "Compartir",
+  "sharing_preview_description": "Mira este producto",
+  "shopping_lists": {
+    "add_to_list": {
+      "button_text": "Guardar en listas",
+      "description": "Selecciona la lista en la que quieres guardar este producto.",
+      "error_message": "No fue posible guardar el producto en la lista, por favor inténtelo de nuevo.",
+      "new_list": "Nueva lista",
+      "notification": "Guardado en {{ listName }}",
+      "title": "Guardar en una lista"
+    },
+    "create": {
+      "description": "Introduce un nombre para tu nueva lista",
+      "error_message": "No fue posible crear la lista, por favor inténtalo de nuevo.",
+      "input_label": "Nombre de la lista",
+      "new_list_title": "Crear nueva lista",
+      "title": "Crear lista"
+    },
+    "delete_list": {
+      "delete_button_text": "Eliminar lista",
+      "dialog_description": "Perderás todos los productos guardados en esta lista.",
+      "dialog_primary_action_text": "Eliminar lista",
+      "dialog_secondary_action_text": "Volver",
+      "dialog_title": "¿Quieres eliminar esta lista?",
+      "error_message": "No fue posible eliminar la lista, por favor inténtalo de nuevo.",
+      "more_actions_button_text": "más acciones"
+    },
+    "error_button_text": "Entendido",
+    "error_title": "Operación no realizada.",
+    "header_actions": {
+      "add_all_to_cart": "Añadir todo al carro",
+      "options": "Opciones",
+      "search_products": "Buscar productos"
+    },
+    "list_detail": {
+      "empty_description": "Lista vacía"
+    },
+    "list_item": {
+      "in_list": "En la lista",
+      "product": "producto",
+      "products": "productos"
+    },
+    "logged_out_user": {
+      "message_text": "Una vez accedas a tu cuenta, aquí encontrarás todas tus listas.",
+      "title": "Identifícate para ver tus listas"
+    },
+    "more_actions": {
+      "edit_quantity": "Editar cantidad",
+      "product_decrease": "Reducir cantidad",
+      "product_increase": "Añadir cantidad",
+      "remove_product": "Quitar producto"
+    },
+    "my_essentials": {
+      "description": "Basada en tus pedidos",
+      "title": "Mis Habituales"
+    },
+    "search": {
+      "save": "Guardar",
+      "saved": "Guardado",
+      "suggestions_title": "Sugerencias para tu lista"
+    },
+    "success_dialog": {
+      "accept_button": "Entendido",
+      "title": "unidad añadida al carro",
+      "title_plural": "unidades añadidas al carro"
+    },
+    "suggestions": {
+      "empty_results": "No hay sugerencias",
+      "more_suggestions": "Ver otras sugerencias",
+      "title": "Sugerencias para tu lista"
+    },
+    "title": "Listas",
+    "whats_new": {
+      "go_to_lists": "Ir a listas",
+      "organise_subtitle": "Crea tus listas de favoritos, recetas, básicos y más.",
+      "organise_title": "Organízate como prefieras",
+      "save_time_subtitle": "Añade todos los productos y cantidades que sueles comprar con un solo click.",
+      "save_time_title": "Compra en tiempo récord",
+      "suggestions_subtitle": "Descubre productos recomendados para tu lista.",
+      "suggestions_title": "Sugerencias personalizadas",
+      "title": "¡Listas ya disponibles!",
+      "understood": "Entendido"
+    },
+    "tabs": {
+      "nav_label": "Navegación de listas"
+    }
+  },
+  "sign_up": {
+    "error": "La contraseña no es válida.",
+    "label": "Nombre",
+    "notification": "Hola {{ userName }}, Mercadona te da la bienvenida",
+    "password": "Introduce tu contraseña",
+    "surname": "Apellidos",
+    "title": "Crear cuenta"
+  },
+  "skip_link_cart": "Ir al carrito",
+  "skip_link_content": "Ir al contenido",
+  "slot_alert_low_availability": "Quedan {{ days_left }} días para esta entrega",
+  "slot_available_for_selected_day": "Tramos para",
+  "slot_selection_help_hint": "Elige un tramo y confirma para seguir con la compra",
+  "slot_size": "Tramo de 1h",
+  "snackbar_share_message": "Enlace copiado al portapapeles",
+  "substitutions_completed_alert_title": "Producto sustituido correctamente",
+  "substitutions_empty_state_subtitle": "Lo sentimos, no hemos encontrado alternativas para este producto.",
+  "substitutions_empty_state_title": "No hay productos parecidos",
+  "substitutions_explanation_text": "Elige una o más alternativas para sustituir el producto no disponible",
+  "substitutions_title": "{{ similarCount }} alternativa disponible",
+  "substitutions_title_plural": "{{ similarCount }} alternativas disponibles",
+  "substitution_back_button": "Volver a las alternativas",
+  "substitution_see_alternatives_button": "Ver alternativas",
+  "summary_discount_subtitle": "Gastos de preparación gratuitos como compensación por tu pedido anterior.",
+  "summary_ipsi_title": "IPSI incluido",
+  "tok": {
+    "iframe": "Introduce los datos de tu tarjeta para confirmar el pedido."
+  },
+  "tokenization_failed_authentication_alert_close_button": "Entendido",
+  "tokenization_failed_authentication_alert_explanation": "Parece que ha habido un problema con la autorización del banco.\nPuedes probar con otra tarjeta o buscar más información en la Ayuda.",
+  "tokenization_failed_authentication_alert_title": "Lo sentimos, no se ha podido guardar la tarjeta",
+  "token_authn_mit_term_cancel_button": "Volver sin tramitar",
+  "token_authn_mit_term_continue_button": "Autorizar",
+  "token_authn_mit_term_explanation": "Necesitamos que nos autorices el pago de este pedido que contemplará las posibles modificaciones que hagas del mismo y los productos de peso variable.<br>Al autorizar, nos permites el cobro del importe final el mismo día de la entrega de acuerdo con las condiciones de cobro.",
+  "token_authn_mit_term_title": "Autorización necesaria",
+  "token_authn_not_confirmed_alert_continue_button": "Entendido",
+  "token_authn_not_confirmed_alert_explanation": "Necesitamos que autorices el pago con tarjeta para poder confirmar tu pedido.",
+  "token_authn_not_confirmed_alert_title": "Pedido no confirmado",
+  "token_authn_reminder": "Una vez finalizada la compra podrás modificar tu pedido sin ningún coste hasta el día antes de la entrega.",
+  "token_authn_step_one_continue_button": "Continuar",
+  "token_authn_step_two_title": "Confirmar pedido",
+  "tooltip": {
+    "price_message": "En los productos al peso, el importe se ajustará a la cantidad servida. El cobro del importe final se realizará tras la preparación de tu pedido."
+  },
+  "units_field": "uds.",
+  "unit_field": "ud.",
+  "unlogged_alert_description": "Si ya añadiste productos desde tu cuenta, recuerda identificarte para no perderlos.",
+  "unlogged_alert_login_button": "Identifícate",
+  "unlogged_alert_notnow_button": "Ahora no",
+  "unlogged_alert_title": "¿Ya tienes cuenta?",
+  "unpublished_cell_title": "Producto no disponible",
+  "unpublished_products_cart_description": "Estos productos no están disponibles en este momento. Si confirmas la compra no se incluirán en el pedido.",
+  "unpublished_products_cart_help_button": "Ver",
+  "unpublished_products_cart_help_title": "Hay {{ unpublishedItems }} producto no disponible",
+  "unpublished_products_cart_help_title_plural": "Hay {{ unpublishedItems }} productos no disponibles",
+  "unpublished_products_cart_title": "Productos no disponibles",
+  "user_area": {
+    "addresses": {
+      "add_address": "Nueva dirección de entrega",
+      "confirm_town": {
+        "edit_btn": "Editar dirección",
+        "message": "La dirección que acabas de añadir está en:",
+        "title": "¿Estás seguro?"
+      },
+      "delete_address_success": "Dirección eliminada",
+      "empty_message": "Añade dónde quieres recibir tu pedido.",
+      "empty_title": "No hay dirección",
+      "other_adresses": {
+        "title": "Otras direcciones"
+      },
+      "selected_address": {
+        "title": "Dirección seleccionada"
+      },
+      "title": "Direcciones"
+    },
+    "edit_order": {
+      "click_n_collect": {
+        "delivery_price": "Preparación"
+      },
+      "delivery_price": "Preparación",
+      "header": "Modificar pedido",
+      "placeholder": "Busca los productos que quieras añadir a tu pedido.",
+      "price": "Total aproximado",
+      "products_price": "Importe productos",
+      "title": "Productos en mi pedido"
+    },
+    "menu": {
+      "addresses": "Direcciones ",
+      "faqs": "Preguntas frecuentes",
+      "invoices": "Facturas",
+      "orders": "Mis pedidos",
+      "payment_methods": "Métodos de pago",
+      "personal_info": "Datos personales"
+    },
+    "orders": {
+      "invoice": "¿Necesitas factura para tu empresa?",
+      "see_more": "Ver más",
+      "title": "Mis pedidos"
+    },
+    "order_detail": {
+      "download_ticket": {
+        "tooltip": "Tu ticket estará disponible tras el cobro del pedido el día de la entrega.",
+        "tooltip_title": "Ticket no disponible"
+      },
+      "order_price": "RESUMEN DEL PEDIDO",
+      "order_status": "Estado del pedido",
+      "status_msg": {
+        "cancelled": "Recuerda que puedes \"repetir pedido\" y volver a comprar los mismos productos.",
+        "collecting": "Te esperamos a la hora prevista para introducir la compra en tu coche.",
+        "delivered_first": "Hemos entregado tu pedido en la dirección indicada.",
+        "delivered_second": "Tu ticket de compra ya está disponible para",
+        "delivered_third": "descargar.",
+        "delivering": "Tu pedido ha salido a la hora prevista. No tardaremos en llegar con tu pedido.",
+        "delivery_disrupted_system": "Lo sentimos, tu pedido llegará más tarde por una incidencia. Por favor, contáctanos si no pudieras estar en el domicilio.",
+        "delivery_disrupted_user": "Hemos intentado entregar tu pedido. Por favor, contacta con nosotros para reintentarlo.",
+        "on_going": "Puedes",
+        "on_going_content": "tu pedido hasta las {{ time }} del {{ day }} de {{ month }} antes de que pase a",
+        "on_going_content_morning": "hasta las {{ time }} h de la madrugada del {{ day }} de {{ month }}",
+        "on_going_content_new": "hasta las {{ time }} del {{ day }} de {{ month }} antes de que pase a",
+        "on_going_content_new_1": "tu pedido",
+        "on_going_content_new_2": "hasta las {{ time }} h del {{ day }} de {{ month }}",
+        "on_going_content_new_3": "antes de que pase a ",
+        "on_going_modify": "modificar",
+        "payment_disrupted": "No se ha podido realizar el pago. Elige o añade un nuevo método de pago para resolver la incidencia",
+        "prepared": "Tu pedido ya está preparado y cobrado. En breve llevaremos tu pedido a su destino.",
+        "prepared_not_paid": "Tu pedido ya está preparado.",
+        "prepared_paid": "Tu pedido ya está preparado y cobrado.",
+        "preparing": "Estamos preparando tu pedido.",
+        "your_order": "tu pedido"
+      },
+      "title": "Mis pedidos",
+      "total_cost": "Total aproximado {{ total }}"
+    },
+    "payments": {
+      "add_payment": "Añadir tarjeta",
+      "empty_message": "Añade la tarjeta con la que quieres hacer tus pedidos",
+      "other_payments": {
+        "title": "Otras tarjetas"
+      },
+      "selected_payment": {
+        "title": "Tarjeta habitual"
+      },
+      "title": "Métodos de pago"
+    },
+    "payment_methods": {
+      "add_new": "Añadir método de pago",
+      "default_method": {
+        "title": "Método de pago habitual"
+      },
+      "other_methods": {
+        "title": "Otros métodos de pago"
+      }
+    },
+    "personal_info": {
+      "change_email_modal": {
+        "confirm_button": "Aceptar",
+        "email_label": "Introduce tu nuevo email",
+        "password_label": "Por seguridad, introduce tu contraseña para cambiar tu email",
+        "title": "Cambiar email"
+      },
+      "delete_account": {
+        "description": "Para eliminar tu cuenta de usuario, te enviaremos un email con los pasos a seguir.",
+        "label": "Eliminar tu cuenta de usuario",
+        "warning_label": "Actualmente tu cuenta está en proceso de ser eliminada. Recibirás un email informándote de que el proceso ha sido completado."
+      },
+      "delete_account_modal": {
+        "button": "Entendido",
+        "description": "Este trámite puede durar varios días, ya que revisamos el estado de tus pedidos antes de eliminar tu cuenta.",
+        "title": "Se ha iniciado el proceso de eliminación de tu cuenta de usuario"
+      },
+      "email": {
+        "description": "Tu email es también el usuario de acceso a la cuenta.",
+        "label": "Email"
+      },
+      "name": {
+        "description": "Indícanos tu nombre y apellidos para localizarte en relación a tu pedido.",
+        "label": "Nombre completo"
+      },
+      "password": {
+        "description": "Para cambiar tu contraseña, te enviaremos un email con los pasos a seguir.",
+        "label": "Contraseña",
+        "reset_button": "Cambiar"
+      },
+      "phone": {
+        "description": "Sólo lo utilizaremos si necesitamos contactar contigo en relación a tu proceso de compra, pago o entrega. Se guardará este teléfono para futuras compras.",
+        "label": "Teléfono de contacto"
+      },
+      "postal_code": {
+        "description": "Código postal donde quieres recibir tu pedido.",
+        "label": "Código postal"
+      },
+      "title": "Datos personales",
+      "warning_modal": {
+        "cancel_button": "Volver atrás",
+        "checkbox": {
+          "label": "Si, deseo eliminar mi cuenta de usuario y borrar todos mis datos."
+        },
+        "delete_button": "Eliminar mi cuenta de usuario",
+        "description": "Al eliminar tu cuenta de usuario se borrarán todos tus datos personales, el histórico de tus pedidos y tus tickets de compra de forma permanente.",
+        "title": "¿No deseas seguir comprando con nosotros?\n"
+      }
+    },
+    "title": "Cuenta"
+  },
+  "usst": "usst",
+  "usst_expiration": "1 año",
+  "validation_errors": {
+    "is_required": "Este campo no puede estar en blanco.",
+    "wrong_email_format": "Introduce un email válido",
+    "wrong_last_name_format": "El formato de los apellidos no es correcto",
+    "wrong_name_format": "El formato del nombre no es correcto",
+    "wrong_password_format": "La contraseña requiere seis caracteres",
+    "wrong_pc_format": "El código postal no es correcto",
+    "wrong_phone_format": "El formato del teléfono no es correcto"
+  },
+  "view_products": "Ver productos",
+  "whats_new_button": "Entendido",
+  "whats_new_subtitle": "Repite tu pedido desde la pantalla de inicio",
+  "whats_new_title": "Lo nuevo en la web",
+  "widget_chat_action": "Chat",
+  "widget_edit_action": "Modificar",
+  "widget_fix_action": "Resolver",
+  "widget_rate_action": "Valorar",
+  "widget_repeat_purchase_action": "Repetir pedido",
+  "widget_see_action": "Ver pedido",
+  "widget_ticket_action": "Ver ticket",
+  "x_selling_title": "Productos relacionados",
+  "yabs-sid": "yabs-sid",
+  "yabs-sid_description": "ID de sesión",
+  "yabs-sid_expiration": "Hasta que finaliza la sesión",
+  "ymex": "ymex",
+  "ymex_description": "Registra datos del comportamiento del visitante en la web. Esto se utiliza para el análisis interno y la optimización de la web.",
+  "ymex_expiration": "1 años",
+  "yp": "yp",
+  "yp_expiration": "10 años",
+  "yuidss": "yuidss",
+  "yuidss_description": "Recoge información del comportamiento del visitante múltiples webs. Esta información se usa en la web para optimizar la relevancia de la publicidad.",
+  "yuidss_expiration": "1 años",
+  "zendesk": {
+    "need_help": "Ayuda"
+  },
+  "_ga": "_ga",
+  "_gaexp": "_gaexp",
+  "_gaexp_description": "Se utiliza para determinar la inclusión de un usuario en un experimento y la caducidad de los experimentos en los que participa.",
+  "_gaexp_expiration": "Depende de la duración del experimento, pero normalmente es de 90 días.",
+  "_ga_description": "Esta cookie se utiliza para distinguir a los usuarios únicos asignando un número generado aleatoriamente como identificador del cliente. Se incluye en cada solicitud de página en un sitio y se utiliza para calcular los datos de visitantes, sesiones y campañas para los informes de análisis de los sitios.",
+  "_ga_expiration": "2 años",
+  "_gid": "_gid",
+  "_gid_description": "Se usa para distinguir a los usuarios.",
+  "_gid_expiration": "1 día",
+  "__mo_ca": "__mo_ca",
+  "__mo_ca_description": "Esta cookie sirve para almacenar el consentimiento de las cookies de la plataforma",
+  "__mo_ca_expiration": "1 año",
+  "__mo_da": "__mo_da",
+  "__mo_da_description": "Esta cookie sirve para almacenar la información del usuario relacionada con el almacén y el código postal",
+  "__mo_da_expiration": "1 año",
+  "__mo_ui": "__mo_ui",
+  "__mo_ui_description": "Esta cookie sirve para almacenar las preferencias de idioma del usuario",
+  "__mo_ui_expiration": "1 año",
+  "__zlcmid": "__zlcmid",
+  "__zlcmid_description": "Esta cookie sirve para identificar la máquina del usuario y el correcto funcionamiento del chat de ayuda.",
+  "__zlcmid_expiration": "1 año"
+}

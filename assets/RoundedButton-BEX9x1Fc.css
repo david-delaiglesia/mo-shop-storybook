@@ -1,0 +1,1 @@
+.rounded-button__button{background-color:var(--white-cream-light);color:var(--smoked-70);display:flex;justify-content:center;align-items:center;border-radius:50%;width:48px;height:48px;border:1px var(--smoked-8) solid;margin-bottom:10px}.rounded-button__button:hover{background-color:var(--white-cream)}

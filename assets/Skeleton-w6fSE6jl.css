@@ -1,0 +1,1 @@
+.ui-skeleton{border-radius:4px;animation:ui-skeleton--loading .7s linear infinite alternate}@keyframes ui-skeleton--loading{0%{background-color:var(--white-cream-light)}to{background-color:var(--white-cream)}}
