@@ -257,16 +257,18 @@
       font-size: .75rem; color: var(--smoked-70); margin: 0;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-    .product-card__price { margin: 6px 0 10px; flex: 1; display: flex; flex-direction: column; gap: 1px; }
-    .product-card__price-main {
-      font-family: var(--primary-font,'Open Sans',sans-serif);
-      font-size: 1.125rem; font-weight: 700; line-height: 1.2; color: var(--black);
-    }
-    .product-card__price-main--discount { color: var(--tomato); }
+    .product-card__price { margin: 6px 0 10px; }
     .product-card__price-original {
       font-family: var(--primary-font,'Open Sans',sans-serif);
       font-size: .75rem; color: var(--smoked-40); text-decoration: line-through;
+      display: block; margin-bottom: 1px;
     }
+    .product-card__price-row { display: flex; align-items: baseline; gap: 3px; }
+    .product-card__price-main {
+      font-family: var(--primary-font,'Open Sans',sans-serif);
+      font-size: 1.25rem; font-weight: 700; line-height: 1.2; color: var(--black);
+    }
+    .product-card__price-main--discount { color: var(--tomato); }
     .product-card__price-unit {
       font-family: var(--primary-font,'Open Sans',sans-serif);
       font-size: .6875rem; color: var(--smoked-40);
@@ -589,8 +591,10 @@
           <p class="product-card__name">Leche entera brick Hacendado</p>
           <p class="product-card__format">1 L</p>
           <div class="product-card__price">
-            <span class="product-card__price-main">0,73 €</span>
-            <span class="product-card__price-unit">0,73 €/L</span>
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">0,73 €</span>
+              <span class="product-card__price-unit">0,73 €/L</span>
+            </div>
           </div>
           <button class="product-card__btn-add" onclick="cardAdd(this)">Añadir al carro</button>
           <div class="product-card__in-cart">
@@ -611,9 +615,11 @@
           <p class="product-card__name">Aceite de oliva virgen extra</p>
           <p class="product-card__format">1 L</p>
           <div class="product-card__price">
-            <span class="product-card__price-main product-card__price-main--discount">3,39 €</span>
             <span class="product-card__price-original">3,99 €</span>
-            <span class="product-card__price-unit">3,39 €/L</span>
+            <div class="product-card__price-row">
+              <span class="product-card__price-main product-card__price-main--discount">3,39 €</span>
+              <span class="product-card__price-unit">3,39 €/L</span>
+            </div>
           </div>
           <button class="product-card__btn-add" onclick="cardAdd(this)">Añadir al carro</button>
           <div class="product-card__in-cart">
@@ -634,8 +640,10 @@
           <p class="product-card__name">Cerveza rubia lata Hacendado</p>
           <p class="product-card__format">Pack 6 × 33 cl</p>
           <div class="product-card__price">
-            <span class="product-card__price-main">2,59 €</span>
-            <span class="product-card__price-unit">1,31 €/L</span>
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">2,59 €</span>
+              <span class="product-card__price-unit">1,31 €/L</span>
+            </div>
           </div>
           <button class="product-card__btn-add" style="display:none" onclick="cardAdd(this)">Añadir al carro</button>
           <div class="product-card__in-cart is-visible">
@@ -659,8 +667,10 @@
           <p class="product-card__name">Tomates cherry en rama</p>
           <p class="product-card__format">250 g</p>
           <div class="product-card__price">
-            <span class="product-card__price-main">1,29 €</span>
-            <span class="product-card__price-unit">5,16 €/kg</span>
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">1,29 €</span>
+              <span class="product-card__price-unit">5,16 €/kg</span>
+            </div>
           </div>
           <button class="product-card__btn-add" onclick="cardAdd(this)">Añadir al carro</button>
           <div class="product-card__in-cart">
