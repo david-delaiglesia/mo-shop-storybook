@@ -1,7 +1,0 @@
-import{j as m}from"./jsx-runtime-CR8kToUD.js";import{P as o}from"./index-BHSVxysL.js";import{w as f}from"./I18nProvider-B39aVZAL.js";import"./index-D_eiCwOZ.js";import"./index-BKaZtpa0.js";import"./i18next-CJmtjV-Z.js";import"./context-BkADXMS_.js";import"./index-CAcpzrYM.js";import"./tiny-invariant-DsAsvojH.js";try{let e=typeof window<"u"?window:typeof global<"u"?global:typeof globalThis<"u"?globalThis:typeof self<"u"?self:{},s=new e.Error().stack;s&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[s]="fcc7669e-c076-4ef0-82cb-72650f32c34c",e._sentryDebugIdIdentifier="sentry-dbid-fcc7669e-c076-4ef0-82cb-72650f32c34c")}catch{}const i=({text:e,t:s})=>m.jsx("p",{className:"no-results",children:s(e||"no_results.default")});i.propTypes={text:o.string,t:o.func.isRequired};const l=f(i),N={title:"Components/NoResults",component:l,tags:["autodocs"],argTypes:{text:{control:"text",description:"Custom no-results message (i18n key)"}}},t={args:{}},r={args:{text:"No products found for your search"}};var n,a,c;t.parameters={...t.parameters,docs:{...(n=t.parameters)==null?void 0:n.docs,source:{originalSource:`{
-  args: {}
-}`,...(c=(a=t.parameters)==null?void 0:a.docs)==null?void 0:c.source}}};var u,p,d;r.parameters={...r.parameters,docs:{...(u=r.parameters)==null?void 0:u.docs,source:{originalSource:`{
-  args: {
-    text: 'No products found for your search'
-  }
-}`,...(d=(p=r.parameters)==null?void 0:p.docs)==null?void 0:d.source}}};const I=["Default","CustomText"];export{r as CustomText,t as Default,I as __namedExportsOrder,N as default};
