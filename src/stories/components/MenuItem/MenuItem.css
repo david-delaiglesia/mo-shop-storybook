@@ -65,3 +65,32 @@
   font-size: 12px;
   flex-shrink: 0;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .menu-item {
+    padding: 16px 16px;
+    font-size: 16px;
+    gap: 14px;
+  }
+
+  .menu-item__icon {
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+
+  .menu-item__sublabel {
+    font-size: 13px;
+    margin-top: 3px;
+  }
+
+  .menu-item__badge {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+
+  .menu-item__arrow {
+    font-size: 14px;
+  }
+}

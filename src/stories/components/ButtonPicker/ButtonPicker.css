@@ -48,3 +48,21 @@
   border-color: #e0e0e0;
   background: #fafafa;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .button-picker {
+    gap: 10px;
+  }
+
+  .button-picker__label {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .button-picker__option {
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+}

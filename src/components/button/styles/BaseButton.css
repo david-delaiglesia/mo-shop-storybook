@@ -59,3 +59,42 @@
   margin: 0 5px;
   background-color: var(--white);
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem;
+    line-height: 48px;
+    height: 48px;
+    border-radius: 6px;
+  }
+
+  .btn.btn--fit {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+  }
+
+  .btn.btn--small {
+    line-height: 40px;
+    max-height: 40px;
+  }
+
+  .btn.btn--small i {
+    line-height: 40px;
+  }
+
+  .btn i {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+
+  .btn.btn-big {
+    height: 56px;
+    font-size: 17px;
+  }
+
+  .btn.btn-big i {
+    font-size: 30px;
+  }
+}

@@ -66,3 +66,22 @@
   0% { opacity: 0; transform: translateY(-4px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .drop-down .drop-down__trigger {
+    padding: 14px 16px;
+    font-size: 16px;
+    min-width: 160px;
+    border-radius: 10px;
+  }
+
+  .drop-down .dropdown__content {
+    border-radius: 10px;
+  }
+
+  .drop-down .dropdown__content .dropdown-item {
+    padding: 14px 16px;
+    font-size: 16px;
+  }
+}

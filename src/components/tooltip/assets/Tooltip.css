@@ -92,3 +92,17 @@
 .tooltip .tooltip-text p {
   margin: 5px 0px;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .tooltip .tooltip-text {
+    width: min(320px, 85vw);
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .tooltip .tooltip-text p {
+    margin: 6px 0;
+  }
+}

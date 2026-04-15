@@ -33,3 +33,14 @@
   background-color: transparent;
   color: var(--smoked-20);
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .arrow {
+    width: 32px;
+    height: 56px;
+    font-size: 2.2rem;
+    padding: 12px 8px;
+    border-radius: 6px;
+  }
+}

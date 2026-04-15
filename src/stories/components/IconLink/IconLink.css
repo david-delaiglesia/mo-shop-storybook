@@ -52,3 +52,26 @@
 .icon-link__label {
   white-space: nowrap;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .icon-link {
+    font-size: 16px;
+    padding: 10px 6px;
+    gap: 10px;
+  }
+
+  .icon-link--small {
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .icon-link--large {
+    font-size: 18px;
+    gap: 12px;
+  }
+
+  .icon-link__icon {
+    font-size: 1.2em;
+  }
+}

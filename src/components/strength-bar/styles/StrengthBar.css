@@ -60,3 +60,19 @@
 .strength-bar.strength-bar--wrong-format .strength-bar__message {
   color: var(--tomato);
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .strength-bar {
+    height: 44px;
+  }
+
+  .strength-bar .strength-bar__level-indicator .strength-bar__level {
+    height: 6px;
+    border-radius: 3px;
+  }
+
+  .strength-bar .strength-bar__message {
+    font-size: 0.85rem;
+  }
+}

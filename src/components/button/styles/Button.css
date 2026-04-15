@@ -259,3 +259,100 @@
   font-size: 28px;
   margin-left: 4px;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .button {
+    font-size: 1rem;
+    line-height: 48px;
+    height: 48px;
+    border-radius: 6px;
+  }
+
+  .button.button--small {
+    line-height: 40px;
+    max-height: 40px;
+  }
+
+  .button.button--small i {
+    line-height: 40px;
+  }
+
+  .button.button--fit {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+  }
+
+  .button.button-tertiary {
+    line-height: 40px;
+    max-height: 40px;
+  }
+
+  .button.button-secondary {
+    line-height: 46px;
+  }
+
+  .button.button-secondary-destructive {
+    line-height: 46px;
+  }
+
+  .button.button-quaternary,
+  .button.button-quaternary--disabled {
+    line-height: 48px;
+  }
+
+  .button.button-quaternary .icon,
+  .button.button-quaternary--disabled .icon {
+    line-height: 48px;
+    font-size: 24px;
+  }
+
+  .button.button-rounded {
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-size: 1.05rem;
+  }
+
+  .button.button-rounded--small {
+    line-height: 40px;
+    height: 40px;
+  }
+
+  .button.button-rounded--big {
+    height: 48px;
+    font-size: 1.05rem;
+  }
+
+  .button.button-oval {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    line-height: 52px;
+    font-size: 1.9rem;
+  }
+
+  .button.button-oval--small {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    line-height: 38px;
+  }
+
+  .button i {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+
+  .button.button-big {
+    height: 56px;
+    font-size: 17px;
+  }
+
+  .button.button-big i {
+    font-size: 30px;
+  }
+}

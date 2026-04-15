@@ -46,3 +46,23 @@
   color: var(--smoked-70);
   transform: translateY(-7px) scale(0.75);
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .text-area {
+    padding: 16px 12px 6px;
+    border-radius: 6px;
+  }
+
+  .text-area .text-area__label {
+    font-size: 1rem;
+  }
+
+  .text-area .text-area__input {
+    font-size: 1rem;
+  }
+
+  .text-area .text-area__counter {
+    font-size: 0.8rem;
+  }
+}

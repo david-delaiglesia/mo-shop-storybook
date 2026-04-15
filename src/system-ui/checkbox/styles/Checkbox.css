@@ -51,3 +51,20 @@
 .checkbox .checkbox__input:not(:checked):focus + .checkbox__label:before {
   outline: rgb(59, 153, 252) auto 5px;
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .checkbox .checkbox__input + .checkbox__label {
+    padding-left: 2.4em;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .checkbox .checkbox__input + .checkbox__label:after,
+  .checkbox .checkbox__input + .checkbox__label:before {
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+  }
+}

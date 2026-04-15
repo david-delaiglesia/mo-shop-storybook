@@ -9,3 +9,11 @@
 .card.card--hover:hover {
   box-shadow: var(--shadow-card-1-active);
 }
+
+/* ── Responsive: mobile ── */
+@media (max-width: 768px) {
+  .card {
+    padding: 16px;
+    border-radius: 10px;
+  }
+}
