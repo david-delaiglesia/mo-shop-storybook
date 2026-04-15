@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react'
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
@@ -39,6 +40,50 @@ if (!i18n.isInitialized) {
   })
 }
 
+/**
+ * Custom viewports based on Apple HIG and industry standards.
+ * Touch targets: 44×44pt minimum (Apple HIG)
+ * Font minimum: 16px on mobile (prevents iOS auto-zoom)
+ * Spacing: 8px grid system
+ */
+const customViewports = {
+  iphoneSE: {
+    name: 'iPhone SE (375×667)',
+    styles: { width: '375px', height: '667px' },
+    type: 'mobile' as const,
+  },
+  iphone15: {
+    name: 'iPhone 15 (393×852)',
+    styles: { width: '393px', height: '852px' },
+    type: 'mobile' as const,
+  },
+  iphone15ProMax: {
+    name: 'iPhone 15 Pro Max (430×932)',
+    styles: { width: '430px', height: '932px' },
+    type: 'mobile' as const,
+  },
+  androidCompact: {
+    name: 'Android Compact (360×800)',
+    styles: { width: '360px', height: '800px' },
+    type: 'mobile' as const,
+  },
+  iPadMini: {
+    name: 'iPad Mini (744×1133)',
+    styles: { width: '744px', height: '1133px' },
+    type: 'tablet' as const,
+  },
+  iPad: {
+    name: 'iPad (1024×1366)',
+    styles: { width: '1024px', height: '1366px' },
+    type: 'tablet' as const,
+  },
+  desktop: {
+    name: 'Desktop (1280×800)',
+    styles: { width: '1280px', height: '800px' },
+    type: 'desktop' as const,
+  },
+}
+
 const preview: Preview = {
   parameters: {
     controls: {
@@ -48,6 +93,13 @@ const preview: Preview = {
       },
     },
     layout: 'centered',
+    viewport: {
+      viewports: {
+        ...customViewports,
+        ...INITIAL_VIEWPORTS,
+      },
+      defaultViewport: 'responsive',
+    },
   },
 }
 
