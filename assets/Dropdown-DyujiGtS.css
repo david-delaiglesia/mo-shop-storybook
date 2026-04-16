@@ -1,0 +1,1 @@
+.drop-down .drop-down__trigger{outline:none}.drop-down .dropdown__content{opacity:1;animation-name:show_dropdown;animation-duration:.2s;position:relative}@keyframes show_dropdown{0%{opacity:0}to{opacity:1}}

@@ -1,0 +1,1 @@
+.link{display:flex;align-items:center;cursor:pointer;font-size:1rem;background-color:transparent;color:var(--cucumber)}.link a{color:var(--cucumber);line-height:1.5}.link .ui-icon{position:relative}.link--reverse{display:inline-flex;justify-content:flex-end}.link--reverse i{padding:0 5px 0 0}
