@@ -1,0 +1,46 @@
+import{j as i}from"./jsx-runtime-CR8kToUD.js";import{r as V}from"./index-D_eiCwOZ.js";import{c as g}from"./index-PmWe_g6L.js";import{P as t}from"./index-BHSVxysL.js";import{w as k}from"./I18nProvider-Da-988BI.js";import{T as z}from"./index-BWOAnDgJ.js";import"./index-xuxxRpcA.js";import"./context-CjL-ExTd.js";import"./hoist-non-react-statics.cjs-Cvjg-kfx.js";import"./index-CAcpzrYM.js";import"./react-router-xvCP34Az.js";import"./tiny-invariant-DsAsvojH.js";import"./useIsomorphicLayoutEffect-Dde2THAC.js";try{let s=typeof window<"u"?window:typeof global<"u"?global:typeof globalThis<"u"?globalThis:typeof self<"u"?self:{},e=new s.Error().stack;e&&(s._sentryDebugIds=s._sentryDebugIds||{},s._sentryDebugIds[e]="1e348a85-434e-451b-b62d-6917d8b2397c",s._sentryDebugIdIdentifier="sentry-dbid-1e348a85-434e-451b-b62d-6917d8b2397c")}catch{}const r={TYPE_TEXT:"text",ACTIVE_CLASS_NAME:"active",DISABLED_CLASS_NAME:"disabled",SPACE_KEY_CODE:32,INPUT_CLASS_NAME:"input-text",INPUT_CLASS_LABEL:"input-text__label",INPUT_CLASS_BIG:"input-text-big",MESSAGE_CLASS_NAME:"input-text__message",DISABLED_INPUT_CLASS_NAME:"input-disabled",EMPTY_CLASS_NAME:""},b={BIG:"big",DEFAULT:"default"};class S extends V.Component{constructor(){super(),this.state={isActive:!1,shouldShowValidationFeedback:!0},this.onFocus=this.onFocus.bind(this),this.onBlur=this.onBlur.bind(this),this.onChange=this.onChange.bind(this),this.onKeyDown=this.onKeyDown.bind(this)}onFocus(e){this.setState({isActive:!0,shouldShowValidationFeedback:!1}),this.props.onFocus&&this.props.onFocus(e)}onBlur(e){const{value:a,onBlur:n}=this.props,o=!!a;this.setState({isActive:o,shouldShowValidationFeedback:!0}),n&&n(e)}onChange(e){this.setState({shouldShowValidationFeedback:!1}),this.props.onChange&&this.props.onChange(e)}onKeyDown(e){const{value:a}=e.target;if(a.length===0&&this.isSpaceKey(e.keyCode))return e.preventDefault()}isSpaceKey(e){return e===r.SPACE_KEY_CODE}getClassNameByStatus(){const{ACTIVE_CLASS_NAME:e,EMPTY_CLASS_NAME:a,DISABLED_CLASS_NAME:n}=r;return this.state.isActive||!!this.props.value?this.props.disabled?n:e:a}buildErrorClassName(e){return this.shouldShowError()?`${e}--${this.props.validation.type}`:r.EMPTY_CLASS_NAME}disabledClassName(){if(this.props.disabled)return r.DISABLED_INPUT_CLASS_NAME}shouldShowError(){const{validation:e}=this.props;return e&&e.message&&this.state.shouldShowValidationFeedback}getClassName(){const e=this.props.size===b.BIG;return g(r.INPUT_CLASS_NAME,{[r.INPUT_CLASS_BIG]:e},this.buildErrorClassName(r.INPUT_CLASS_NAME),this.disabledClassName())}getLabelClassName(){return g(r.INPUT_CLASS_LABEL,this.getClassNameByStatus())}getErrorClassName(){const{MESSAGE_CLASS_NAME:e}=r;return`${e} ${this.buildErrorClassName(e)}`}render(){const{validation:e,inputId:a,reference:n,label:o,datatest:U,children:K,t:h,...O}=this.props;return i.jsxs("div",{className:this.getClassName(),children:[i.jsx("label",{className:this.getLabelClassName(),children:h(o)}),i.jsxs("div",{className:"input-container",children:[i.jsx("input",{...O,className:"ym-hide-content",id:a,"aria-label":h(o),ref:n,onChange:this.onChange,onFocus:this.onFocus,onBlur:this.onBlur,onKeyDown:this.onKeyDown,"data-testid":U}),K]}),this.shouldShowError()&&i.jsx("p",{"data-testid":"input-error",className:this.getErrorClassName(),tabIndex:z.ENABLED,children:h(e.message)})]})}}S.propTypes={inputId:t.string,type:t.string,size:t.oneOf([b.BIG,b.DEFAULT]),label:t.string,value:t.any,onChange:t.func,onClick:t.func,onBlur:t.func,validation:t.object,name:t.string,maxLength:t.number,reference:t.oneOfType([t.func,t.object]),autoFocus:t.bool,autoComplete:t.oneOf(["off","on","new-password","current-password","email"]),onFocus:t.func,datatest:t.string,tabIndex:t.number,disabled:t.bool,children:t.node,t:t.func.isRequired};S.defaultProps={type:r.TYPE_TEXT,value:"",autoFocus:!1,disabled:!1,autoComplete:"on",datatest:"input"};const j=k(S),se={title:"System UI/Input",component:j,tags:["autodocs"],argTypes:{label:{control:"text",description:"Label text for the input"},size:{control:"radio",options:["default","big"],description:"Input size variant"},disabled:{control:"boolean",description:"Disabled state"},value:{control:"text",description:"Input value"},type:{control:"select",options:["text","email","password","number","tel"]}},decorators:[s=>i.jsx("div",{style:{width:"320px"},children:i.jsx(s,{})})]},l={args:{label:"Email",value:"",inputId:"email-input"}},d={args:{label:"Email",value:"user@example.com",inputId:"email-input-filled"}},u={args:{label:"Full Name",value:"",size:"big",inputId:"name-input"}},p={args:{label:"Email",value:"disabled@example.com",disabled:!0,inputId:"disabled-input"}},c={args:{label:"Email",value:"invalid-email",inputId:"error-input",validation:{type:"error",message:"Please enter a valid email address"}}},m={render:()=>{const[s,e]=V.useState("");return i.jsx("div",{style:{width:"320px"},children:i.jsx(j,{label:"Type something",value:s,onChange:a=>e(a.target.value),inputId:"interactive-input"})})}};var E,A,_;l.parameters={...l.parameters,docs:{...(E=l.parameters)==null?void 0:E.docs,source:{originalSource:`{
+  args: {
+    label: 'Email',
+    value: '',
+    inputId: 'email-input'
+  }
+}`,...(_=(A=l.parameters)==null?void 0:A.docs)==null?void 0:_.source}}};var C,I,f;d.parameters={...d.parameters,docs:{...(C=d.parameters)==null?void 0:C.docs,source:{originalSource:`{
+  args: {
+    label: 'Email',
+    value: 'user@example.com',
+    inputId: 'email-input-filled'
+  }
+}`,...(f=(I=d.parameters)==null?void 0:I.docs)==null?void 0:f.source}}};var v,N,y;u.parameters={...u.parameters,docs:{...(v=u.parameters)==null?void 0:v.docs,source:{originalSource:`{
+  args: {
+    label: 'Full Name',
+    value: '',
+    size: 'big',
+    inputId: 'name-input'
+  }
+}`,...(y=(N=u.parameters)==null?void 0:N.docs)==null?void 0:y.source}}};var T,x,L;p.parameters={...p.parameters,docs:{...(T=p.parameters)==null?void 0:T.docs,source:{originalSource:`{
+  args: {
+    label: 'Email',
+    value: 'disabled@example.com',
+    disabled: true,
+    inputId: 'disabled-input'
+  }
+}`,...(L=(x=p.parameters)==null?void 0:x.docs)==null?void 0:L.source}}};var D,w,B;c.parameters={...c.parameters,docs:{...(D=c.parameters)==null?void 0:D.docs,source:{originalSource:`{
+  args: {
+    label: 'Email',
+    value: 'invalid-email',
+    inputId: 'error-input',
+    validation: {
+      type: 'error',
+      message: 'Please enter a valid email address'
+    }
+  }
+}`,...(B=(w=c.parameters)==null?void 0:w.docs)==null?void 0:B.source}}};var P,M,F;m.parameters={...m.parameters,docs:{...(P=m.parameters)==null?void 0:P.docs,source:{originalSource:`{
+  render: () => {
+    const [value, setValue] = useState('');
+    return <div style={{
+      width: '320px'
+    }}>
+        <Input label="Type something" value={value} onChange={(e: any) => setValue(e.target.value)} inputId="interactive-input" />
+      </div>;
+  }
+}`,...(F=(M=m.parameters)==null?void 0:M.docs)==null?void 0:F.source}}};const ae=["Default","WithValue","BigSize","Disabled","WithError","Interactive"];export{u as BigSize,l as Default,p as Disabled,m as Interactive,c as WithError,d as WithValue,ae as __namedExportsOrder,se as default};
